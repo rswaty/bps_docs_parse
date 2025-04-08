@@ -1,0 +1,359 @@
+---
+title: "parse in python"
+format: html
+editor: source
+---
+
+## Basics
+
+-   need to 'break apart' bps docs into parts so we can reassemble in a database
+-   sections are denoted in multiple ways, mostly by **bold** which is a problem as there are bold sections in table
+-   some ideas
+    -   try to remove all tables then parse by bold-tables removed with Python
+-   add error handling at some point
+-   need to agree on and implement column naming convention, probably snake case with Janitor package
+-   would be nice to have one code block for all tables, but due to variations in formatting, etc. doing each one separately
+
+## python to remove tables
+
+make sure that python-docx library is installed, pip install python-docx
+
+```{python}
+
+# Specify the input and output directories
+input_directory = 'all_bps_docs/'
+output_directory = 'no_tables_all'
+
+
+
+import os
+from docx import Document
+
+def remove_tables_from_docx(input_file, output_file):
+    # Load the document
+    doc = Document(input_file)
+    
+    # Find all tables in the document
+    tables = doc.tables
+    
+    # Iterate over tables in reverse order and delete them
+    for table in reversed(tables):
+        table._element.getparent().remove(table._element)
+    
+    # Save the modified document to the output file
+    doc.save(output_file)
+    print(f"Tables removed and saved to {output_file}")
+
+def process_directory(input_directory, output_directory):
+    # Create the output directory if it doesn't exist
+    if not os.path.exists(output_directory):
+        os.makedirs(output_directory)
+    
+    # Iterate over all files in the input directory
+    for filename in os.listdir(input_directory):
+        # Process only .docx files
+        if filename.endswith('.docx'):
+            input_file = os.path.join(input_directory, filename)
+            output_file = os.path.join(output_directory, filename)
+            remove_tables_from_docx(input_file, output_file)
+
+
+
+# Process the directory
+process_directory(input_directory, output_directory)
+
+
+
+
+```
+
+**Looks like it worked!**
+
+## Try to extract most **Bold** components to a dataframe
+
+Components:
+
+Vegetation Type Map Zones Model Splits or Lumps Geographic Range Biophysical Site Description Vegetation Description Disturbance Description Scale Description Adjacency or Identification Concerns Issues or Problems Native Uncharacteristic Conditions Comments
+
+## Get specific sections in R from table-less docs
+
+Ignoring these sections as they have tables elsewhere:
+
+-   BpS Dominant and Indicator Species
+-   Fire Frequency
+-   Succession Classes
+
+
+
+
+
+
+```{python}
+import os
+import zipfile
+import pandas as pd
+from docx import Document
+from lxml import etree
+
+# Define the directory path and sections
+directory_path = "no_tables_all/"
+sections = [
+    "Vegetation Type",
+    "Map Zones",
+    "Model Splits or Lumps",
+    "Geographic Range",
+    "Biophysical Site Description",
+    "Vegetation Description",
+    "Disturbance Description",
+    "Scale Description",
+    "Adjacency or Identification Concerns",
+    "Issues or Problems",
+    "Native Uncharacteristic Conditions",
+    "Comments",
+    "References"
+]
+
+# Function to extract sections from a Word document
+def extract_sections(doc_path, sections):
+    doc = Document(doc_path)
+    paragraphs = [p.text for p in doc.paragraphs]
+    
+    content_dict = {}
+    for section in sections:
+        if section in paragraphs:
+            section_index = paragraphs.index(section)
+            content = []
+            for i in range(section_index + 1, len(paragraphs)):
+                if paragraphs[i] in sections:
+                    break
+                content.append(paragraphs[i])
+            content_dict[section] = "\n".join(content).strip()
+        else:
+            content_dict[section] = None
+    
+    content_dict["document"] = os.path.basename(doc_path)
+    return content_dict
+
+# Function to extract core properties from a Word document
+def extract_core_properties(doc_path):
+    with zipfile.ZipFile(doc_path, 'r') as docx:
+        with docx.open('docProps/core.xml') as core_xml:
+            tree = etree.parse(core_xml)
+            ns = {
+                'cp': 'http://schemas.openxmlformats.org/package/2006/metadata/core-properties',
+                'dc': 'http://purl.org/dc/elements/1.1/',
+                'dcterms': 'http://purl.org/dc/terms/'
+            }
+            properties = {
+                "creator": tree.findtext('cp:coreProperties/dc:creator', namespaces=ns),
+                "lastModifiedBy": tree.findtext('cp:coreProperties/cp:lastModifiedBy', namespaces=ns),
+                "revision": tree.findtext('cp:coreProperties/cp:revision', namespaces=ns),
+                "created": tree.findtext('cp:coreProperties/dcterms:created', namespaces=ns),
+                "modified": tree.findtext('cp:coreProperties/dcterms:modified', namespaces=ns)
+            }
+    return properties
+
+# Get all docx files in the directory
+doc_paths = [os.path.join(directory_path, f) for f in os.listdir(directory_path) if f.endswith('.docx')]
+
+# Extract data from each document
+data_list = []
+for doc_path in doc_paths:
+    sections_data = extract_sections(doc_path, sections)
+    core_props_data = extract_core_properties(doc_path)
+    combined_data = {**sections_data, **core_props_data}
+    data_list.append(combined_data)
+
+# Combine the data into a single dataframe
+df = pd.DataFrame(data_list)
+
+# Save the results to a CSV file
+df.to_csv("tables/text_df.csv", index=False)
+
+```
+
+Looks pretty good!
+
+## Extract tables and export to .csv
+
+### Table 1: Modelers
+
+Table 1 has Modelers (names) and Reviewers (names) headers, plus columns with emails for each. Fun.
+
+```{r}
+
+
+# Load packages
+library(dplyr)
+library(docxtractr)
+
+## SET DIRECTORY AND MAKE LIST OF DOCS ------------
+
+# Specify the directory containing the docx files
+#*** kb Took ALL BpS description documents from Apex RMS git hub ref con repository:
+#https://github.com/ApexRMS/landfireReferenceConditions?tab=readme-ov-file
+docx_directory <- "all_bps_docs/"
+
+# List all docx files in the directory
+docx_files <- list.files(path = docx_directory, pattern = "\\.docx$", full.names = TRUE)
+
+
+## CREATE EMPTY LIST AND LOOP THROUGH ALL DOCUMENTS TO POPULATE LIST  ------------
+
+# Initialize an empty list to store tables from each document
+all_tables <- list()
+
+# Iterate through each docx file
+for (docx_file_path in docx_files) {
+  # Read in the docx file
+  docx_file <- docxtractr::read_docx(docx_file_path)
+  
+  docx_describe_tbls(docx_file)
+  
+  # Extract table from docx
+  table_from_docx <- docx_extract_tbl(docx_file, tbl_number = 1) # CHANGE THIS FOR DIFFERENT TABLES
+  
+  # Get the document name dynamically
+  doc_name <- tools::file_path_sans_ext(basename(docx_file_path))
+  
+  # Add a new column for the document name
+  table_from_docx$BPS_MODEL <- doc_name
+  
+  # Append the table to the list
+  all_tables[[doc_name]] <- table_from_docx
+}
+
+## MAKE AND WRITE THE TABLE
+
+# Combine all tables into a single dataframe
+modelers <- bind_rows(all_tables) %>%
+  rename(Modeler_email = 2) %>%
+  rename(Reviewer_email = 4) %>%
+  select(BPS_MODEL, everything())
+
+#*** write table 1 to .csv
+write.csv(modelers, file = 'tables/modelers.csv', row.names = FALSE)
+
+```
+
+### Table 2: BpS Dominant and Indicator Species
+
+No extra work needed on this one I hope.
+
+```{r}
+
+## NOTES -----------
+# Want to get indicator species per BpS doc
+# Several docs in one directory
+# BpS Dominant and Indicator Species is the specific table, which is table 2
+
+## PACKAGES ------------
+
+# Load the dplyr package
+library(dplyr)
+library(docxtractr)
+
+## SET DIRECTORY AND MAKE LIST OF DOCS ------------
+
+# Specify the directory containing the docx files
+#*** kb Took ALL BpS description documents from Apex RMS git hub ref con repository:
+#https://github.com/ApexRMS/landfireReferenceConditions?tab=readme-ov-file
+docx_directory <- "all_bps_docs/"
+
+# List all docx files in the directory
+docx_files <- list.files(path = docx_directory, pattern = "\\.docx$", full.names = TRUE)
+
+
+## CREATE EMPTY LIST AND LOOP THROUGH ALL DOCUMENTS TO POPULATE LIST  ------------
+
+# Initialize an empty list to store tables from each document
+all_tables <- list()
+
+# Iterate through each docx file
+for (docx_file_path in docx_files) {
+  # Read in the docx file
+  docx_file <- docxtractr::read_docx(docx_file_path)
+  
+  docx_describe_tbls(docx_file)
+  
+  # Extract table from docx
+  table_from_docx <- docx_extract_tbl(docx_file, tbl_number = 2) # CHANGE THIS FOR DIFFERENT TABLES
+  
+  # Get the document name dynamically
+  doc_name <- tools::file_path_sans_ext(basename(docx_file_path))
+  
+  # Add a new column for the document name
+  table_from_docx$BPS_MODEL <- doc_name
+  
+  # Append the table to the list
+  all_tables[[doc_name]] <- table_from_docx
+}
+
+## MAKE AND WRITE THE TABLE
+
+# Combine all tables into a single dataframe
+indicator_species <- bind_rows(all_tables) %>%
+  select(BPS_MODEL, everything())
+  
+
+#*** kb changed output location
+write.csv(indicator_species, file = 'tables/bps_indicators.csv', row.names = FALSE)
+```
+
+### Table 3: Fire Frequency
+
+Blank cells and formatting (centered fonts) may cause issues. \*\*Looks OK, empty cells are empty and no issues with centered values.
+
+```{r}
+## PACKAGES ------------
+
+# Load the dplyr package
+library(dplyr)
+library(docxtractr)
+
+## SET DIRECTORY AND MAKE LIST OF DOCS ------------
+
+# Specify the directory containing the docx files
+#*** kb Took ALL BpS description documents from Apex RMS git hub ref con repository:
+#https://github.com/ApexRMS/landfireReferenceConditions?tab=readme-ov-file
+docx_directory <- "all_bps_docs/"
+
+# List all docx files in the directory
+docx_files <- list.files(path = docx_directory, pattern = "\\.docx$", full.names = TRUE)
+
+
+## CREATE EMPTY LIST AND LOOP THROUGH ALL DOCUMENTS TO POPULATE LIST  ------------
+
+# Initialize an empty list to store tables from each document
+all_tables <- list()
+
+# Iterate through each docx file
+for (docx_file_path in docx_files) {
+  # Read in the docx file
+  docx_file <- docxtractr::read_docx(docx_file_path)
+  
+  docx_describe_tbls(docx_file)
+  
+  # Extract table from docx
+  table_from_docx <- docx_extract_tbl(docx_file, tbl_number = 3)  # CHANGE THIS FOR DIFFERENT TABLES
+  
+  # Get the document name dynamically
+  doc_name <- tools::file_path_sans_ext(basename(docx_file_path))
+  
+  # Add a new column for the document name
+  table_from_docx$BPS_MODEL <- doc_name
+  
+  # Append the table to the list
+  all_tables[[doc_name]] <- table_from_docx
+}
+
+## MAKE AND WRITE THE TABLE
+
+# Combine all tables into a single dataframe
+fire_frequency <- bind_rows(all_tables) %>%
+  select(BPS_MODEL, everything())
+  
+
+#*** kb changed output location
+write.csv(fire_frequency , file = 'tables/fire_frequency.csv', row.names = FALSE)
+```
