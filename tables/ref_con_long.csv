@@ -1,4 +1,4 @@
-model_label,BPS_MODEL,refLabel,refPercent,BpS_Name
+model_label,bps_model,ref_label,ref_percent,bps_name
 10080_1_2_3_7_A,10080_1_2_3_7,A,9,North Pacific Oak Woodland
 10080_1_2_3_7_B,10080_1_2_3_7,B,5,North Pacific Oak Woodland
 10080_1_2_3_7_C,10080_1_2_3_7,C,86,North Pacific Oak Woodland
