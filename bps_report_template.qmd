@@ -1,0 +1,157 @@
+---
+title: "BPS Model Analysis Report"
+author: "Generated from BPS Database"
+date: "`r Sys.Date()`"
+format: 
+  html:
+    theme: flatly
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    fig-width: 10
+    fig-height: 6
+params:
+  bps_model: "10080_1_2_3_7"
+  db_host: "localhost"
+  db_name: "bps_database"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+
+# Load functions
+source("bps_database_r_functions.R")
+
+# Connect to database
+con <- connect_bps_db(host = params$db_host, dbname = params$db_name)
+```
+
+# BPS Model: `r params$bps_model`
+
+## Overview
+
+This report provides a comprehensive analysis of BPS model `r params$bps_model` using data from the BPS database.
+
+```{r data-loading}
+# Load all data for this BPS model
+bps_data <- get_bps_complete_data(con, params$bps_model)
+
+# Display basic info
+if (nrow(bps_data$indicators) > 0) {
+  cat("Common Name:", bps_data$indicators$common_name[1], "\n")
+  cat("Scientific Name:", bps_data$indicators$scientific_name[1], "\n")
+}
+```
+
+## Species Indicators
+
+```{r indicators-table}
+if (nrow(bps_data$indicators) > 0) {
+  knitr::kable(bps_data$indicators, 
+               caption = "Species indicators for this BPS model")
+} else {
+  cat("No indicator data available")
+}
+```
+
+## Fire Frequency Analysis
+
+```{r fire-frequency}
+if (nrow(bps_data$fire_frequency) > 0) {
+  knitr::kable(bps_data$fire_frequency, 
+               caption = "Fire frequency data")
+  
+  # Create visualization
+  library(ggplot2)
+  p <- ggplot(bps_data$fire_frequency, 
+              aes(x = severity, y = return_intervaly_years)) +
+    geom_col(fill = "steelblue") +
+    labs(title = "Fire Return Intervals by Severity",
+         x = "Fire Severity",
+         y = "Return Interval (Years)") +
+    theme_minimal()
+  
+  print(p)
+} else {
+  cat("No fire frequency data available")
+}
+```
+
+## State Class Transitions
+
+### Deterministic Transitions
+
+```{r deterministic}
+if (nrow(bps_data$deterministic) > 0) {
+  knitr::kable(bps_data$deterministic, 
+               caption = "Deterministic state class transitions")
+} else {
+  cat("No deterministic transition data available")
+}
+```
+
+### Probabilistic Transitions
+
+```{r probabilistic}
+if (nrow(bps_data$probabilistic) > 0) {
+  knitr::kable(bps_data$probabilistic, 
+               caption = "Probabilistic state class transitions")
+} else {
+  cat("No probabilistic transition data available")
+}
+```
+
+## Model Information
+
+### Modelers and Reviewers
+
+```{r modelers}
+if (nrow(bps_data$modelers) > 0) {
+  knitr::kable(bps_data$modelers, 
+               caption = "Model developers and reviewers")
+} else {
+  cat("No modeler information available")
+}
+```
+
+### Reference Conditions
+
+```{r reference-conditions}
+if (nrow(bps_data$reference_conditions) > 0) {
+  knitr::kable(bps_data$reference_conditions, 
+               caption = "Reference condition data")
+} else {
+  cat("No reference condition data available")
+}
+```
+
+## Detailed Descriptions
+
+```{r descriptions}
+if (nrow(bps_data$text_data) > 0) {
+  text_info <- bps_data$text_data[1, ]
+  
+  cat("### Vegetation Type\n")
+  cat(text_info$vegetation_type, "\n\n")
+  
+  cat("### Geographic Range\n") 
+  cat(text_info$geographic_range, "\n\n")
+  
+  cat("### Vegetation Description\n")
+  cat(text_info$vegetation_description, "\n\n")
+  
+  cat("### Disturbance Description\n")
+  cat(text_info$disturbance_description, "\n\n")
+} else {
+  cat("No detailed description data available")
+}
+```
+
+```{r cleanup, include=FALSE}
+# Close database connection
+dbDisconnect(con)
+```
+
+---
+
+*Report generated on `r Sys.time()` from BPS Database*
