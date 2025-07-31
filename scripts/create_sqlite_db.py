@@ -86,6 +86,7 @@ dataframes['modelers'] = modelers
 
 print(models)
 print(modelers.sort_values(by='modeler_id'))
+print(dataframes['modelers'])
 assert (num_unique_bps_models == len(models['bps_model_id'].unique())), "Number of unique BPS models does not match"
 
 # ---------------------- CREATE DATABASE! -----------------------------

@@ -1,0 +1,3617 @@
+bps_model_id,severity,return_interval(years),percent_of_all_fires
+10080_1_2_3_7,Replacement,294.0,3.0
+10080_1_2_3_7,Moderate (Mixed),38.0,26.0
+10080_1_2_3_7,Low (Surface),14.0,71.0
+10080_1_2_3_7,All Fires,10.0,100.0
+10090_19,Replacement,84.0,83.0
+10090_19,Moderate (Mixed),397.0,17.0
+10090_19,Low (Surface),,
+10090_19,All Fires,69.0,100.0
+10110_15,Replacement,145.0,79.0
+10110_15,Moderate (Mixed),1758.0,7.0
+10110_15,Low (Surface),836.0,14.0
+10110_15,All Fires,116.0,100.0
+10110_16_23_24,Replacement,58.0,46.0
+10110_16_23_24,Moderate (Mixed),49.0,54.0
+10110_16_23_24,Low (Surface),,
+10110_16_23_24,All Fires,27.0,100.0
+10110_20_29,Replacement,123.0,83.0
+10110_20_29,Moderate (Mixed),598.0,17.0
+10110_20_29,Low (Surface),,
+10110_20_29,All Fires,102.0,100.0
+10110_21,Replacement,110.0,100.0
+10110_21,Moderate (Mixed),,
+10110_21,Low (Surface),,
+10110_21,All Fires,110.0,100.0
+10110_22,Replacement,165.0,100.0
+10110_22,Moderate (Mixed),,
+10110_22,Low (Surface),,
+10110_22,All Fires,165.0,100.0
+10110_27,Replacement,146.0,79.0
+10110_27,Moderate (Mixed),1707.0,7.0
+10110_27,Low (Surface),835.0,14.0
+10110_27,All Fires,116.0,100.0
+10110_28,Replacement,148.0,79.0
+10110_28,Moderate (Mixed),1761.0,7.0
+10110_28,Low (Surface),860.0,14.0
+10110_28,All Fires,118.0,100.0
+10110_6_10_12_17_18_19,Replacement,67.0,46.0
+10110_6_10_12_17_18_19,Moderate (Mixed),56.0,54.0
+10110_6_10_12_17_18_19,Low (Surface),,
+10110_6_10_12_17_18_19,All Fires,30.0,100.0
+10110_7,Replacement,124.0,45.0
+10110_7,Moderate (Mixed),100.0,55.0
+10110_7,Low (Surface),,
+10110_7,All Fires,55.0,100.0
+10110_9,Replacement,59.0,46.0
+10110_9,Moderate (Mixed),50.0,54.0
+10110_9,Low (Surface),,
+10110_9,All Fires,27.0,100.0
+10120_16_27,Replacement,135.0,38.0
+10120_16_27,Moderate (Mixed),81.0,62.0
+10120_16_27,Low (Surface),,
+10120_16_27,All Fires,51.0,100.0
+10120_17_18_21,Replacement,137.0,37.0
+10120_17_18_21,Moderate (Mixed),82.0,63.0
+10120_17_18_21,Low (Surface),,
+10120_17_18_21,All Fires,51.0,100.0
+10130_31_38_39_40,Replacement,300.0,6.0
+10130_31_38_39_40,Moderate (Mixed),44.0,38.0
+10130_31_38_39_40,Low (Surface),30.0,56.0
+10130_31_38_39_40,All Fires,17.0,100.0
+10140_4_5,Replacement,340.0,2.0
+10140_4_5,Moderate (Mixed),35.0,22.0
+10140_4_5,Low (Surface),10.0,76.0
+10140_4_5,All Fires,8.0,100.0
+10150_2_3_4,Replacement,405.0,7.0
+10150_2_3_4,Moderate (Mixed),,
+10150_2_3_4,Low (Surface),32.0,93.0
+10150_2_3_4,All Fires,30.0,100.0
+10160_13_14,Replacement,484.0,33.0
+10160_13_14,Moderate (Mixed),341.0,46.0
+10160_13_14,Low (Surface),771.0,21.0
+10160_13_14,All Fires,159.0,100.0
+10160_15_28,Replacement,425.0,29.0
+10160_15_28,Moderate (Mixed),191.0,65.0
+10160_15_28,Low (Surface),2209.0,6.0
+10160_15_28,All Fires,125.0,100.0
+10160_16_ 23_24_25,Replacement,431.0,29.0
+10160_16_ 23_24_25,Moderate (Mixed),193.0,65.0
+10160_16_ 23_24_25,Low (Surface),2239.0,6.0
+10160_16_ 23_24_25,All Fires,126.0,100.0
+10160_17,Replacement,424.0,29.0
+10160_17,Moderate (Mixed),193.0,65.0
+10160_17,Low (Surface),2153.0,6.0
+10160_17,All Fires,125.0,100.0
+10160_22,Replacement,456.0,31.0
+10160_22,Moderate (Mixed),214.0,65.0
+10160_22,Low (Surface),3283.0,4.0
+10160_22,All Fires,139.0,100.0
+10170_6_7_8_9_12_18,Replacement,454.0,38.0
+10170_6_7_8_9_12_18,Moderate (Mixed),278.0,62.0
+10170_6_7_8_9_12_18,Low (Surface),,
+10170_6_7_8_9_12_18,All Fires,172.0,100.0
+10180_1_7,Replacement,250.0,26.0
+10180_1_7,Moderate (Mixed),127.0,50.0
+10180_1_7,Low (Surface),273.0,24.0
+10180_1_7,All Fires,64.0,100.0
+10190_13_14,Replacement,473.0,33.0
+10190_13_14,Moderate (Mixed),337.0,47.0
+10190_13_14,Low (Surface),778.0,20.0
+10190_13_14,All Fires,157.0,100.0
+10190_15,Replacement,479.0,33.0
+10190_15,Moderate (Mixed),338.0,47.0
+10190_15,Low (Surface),771.0,20.0
+10190_15,All Fires,158.0,100.0
+10190_4,Replacement,632.0,32.0
+10190_4,Moderate (Mixed),461.0,43.0
+10190_4,Low (Surface),803.0,25.0
+10190_4,All Fires,200.0,100.0
+10190_6_7_9_12_16_17_18_19,Replacement,842.0,51.0
+10190_6_7_9_12_16_17_18_19,Moderate (Mixed),876.0,49.0
+10190_6_7_9_12_16_17_18_19,Low (Surface),,
+10190_6_7_9_12_16_17_18_19,All Fires,429.0,100.0
+10200_13,Replacement,969.0,36.0
+10200_13,Moderate (Mixed),,
+10200_13,Low (Surface),535.0,64.0
+10200_13,All Fires,345.0,100.0
+10200_6_9_12_17,Replacement,497.0,29.0
+10200_6_9_12_17,Moderate (Mixed),,
+10200_6_9_12_17,Low (Surface),200.0,71.0
+10200_6_9_12_17,All Fires,143.0,100.0
+10210_2_3_6_7,Replacement,230.0,4.0
+10210_2_3_6_7,Moderate (Mixed),71.0,13.0
+10210_2_3_6_7,Low (Surface),12.0,83.0
+10210_2_3_6_7,All Fires,9.0,100.0
+10220_2_3_6_7,Replacement,232.0,4.0
+10220_2_3_6_7,Moderate (Mixed),70.0,13.0
+10220_2_3_6_7,Low (Surface),11.0,83.0
+10220_2_3_6_7,All Fires,9.0,100.0
+10230_14_15_24_25,Replacement,129.0,18.0
+10230_14_15_24_25,Moderate (Mixed),195.0,12.0
+10230_14_15_24_25,Low (Surface),34.0,70.0
+10230_14_15_24_25,All Fires,24.0,100.0
+10240_14_15_24,Replacement,124.0,19.0
+10240_14_15_24,Moderate (Mixed),189.0,12.0
+10240_14_15_24,Low (Surface),33.0,69.0
+10240_14_15_24,All Fires,23.0,100.0
+10240_25_27,Replacement,59.0,12.0
+10240_25_27,Moderate (Mixed),30.0,23.0
+10240_25_27,Low (Surface),11.0,65.0
+10240_25_27,All Fires,7.0,100.0
+10240_26,Replacement,16.0,30.0
+10240_26,Moderate (Mixed),23.0,20.0
+10240_26,Low (Surface),9.0,50.0
+10240_26,All Fires,5.0,100.0
+10250_14_15_24_25_26,Replacement,135.0,34.0
+10250_14_15_24_25_26,Moderate (Mixed),208.0,22.0
+10250_14_15_24_25_26,Low (Surface),104.0,44.0
+10250_14_15_24_25_26,All Fires,46.0,100.0
+10260_15,Replacement,309.0,3.0
+10260_15,Moderate (Mixed),63.0,16.0
+10260_15,Low (Surface),13.0,81.0
+10260_15,All Fires,10.0,100.0
+10270_2_3_7,,,
+10270_2_3_7,,,
+10270_2_3_7,,,
+10270_2_3_7,,,
+10270_2_3_7,,,
+10270_4_5_6,Replacement,150.0,7.0
+10270_4_5_6,Moderate (Mixed),36.0,31.0
+10270_4_5_6,Low (Surface),17.0,62.0
+10270_4_5_6,All Fires,11.0,100.0
+10280_2_3,,,
+10280_2_3,,,
+10280_2_3,,,
+10280_2_3,,,
+10280_2_3,,,
+10280_4_6_7_12,Replacement,146.0,12.0
+10280_4_6_7_12,Moderate (Mixed),46.0,37.0
+10280_4_6_7_12,Low (Surface),33.0,51.0
+10280_4_6_7_12,All Fires,17.0,100.0
+10290_2_3_4_5_6_7_12,Replacement,284.0,3.0
+10290_2_3_4_5_6_7_12,Moderate (Mixed),33.0,25.0
+10290_2_3_4_5_6_7_12,Low (Surface),11.0,72.0
+10290_2_3_4_5_6_7_12,All Fires,8.0,100.0
+10300_2_3_4_5_6_7,Replacement,177.0,6.0
+10300_2_3_4_5_6_7,Moderate (Mixed),38.0,27.0
+10300_2_3_4_5_6_7,Low (Surface),15.0,67.0
+10300_2_3_4_5_6_7,All Fires,10.0,100.0
+10310_2_3_4_5_6_12,Replacement,169.0,6.0
+10310_2_3_4_5_6_12,Moderate (Mixed),86.0,11.0
+10310_2_3_4_5_6_12,Low (Surface),12.0,83.0
+10310_2_3_4_5_6_12,All Fires,10.0,100.0
+10310_7,Replacement,195.0,10.0
+10310_7,Moderate (Mixed),115.0,16.0
+10310_7,Low (Surface),25.0,74.0
+10310_7,All Fires,19.0,100.0
+10320_2_3_7,,,
+10320_2_3_7,,,
+10320_2_3_7,,,
+10320_2_3_7,,,
+10320_2_3_7,,,
+10320_2_3_7,,,
+10321_6,Replacement,151.0,23.0
+10321_6,Moderate (Mixed),177.0,19.0
+10321_6,Low (Surface),58.0,58.0
+10321_6,All Fires,34.0,100.0
+10322_6,Replacement,293.0,18.0
+10322_6,Moderate (Mixed),315.0,16.0
+10322_6,Low (Surface),78.0,66.0
+10322_6,All Fires,51.0,100.0
+10330_12,Replacement,353.0,18.0
+10330_12,Moderate (Mixed),79.0,82.0
+10330_12,Low (Surface),,
+10330_12,All Fires,65.0,100.0
+10330_3_6_7,Replacement,482.0,54.0
+10330_3_6_7,Moderate (Mixed),575.0,46.0
+10330_3_6_7,Low (Surface),,
+10330_3_6_7,All Fires,262.0,100.0
+10340_4_6_7,Replacement,181.0,37.0
+10340_4_6_7,Moderate (Mixed),107.0,63.0
+10340_4_6_7,Low (Surface),,
+10340_4_6_7,All Fires,67.0,100.0
+10350_1_2_7,Replacement,370.0,10.0
+10350_1_2_7,Moderate (Mixed),71.0,50.0
+10350_1_2_7,Low (Surface),91.0,40.0
+10350_1_2_7,All Fires,36.0,100.0
+10360_1_2,Replacement,680.0,100.0
+10360_1_2,Moderate (Mixed),,
+10360_1_2,Low (Surface),,
+10360_1_2,All Fires,680.0,100.0
+10370_1_2_7,Replacement,333.0,24.0
+10370_1_2_7,Moderate (Mixed),104.0,76.0
+10370_1_2_7,Low (Surface),,
+10370_1_2_7,All Fires,79.0,100.0
+10380_1_7,Replacement,5066.0,100.0
+10380_1_7,Moderate (Mixed),,
+10380_1_7,Low (Surface),,
+10380_1_7,All Fires,5066.0,100.0
+10390_1_2_3_7,Replacement,398.0,100.0
+10390_1_2_3_7,Moderate (Mixed),,
+10390_1_2_3_7,Low (Surface),,
+10390_1_2_3_7,All Fires,398.0,100.0
+10411_1_7,Replacement,10549.0,32.0
+10411_1_7,Moderate (Mixed),5051.0,68.0
+10411_1_7,Low (Surface),,
+10411_1_7,All Fires,3415.0,100.0
+10412_1_7,Replacement,300.0,56.0
+10412_1_7,Moderate (Mixed),627.0,27.0
+10412_1_7,Low (Surface),1021.0,17.0
+10412_1_7,All Fires,169.0,100.0
+10420_1_7,Replacement,3639.0,33.0
+10420_1_7,Moderate (Mixed),1771.0,67.0
+10420_1_7,Low (Surface),,
+10420_1_7,All Fires,1191.0,100.0
+10430_5,Replacement,315.0,3.0
+10430_5,Moderate (Mixed),66.0,14.0
+10430_5,Low (Surface),11.0,83.0
+10430_5,All Fires,9.0,100.0
+10431_2_3_6_7,,,
+10431_2_3_6_7,,,
+10431_2_3_6_7,,,
+10431_2_3_6_7,,,
+10431_2_3_6_7,,,
+10431_2_3_6_7,,,
+10431_2_3_6_7,,,
+10432_2_3,,,
+10432_2_3,,,
+10432_2_3,,,
+10432_2_3,,,
+10432_2_3,,,
+10432_2_3,,,
+10432_2_3,,,
+10432_2_3,,,
+10432_2_3,,,
+10440_3_6_7,Replacement,507.0,65.0
+10440_3_6_7,Moderate (Mixed),935.0,35.0
+10440_3_6_7,Low (Surface),,
+10440_3_6_7,All Fires,329.0,100.0
+10450_1_7_8_9,Replacement,184.0,12.0
+10450_1_7_8_9,Moderate (Mixed),107.0,21.0
+10450_1_7_8_9,Low (Surface),32.0,67.0
+10450_1_7_8_9,All Fires,22.0,100.0
+10450_21,Replacement,75.0,50.0
+10450_21,Moderate (Mixed),106.0,36.0
+10450_21,Low (Surface),266.0,14.0
+10450_21,All Fires,38.0,100.0
+10451_10_19,Replacement,149.0,13.0
+10451_10_19,Moderate (Mixed),52.0,38.0
+10451_10_19,Low (Surface),39.0,49.0
+10451_10_19,All Fires,19.0,100.0
+10451_20,Replacement,166.0,13.0
+10451_20,Moderate (Mixed),52.0,40.0
+10451_20,Low (Surface),44.0,47.0
+10451_20,All Fires,21.0,100.0
+10452_10_19,Replacement,202.0,19.0
+10452_10_19,Moderate (Mixed),69.0,54.0
+10452_10_19,Low (Surface),138.0,27.0
+10452_10_19,All Fires,38.0,100.0
+10453_10_19,Replacement,218.0,32.0
+10453_10_19,Moderate (Mixed),104.0,68.0
+10453_10_19,Low (Surface),,
+10453_10_19,All Fires,70.0,100.0
+10454_20,Replacement,144.0,52.0
+10454_20,Moderate (Mixed),274.0,28.0
+10454_20,Low (Surface),384.0,20.0
+10454_20,All Fires,76.0,100.0
+10460_1_7_9,Replacement,349.0,19.0
+10460_1_7_9,Moderate (Mixed),79.0,81.0
+10460_1_7_9,Low (Surface),,
+10460_1_7_9,All Fires,65.0,100.0
+10460_10_19_20,Replacement,396.0,46.0
+10460_10_19_20,Moderate (Mixed),336.0,54.0
+10460_10_19_20,Low (Surface),,
+10460_10_19_20,All Fires,182.0,100.0
+10460_18,Replacement,227.0,18.0
+10460_18,Moderate (Mixed),385.0,11.0
+10460_18,Low (Surface),57.0,71.0
+10460_18,All Fires,41.0,100.0
+10460_21,Replacement,517.0,39.0
+10460_21,Moderate (Mixed),325.0,61.0
+10460_21,Low (Surface),,
+10460_21,All Fires,200.0,100.0
+10470_10_19,Replacement,185.0,43.0
+10470_10_19,Moderate (Mixed),139.0,57.0
+10470_10_19,Low (Surface),,
+10470_10_19,All Fires,79.0,100.0
+10470_8_9,Replacement,204.0,35.0
+10470_8_9,Moderate (Mixed),155.0,45.0
+10470_8_9,Low (Surface),355.0,20.0
+10470_8_9,All Fires,71.0,100.0
+10472_10_19,Replacement,382.0,84.0
+10472_10_19,Moderate (Mixed),2027.0,16.0
+10472_10_19,Low (Surface),,
+10472_10_19,All Fires,321.0,100.0
+10480_29,Replacement,271.0,11.0
+10480_29,Moderate (Mixed),120.0,24.0
+10480_29,Low (Surface),45.0,65.0
+10480_29,All Fires,29.0,100.0
+10490_16_22,Replacement,213.0,100.0
+10490_16_22,Moderate (Mixed),,
+10490_16_22,Low (Surface),,
+10490_16_22,All Fires,213.0,100.0
+10490_19_20_21_23_28_29,Replacement,383.0,100.0
+10490_19_20_21_23_28_29,Moderate (Mixed),,
+10490_19_20_21_23_28_29,Low (Surface),,
+10490_19_20_21_23_28_29,All Fires,383.0,100.0
+10500_16_23_28,Replacement,152.0,81.0
+10500_16_23_28,Moderate (Mixed),,
+10500_16_23_28,Low (Surface),636.0,19.0
+10500_16_23_28,All Fires,122.0,100.0
+10500_18,Replacement,149.0,81.0
+10500_18,Moderate (Mixed),,
+10500_18,Low (Surface),636.0,19.0
+10500_18,All Fires,121.0,100.0
+10500_22,Replacement,170.0,100.0
+10500_22,Moderate (Mixed),,
+10500_22,Low (Surface),,
+10500_22,All Fires,170.0,100.0
+10510_15_16_17_22_23_24_25,Replacement,89.0,12.0
+10510_15_16_17_22_23_24_25,Moderate (Mixed),76.0,14.0
+10510_15_16_17_22_23_24_25,Low (Surface),14.0,74.0
+10510_15_16_17_22_23_24_25,All Fires,11.0,100.0
+10510_18_21,Replacement,90.0,12.0
+10510_18_21,Moderate (Mixed),77.0,14.0
+10510_18_21,Low (Surface),14.0,74.0
+10510_18_21,All Fires,11.0,100.0
+10510_27,Replacement,277.0,7.0
+10510_27,Moderate (Mixed),56.0,34.0
+10510_27,Low (Surface),33.0,59.0
+10510_27,All Fires,19.0,100.0
+10510_28,Replacement,322.0,6.0
+10510_28,Moderate (Mixed),53.0,35.0
+10510_28,Low (Surface),31.0,59.0
+10510_28,All Fires,19.0,100.0
+10510_29,Replacement,94.0,11.0
+10510_29,Moderate (Mixed),77.0,14.0
+10510_29,Low (Surface),14.0,75.0
+10510_29,All Fires,11.0,100.0
+10510_6,Replacement,91.0,12.0
+10510_6,Moderate (Mixed),76.0,14.0
+10510_6,Low (Surface),14.0,74.0
+10510_6,All Fires,11.0,100.0
+10520_12,Replacement,182.0,18.0
+10520_12,Moderate (Mixed),89.0,36.0
+10520_12,Low (Surface),70.0,46.0
+10520_12,All Fires,32.0,100.0
+10520_13,Replacement,217.0,18.0
+10520_13,Moderate (Mixed),194.0,21.0
+10520_13,Low (Surface),65.0,61.0
+10520_13,All Fires,40.0,100.0
+10520_15,Replacement,188.0,18.0
+10520_15,Moderate (Mixed),91.0,37.0
+10520_15,Low (Surface),73.0,45.0
+10520_15,All Fires,33.0,100.0
+10520_16_23_24,Replacement,178.0,18.0
+10520_16_23_24,Moderate (Mixed),88.0,37.0
+10520_16_23_24,Low (Surface),74.0,45.0
+10520_16_23_24,All Fires,33.0,100.0
+10520_17,Replacement,183.0,18.0
+10520_17,Moderate (Mixed),90.0,36.0
+10520_17,Low (Surface),72.0,46.0
+10520_17,All Fires,33.0,100.0
+10520_18,Replacement,184.0,18.0
+10520_18,Moderate (Mixed),89.0,37.0
+10520_18,Low (Surface),72.0,45.0
+10520_18,All Fires,33.0,100.0
+10520_21,Replacement,186.0,18.0
+10520_21,Moderate (Mixed),90.0,37.0
+10520_21,Low (Surface),72.0,45.0
+10520_21,All Fires,33.0,100.0
+10520_25,Replacement,185.0,18.0
+10520_25,Moderate (Mixed),92.0,37.0
+10520_25,Low (Surface),75.0,45.0
+10520_25,All Fires,34.0,100.0
+10520_27,Replacement,251.0,15.0
+10520_27,Moderate (Mixed),97.0,37.0
+10520_27,Low (Surface),76.0,48.0
+10520_27,All Fires,36.0,100.0
+10520_28,Replacement,200.0,27.0
+10520_28,Moderate (Mixed),143.0,37.0
+10520_28,Low (Surface),151.0,36.0
+10520_28,All Fires,54.0,100.0
+10530_10_19,Replacement,347.0,4.0
+10530_10_19,Moderate (Mixed),55.0,23.0
+10530_10_19,Low (Surface),17.0,73.0
+10530_10_19,All Fires,12.0,100.0
+10531_1_7_8_9,Replacement,277.0,5.0
+10531_1_7_8_9,Moderate (Mixed),79.0,18.0
+10531_1_7_8_9,Low (Surface),19.0,77.0
+10531_1_7_8_9,All Fires,15.0,100.0
+10532_7_9,Replacement,258.0,18.0
+10532_7_9,Moderate (Mixed),100.0,47.0
+10532_7_9,Low (Surface),136.0,35.0
+10532_7_9,All Fires,47.0,100.0
+10540_13_14,Replacement,258.0,6.0
+10540_13_14,Moderate (Mixed),39.0,39.0
+10540_13_14,Low (Surface),28.0,55.0
+10540_13_14,All Fires,15.0,100.0
+10540_15_25,Replacement,397.0,2.0
+10540_15_25,Moderate (Mixed),108.0,9.0
+10540_15_25,Low (Surface),10.0,89.0
+10540_15_25,All Fires,9.0,100.0
+10540_16_23_24,Replacement,282.0,6.0
+10540_16_23_24,Moderate (Mixed),228.0,8.0
+10540_16_23_24,Low (Surface),20.0,86.0
+10540_16_23_24,All Fires,17.0,100.0
+10540_17,Replacement,256.0,6.0
+10540_17,Moderate (Mixed),38.0,39.0
+10540_17,Low (Surface),28.0,55.0
+10540_17,All Fires,15.0,100.0
+10540_20,Replacement,231.0,6.0
+10540_20,Moderate (Mixed),76.0,18.0
+10540_20,Low (Surface),18.0,76.0
+10540_20,All Fires,14.0,100.0
+10540_22,Replacement,165.0,8.0
+10540_22,Moderate (Mixed),49.0,26.0
+10540_22,Low (Surface),19.0,66.0
+10540_22,All Fires,13.0,100.0
+10540_26,Replacement,76.0,12.0
+10540_26,Moderate (Mixed),106.0,9.0
+10540_26,Low (Surface),11.0,79.0
+10540_26,All Fires,9.0,100.0
+10540_28,Replacement,506.0,4.0
+10540_28,Moderate (Mixed),160.0,13.0
+10540_28,Low (Surface),25.0,83.0
+10540_28,All Fires,20.0,100.0
+10540_29,Replacement,302.0,6.0
+10540_29,Moderate (Mixed),264.0,7.0
+10540_29,Low (Surface),20.0,87.0
+10540_29,All Fires,18.0,100.0
+10540_33,Replacement,504.0,5.0
+10540_33,Moderate (Mixed),157.0,15.0
+10540_33,Low (Surface),30.0,80.0
+10540_33,All Fires,24.0,100.0
+10541_27,Replacement,348.0,3.0
+10541_27,Moderate (Mixed),,
+10541_27,Low (Surface),12.0,97.0
+10541_27,All Fires,11.0,100.0
+10542_27,Replacement,502.0,5.0
+10542_27,Moderate (Mixed),159.0,15.0
+10542_27,Low (Surface),31.0,80.0
+10542_27,All Fires,24.0,100.0
+10550_1_8_9,Replacement,231.0,52.0
+10550_1_8_9,Moderate (Mixed),247.0,48.0
+10550_1_8_9,Low (Surface),,
+10550_1_8_9,All Fires,119.0,100.0
+10550_10_19,Replacement,207.0,67.0
+10550_10_19,Moderate (Mixed),417.0,33.0
+10550_10_19,Low (Surface),,
+10550_10_19,All Fires,138.0,100.0
+10550_15_28,Replacement,194.0,69.0
+10550_15_28,Moderate (Mixed),424.0,31.0
+10550_15_28,Low (Surface),,
+10550_15_28,All Fires,133.0,100.0
+10550_16_23_24,Replacement,216.0,97.0
+10550_16_23_24,Moderate (Mixed),7174.0,3.0
+10550_16_23_24,Low (Surface),,
+10550_16_23_24,All Fires,210.0,100.0
+10550_17,Replacement,177.0,99.0
+10550_17,Moderate (Mixed),16077.0,1.0
+10550_17,Low (Surface),,
+10550_17,All Fires,175.0,100.0
+10550_18,Replacement,176.0,80.0
+10550_18,Moderate (Mixed),689.0,20.0
+10550_18,Low (Surface),,
+10550_18,All Fires,140.0,100.0
+10550_20,Replacement,136.0,74.0
+10550_20,Moderate (Mixed),383.0,26.0
+10550_20,Low (Surface),,
+10550_20,All Fires,100.0,100.0
+10550_21_22,Replacement,335.0,100.0
+10550_21_22,Moderate (Mixed),,
+10550_21_22,Low (Surface),,
+10550_21_22,All Fires,335.0,100.0
+10550_27,Replacement,206.0,69.0
+10550_27,Moderate (Mixed),452.0,31.0
+10550_27,Low (Surface),,
+10550_27,All Fires,141.0,100.0
+10550_29,Replacement,116.0,100.0
+10550_29,Moderate (Mixed),,
+10550_29,Low (Surface),,
+10550_29,All Fires,116.0,100.0
+10560_1_7_8_9,Replacement,121.0,78.0
+10560_1_7_8_9,Moderate (Mixed),417.0,22.0
+10560_1_7_8_9,Low (Surface),,
+10560_1_7_8_9,All Fires,94.0,100.0
+10560_10_19,Replacement,180.0,100.0
+10560_10_19,Moderate (Mixed),,
+10560_10_19,Low (Surface),,
+10560_10_19,All Fires,180.0,100.0
+10560_15_28,Replacement,197.0,69.0
+10560_15_28,Moderate (Mixed),430.0,31.0
+10560_15_28,Low (Surface),,
+10560_15_28,All Fires,135.0,100.0
+10560_16_23,Replacement,217.0,97.0
+10560_16_23,Moderate (Mixed),6935.0,3.0
+10560_16_23,Low (Surface),,
+10560_16_23,All Fires,211.0,100.0
+10560_18,Replacement,178.0,80.0
+10560_18,Moderate (Mixed),692.0,20.0
+10560_18,Low (Surface),,
+10560_18,All Fires,142.0,100.0
+10560_20,Replacement,216.0,93.0
+10560_20,Moderate (Mixed),2905.0,7.0
+10560_20,Low (Surface),,
+10560_20,All Fires,201.0,100.0
+10560_21_22,Replacement,428.0,67.0
+10560_21_22,Moderate (Mixed),886.0,33.0
+10560_21_22,Low (Surface),,
+10560_21_22,All Fires,288.0,100.0
+10560_29,Replacement,346.0,75.0
+10560_29,Moderate (Mixed),1061.0,25.0
+10560_29,Low (Surface),,
+10560_29,All Fires,261.0,100.0
+10570_12_16,Replacement,510.0,28.0
+10570_12_16,Moderate (Mixed),,
+10570_12_16,Low (Surface),200.0,72.0
+10570_12_16,All Fires,144.0,100.0
+10570_18,Replacement,503.0,28.0
+10570_18,Moderate (Mixed),,
+10570_18,Low (Surface),198.0,72.0
+10570_18,All Fires,142.0,100.0
+10570_23,Replacement,499.0,29.0
+10570_23,Moderate (Mixed),,
+10570_23,Low (Surface),199.0,71.0
+10570_23,All Fires,142.0,100.0
+10570_28,Replacement,486.0,29.0
+10570_28,Moderate (Mixed),197.0,71.0
+10570_28,Low (Surface),,
+10570_28,All Fires,140.0,100.0
+10570_29,Replacement,495.0,67.0
+10570_29,Moderate (Mixed),,
+10570_29,Low (Surface),990.0,33.0
+10570_29,All Fires,330.0,100.0
+10580_12,Replacement,156.0,23.0
+10580_12,Moderate (Mixed),51.0,69.0
+10580_12,Low (Surface),459.0,8.0
+10580_12,All Fires,35.0,100.0
+10580_4,Replacement,278.0,18.0
+10580_4,Moderate (Mixed),103.0,48.0
+10580_4,Low (Surface),145.0,34.0
+10580_4,All Fires,50.0,100.0
+10580_7,Replacement,91.0,88.0
+10580_7,Moderate (Mixed),,
+10580_7,Low (Surface),647.0,12.0
+10580_7,All Fires,80.0,100.0
+10581_6,Replacement,158.0,23.0
+10581_6,Moderate (Mixed),51.0,69.0
+10581_6,Low (Surface),460.0,8.0
+10581_6,All Fires,36.0,100.0
+10582_6,Replacement,247.0,11.0
+10582_6,Moderate (Mixed),57.0,46.0
+10582_6,Low (Surface),60.0,43.0
+10582_6,All Fires,26.0,100.0
+10590_24_28,Replacement,433.0,29.0
+10590_24_28,Moderate (Mixed),199.0,64.0
+10590_24_28,Low (Surface),1914.0,7.0
+10590_24_28,All Fires,127.0,100.0
+10590_25,Replacement,243.0,24.0
+10590_25,Moderate (Mixed),254.0,23.0
+10590_25,Low (Surface),108.0,53.0
+10590_25,All Fires,58.0,100.0
+10590_26,Replacement,29.0,36.0
+10590_26,Moderate (Mixed),32.0,33.0
+10590_26,Low (Surface),34.0,31.0
+10590_26,All Fires,11.0,100.0
+10590_27_33,Replacement,325.0,42.0
+10590_27_33,Moderate (Mixed),405.0,34.0
+10590_27_33,Low (Surface),563.0,24.0
+10590_27_33,All Fires,137.0,100.0
+10600_1_2_7,Replacement,380.0,7.0
+10600_1_2_7,Moderate (Mixed),640.0,4.0
+10600_1_2_7,Low (Surface),31.0,89.0
+10600_1_2_7,All Fires,27.0,100.0
+10610_13,Replacement,79.0,41.0
+10610_13,Moderate (Mixed),55.0,59.0
+10610_13,Low (Surface),,
+10610_13,All Fires,32.0,100.0
+10610_15_25,Replacement,43.0,28.0
+10610_15_25,Moderate (Mixed),20.0,61.0
+10610_15_25,Low (Surface),111.0,11.0
+10610_15_25,All Fires,12.0,100.0
+10610_18,Replacement,75.0,37.0
+10610_18,Moderate (Mixed),45.0,63.0
+10610_18,Low (Surface),,
+10610_18,All Fires,28.0,100.0
+10610_20_29,Replacement,117.0,46.0
+10610_20_29,Moderate (Mixed),101.0,54.0
+10610_20_29,Low (Surface),,
+10610_20_29,All Fires,54.0,100.0
+10610_22_27_28,Replacement,77.0,37.0
+10610_22_27_28,Moderate (Mixed),72.0,40.0
+10610_22_27_28,Low (Surface),125.0,23.0
+10610_22_27_28,All Fires,29.0,100.0
+10610_6,Replacement,148.0,24.0
+10610_6,Moderate (Mixed),223.0,16.0
+10610_6,Low (Surface),60.0,60.0
+10610_6,All Fires,36.0,100.0
+10610_8_9_17,Replacement,68.0,39.0
+10610_8_9_17,Moderate (Mixed),44.0,61.0
+10610_8_9_17,Low (Surface),,
+10610_8_9_17,All Fires,27.0,100.0
+10611_16_23_24,Replacement,44.0,24.0
+10611_16_23_24,Moderate (Mixed),14.0,76.0
+10611_16_23_24,Low (Surface),,
+10611_16_23_24,All Fires,10.0,100.0
+10612_16_23,Replacement,71.0,46.0
+10612_16_23,Moderate (Mixed),61.0,54.0
+10612_16_23,Low (Surface),,
+10612_16_23,All Fires,33.0,100.0
+10620_10_19_21_29_31,Replacement,289.0,24.0
+10620_10_19_21_29_31,Moderate (Mixed),153.0,46.0
+10620_10_19_21_29_31,Low (Surface),234.0,30.0
+10620_10_19_21_29_31,All Fires,70.0,100.0
+10620_13,Replacement,287.0,24.0
+10620_13,Moderate (Mixed),149.0,46.0
+10620_13,Low (Surface),233.0,30.0
+10620_13,All Fires,69.0,100.0
+10620_16_23,Replacement,245.0,26.0
+10620_16_23,Moderate (Mixed),137.0,46.0
+10620_16_23,Low (Surface),227.0,28.0
+10620_16_23,All Fires,63.0,100.0
+10620_22_28,Replacement,228.0,25.0
+10620_22_28,Moderate (Mixed),78.0,75.0
+10620_22_28,Low (Surface),,
+10620_22_28,All Fires,58.0,100.0
+10620_6_12_17_18,Replacement,281.0,24.0
+10620_6_12_17_18,Moderate (Mixed),146.0,47.0
+10620_6_12_17_18,Low (Surface),232.0,29.0
+10620_6_12_17_18,All Fires,68.0,100.0
+10620_7_9,Replacement,242.0,32.0
+10620_7_9,Moderate (Mixed),212.0,36.0
+10620_7_9,Low (Surface),243.0,32.0
+10620_7_9,All Fires,77.0,100.0
+10630_1,Replacement,453.0,67.0
+10630_1,Moderate (Mixed),905.0,33.0
+10630_1,Low (Surface),,
+10630_1,All Fires,302.0,100.0
+10630_2_7,Replacement,100.0,83.0
+10630_2_7,Moderate (Mixed),498.0,17.0
+10630_2_7,Low (Surface),,
+10630_2_7,All Fires,83.0,100.0
+10640_15_16_17_23_24_27_28,Replacement,236.0,33.0
+10640_15_16_17_23_24_27_28,Moderate (Mixed),118.0,67.0
+10640_15_16_17_23_24_27_28,Low (Surface),,
+10640_15_16_17_23_24_27_28,All Fires,79.0,100.0
+10650_1_8_9_10,Replacement,252.0,100.0
+10650_1_8_9_10,Moderate (Mixed),,
+10650_1_8_9_10,Low (Surface),,
+10650_1_8_9_10,All Fires,252.0,100.0
+10660_16_23_24,Replacement,,
+10660_16_23_24,Moderate (Mixed),,
+10660_16_23_24,Low (Surface),,
+10660_16_23_24,All Fires,,
+10660_22,Replacement,,
+10660_22,Moderate (Mixed),,
+10660_22,Low (Surface),,
+10660_22,All Fires,,
+10660_29,Replacement,438.0,100.0
+10660_29,Moderate (Mixed),,
+10660_29,Low (Surface),,
+10660_29,All Fires,438.0,100.0
+10670_6,Replacement,523.0,100.0
+10670_6,Moderate (Mixed),,
+10670_6,Low (Surface),,
+10670_6,All Fires,523.0,100.0
+10680_1_7,Replacement,,
+10680_1_7,Moderate (Mixed),,
+10680_1_7,Low (Surface),,
+10680_1_7,All Fires,,
+10700_10_19_28,Replacement,227.0,100.0
+10700_10_19_28,Moderate (Mixed),,
+10700_10_19_28,Low (Surface),,
+10700_10_19_28,All Fires,227.0,100.0
+10700_16,Replacement,224.0,100.0
+10700_16,Moderate (Mixed),,
+10700_16,Low (Surface),,
+10700_16,All Fires,224.0,100.0
+10700_21,Replacement,561.0,100.0
+10700_21,Moderate (Mixed),,
+10700_21,Low (Surface),,
+10700_21,All Fires,561.0,100.0
+10710_6,Replacement,227.0,100.0
+10710_6,Moderate (Mixed),,
+10710_6,Low (Surface),,
+10710_6,All Fires,227.0,100.0
+10720_22_29,Replacement,327.0,100.0
+10720_22_29,Moderate (Mixed),,
+10720_22_29,Low (Surface),,
+10720_22_29,All Fires,327.0,100.0
+10720_28,Replacement,124.0,100.0
+10720_28,Moderate (Mixed),,
+10720_28,Low (Surface),,
+10720_28,All Fires,124.0,100.0
+10740_25_26,Replacement,,
+10740_25_26,Moderate (Mixed),,
+10740_25_26,Low (Surface),,
+10740_25_26,All Fires,,
+10750_25,Replacement,706.0,53.0
+10750_25,Moderate (Mixed),805.0,47.0
+10750_25,Low (Surface),,
+10750_25,All Fires,376.0,100.0
+10750_26,Replacement,,
+10750_26,Moderate (Mixed),,
+10750_26,Low (Surface),,
+10750_26,All Fires,,
+10760_25,Replacement,22.0,100.0
+10760_25,Moderate (Mixed),,
+10760_25,Low (Surface),,
+10760_25,All Fires,22.0,100.0
+10760_26,Replacement,,
+10760_26,Moderate (Mixed),,
+10760_26,Low (Surface),,
+10760_26,All Fires,,
+10770_15,Replacement,348.0,100.0
+10770_15,Moderate (Mixed),,
+10770_15,Low (Surface),,
+10770_15,All Fires,348.0,100.0
+10770_25_26,Replacement,,
+10770_25_26,Moderate (Mixed),,
+10770_25_26,Low (Surface),,
+10770_25_26,All Fires,,
+10780_15,Replacement,282.0,100.0
+10780_15,Moderate (Mixed),,
+10780_15,Low (Surface),,
+10780_15,All Fires,282.0,100.0
+10780_16_23_24_25,Replacement,146.0,53.0
+10780_16_23_24_25,Moderate (Mixed),162.0,47.0
+10780_16_23_24_25,Low (Surface),,
+10780_16_23_24_25,All Fires,77.0,100.0
+10790_13,Replacement,99.0,88.0
+10790_13,Moderate (Mixed),724.0,12.0
+10790_13,Low (Surface),,
+10790_13,All Fires,87.0,100.0
+10790_6_9_10_12_16_17_18,Replacement,95.0,90.0
+10790_6_9_10_12_16_17_18,Moderate (Mixed),841.0,10.0
+10790_6_9_10_12_16_17_18,Low (Surface),,
+10790_6_9_10_12_16_17_18,All Fires,85.0,100.0
+10800_1_7_8_9,Replacement,100.0,100.0
+10800_1_7_8_9,Moderate (Mixed),,
+10800_1_7_8_9,Low (Surface),,
+10800_1_7_8_9,All Fires,100.0,100.0
+10800_10_19,Replacement,79.0,100.0
+10800_10_19,Moderate (Mixed),,
+10800_10_19,Low (Surface),,
+10800_10_19,All Fires,79.0,100.0
+10800_13_14,Replacement,109.0,100.0
+10800_13_14,Moderate (Mixed),,
+10800_13_14,Low (Surface),,
+10800_13_14,All Fires,109.0,100.0
+10801_21_22_28,Replacement,73.0,100.0
+10801_21_22_28,Moderate (Mixed),,
+10801_21_22_28,Low (Surface),,
+10801_21_22_28,All Fires,73.0,100.0
+10802_21_22_28,Replacement,98.0,100.0
+10802_21_22_28,Moderate (Mixed),,
+10802_21_22_28,Low (Surface),,
+10802_21_22_28,All Fires,98.0,100.0
+10803_6_12_15_16_17_18_23_24_25,Replacement,152.0,100.0
+10803_6_12_15_16_17_18_23_24_25,Moderate (Mixed),,
+10803_6_12_15_16_17_18_23_24_25,Low (Surface),,
+10803_6_12_15_16_17_18_23_24_25,All Fires,152.0,100.0
+10804_6_12_15_16_17_18_23_24_25,Replacement,119.0,100.0
+10804_6_12_15_16_17_18_23_24_25,Moderate (Mixed),,
+10804_6_12_15_16_17_18_23_24_25,Low (Surface),,
+10804_6_12_15_16_17_18_23_24_25,All Fires,119.0,100.0
+10810_15_16_23_24_28,Replacement,614.0,100.0
+10810_15_16_23_24_28,Moderate (Mixed),,
+10810_15_16_23_24_28,Low (Surface),,
+10810_15_16_23_24_28,All Fires,614.0,100.0
+10810_18_19_21,Replacement,1131.0,100.0
+10810_18_19_21,Moderate (Mixed),,
+10810_18_19_21,Low (Surface),,
+10810_18_19_21,All Fires,1131.0,100.0
+10810_22,Replacement,450.0,100.0
+10810_22,Moderate (Mixed),,
+10810_22,Low (Surface),,
+10810_22,All Fires,450.0,100.0
+10810_27_33,Replacement,237.0,100.0
+10810_27_33,Moderate (Mixed),,
+10810_27_33,Low (Surface),,
+10810_27_33,All Fires,237.0,100.0
+10810_6_12_13_17,Replacement,1975.0,100.0
+10810_6_12_13_17,Moderate (Mixed),,
+10810_6_12_13_17,Low (Surface),,
+10810_6_12_13_17,All Fires,1975.0,100.0
+10810_7_8_9,Replacement,696.0,100.0
+10810_7_8_9,Moderate (Mixed),,
+10810_7_8_9,Low (Surface),,
+10810_7_8_9,All Fires,696.0,100.0
+10820_12_15_16_17_23_24,Replacement,831.0,100.0
+10820_12_15_16_17_23_24,Moderate (Mixed),,
+10820_12_15_16_17_23_24,Low (Surface),,
+10820_12_15_16_17_23_24,All Fires,831.0,100.0
+10820_14,Replacement,404.0,100.0
+10820_14,Moderate (Mixed),,
+10820_14,Low (Surface),,
+10820_14,All Fires,404.0,100.0
+10820_4_13,Replacement,396.0,100.0
+10820_4_13,Moderate (Mixed),,
+10820_4_13,Low (Surface),,
+10820_4_13,All Fires,396.0,100.0
+10820_6,Replacement,521.0,100.0
+10820_6,Moderate (Mixed),,
+10820_6,Low (Surface),,
+10820_6,All Fires,521.0,100.0
+10830_1,Replacement,1003.0,100.0
+10830_1,Moderate (Mixed),,
+10830_1,Low (Surface),,
+10830_1,All Fires,1003.0,100.0
+10840_1,Replacement,10460.0,100.0
+10840_1,Moderate (Mixed),,
+10840_1,Low (Surface),,
+10840_1,All Fires,10460.0,100.0
+10850_20,Replacement,30.0,100.0
+10850_20,Moderate (Mixed),,
+10850_20,Low (Surface),,
+10850_20,All Fires,30.0,100.0
+10850_29_30,Replacement,15.0,100.0
+10850_29_30,Moderate (Mixed),,
+10850_29_30,Low (Surface),,
+10850_29_30,All Fires,15.0,100.0
+10860_13_16_17_18_21_23,Replacement,102.0,21.0
+10860_13_16_17_18_21_23,Moderate (Mixed),28.0,79.0
+10860_13_16_17_18_21_23,Low (Surface),,
+10860_13_16_17_18_21_23,All Fires,22.0,100.0
+10860_25,Replacement,73.0,74.0
+10860_25,Moderate (Mixed),206.0,26.0
+10860_25,Low (Surface),,
+10860_25,All Fires,54.0,100.0
+10860_26,Replacement,14.0,100.0
+10860_26,Moderate (Mixed),,
+10860_26,Low (Surface),,
+10860_26,All Fires,14.0,100.0
+10860_27_31_33,Replacement,46.0,100.0
+10860_27_31_33,Moderate (Mixed),,
+10860_27_31_33,Low (Surface),,
+10860_27_31_33,All Fires,46.0,100.0
+10860_28,Replacement,74.0,74.0
+10860_28,Moderate (Mixed),213.0,26.0
+10860_28,Low (Surface),,
+10860_28,All Fires,55.0,100.0
+10860_29,Replacement,105.0,100.0
+10860_29,Moderate (Mixed),,
+10860_29,Low (Surface),,
+10860_29,All Fires,105.0,100.0
+10861_22,Replacement,89.0,100.0
+10861_22,Moderate (Mixed),,
+10861_22,Low (Surface),,
+10861_22,All Fires,89.0,100.0
+10862_22,Replacement,106.0,100.0
+10862_22,Moderate (Mixed),,
+10862_22,Low (Surface),,
+10862_22,All Fires,106.0,100.0
+10870_4_6_12_13_14_15_17_24_25,Replacement,330.0,100.0
+10870_4_6_12_13_14_15_17_24_25,Moderate (Mixed),,
+10870_4_6_12_13_14_15_17_24_25,Low (Surface),,
+10870_4_6_12_13_14_15_17_24_25,All Fires,330.0,100.0
+10880_12_13_14_25,Replacement,,
+10880_12_13_14_25,Moderate (Mixed),,
+10880_12_13_14_25,Low (Surface),,
+10880_12_13_14_25,All Fires,,
+10880_4_5,Replacement,,
+10880_4_5,Moderate (Mixed),,
+10880_4_5,Low (Surface),,
+10880_4_5,All Fires,,
+10900_14,Replacement,509.0,100.0
+10900_14,Moderate (Mixed),,
+10900_14,Low (Surface),,
+10900_14,All Fires,509.0,100.0
+10910_13_14,Replacement,104.0,100.0
+10910_13_14,Moderate (Mixed),,
+10910_13_14,Low (Surface),,
+10910_13_14,All Fires,104.0,100.0
+10910_15,Replacement,351.0,100.0
+10910_15,Moderate (Mixed),,
+10910_15,Low (Surface),,
+10910_15,All Fires,351.0,100.0
+10910_25,Replacement,367.0,100.0
+10910_25,Moderate (Mixed),,
+10910_25,Low (Surface),,
+10910_25,All Fires,367.0,100.0
+10920_4,Replacement,149.0,100.0
+10920_4,Moderate (Mixed),,
+10920_4,Low (Surface),,
+10920_4,All Fires,149.0,100.0
+10930_13_15_16_23_24_28,Replacement,221.0,100.0
+10930_13_15_16_23_24_28,Moderate (Mixed),,
+10930_13_15_16_23_24_28,Low (Surface),,
+10930_13_15_16_23_24_28,All Fires,221.0,100.0
+10940_25,Replacement,16.0,100.0
+10940_25,Moderate (Mixed),,
+10940_25,Low (Surface),,
+10940_25,All Fires,16.0,100.0
+10940_26,Replacement,22.0,100.0
+10940_26,Moderate (Mixed),,
+10940_26,Low (Surface),,
+10940_26,All Fires,22.0,100.0
+10940_27_33,Replacement,22.0,100.0
+10940_27_33,Moderate (Mixed),,
+10940_27_33,Low (Surface),,
+10940_27_33,All Fires,22.0,100.0
+10940_31_38,Replacement,23.0,100.0
+10940_31_38,Moderate (Mixed),,
+10940_31_38,Low (Surface),,
+10940_31_38,All Fires,23.0,100.0
+10940_32_35,Replacement,52.0,100.0
+10940_32_35,Moderate (Mixed),,
+10940_32_35,Low (Surface),,
+10940_32_35,All Fires,52.0,100.0
+10940_34,Replacement,43.0,100.0
+10940_34,Moderate (Mixed),,
+10940_34,Low (Surface),,
+10940_34,All Fires,43.0,100.0
+10950_14,Replacement,10.0,80.0
+10950_14,Moderate (Mixed),,
+10950_14,Low (Surface),40.0,20.0
+10950_14,All Fires,8.0,100.0
+10950_15,Replacement,10.0,93.0
+10950_15,Moderate (Mixed),,
+10950_15,Low (Surface),137.0,7.0
+10950_15,All Fires,9.0,100.0
+10950_25,Replacement,10.0,83.0
+10950_25,Moderate (Mixed),,
+10950_25,Low (Surface),48.0,17.0
+10950_25,All Fires,8.0,100.0
+10950_26_35,Replacement,,
+10950_26_35,Moderate (Mixed),,
+10950_26_35,Low (Surface),,
+10950_26_35,All Fires,,
+10950_27,Replacement,,
+10950_27,Moderate (Mixed),,
+10950_27,Low (Surface),,
+10950_27,All Fires,,
+10960_3,Replacement,108.0,100.0
+10960_3,Moderate (Mixed),,
+10960_3,Low (Surface),,
+10960_3,All Fires,108.0,100.0
+10960_4,Replacement,125.0,100.0
+10960_4,Moderate (Mixed),,
+10960_4,Low (Surface),,
+10960_4,All Fires,125.0,100.0
+10970_3_6_7,Replacement,55.0,100.0
+10970_3_6_7,Moderate (Mixed),,
+10970_3_6_7,Low (Surface),,
+10970_3_6_7,All Fires,55.0,100.0
+10970_4_5,Replacement,77.0,100.0
+10970_4_5,Moderate (Mixed),,
+10970_4_5,Low (Surface),,
+10970_4_5,All Fires,77.0,100.0
+10980_3,Replacement,93.0,37.0
+10980_3,Moderate (Mixed),54.0,63.0
+10980_3,Low (Surface),,
+10980_3,All Fires,34.0,100.0
+10980_4,Replacement,57.0,68.0
+10980_4,Moderate (Mixed),119.0,32.0
+10980_4,Low (Surface),,
+10980_4,All Fires,39.0,100.0
+10980_6,Replacement,92.0,37.0
+10980_6,Moderate (Mixed),54.0,63.0
+10980_6,Low (Surface),,
+10980_6,All Fires,34.0,100.0
+10980_7,Replacement,50.0,69.0
+10980_7,Moderate (Mixed),199.0,17.0
+10980_7,Low (Surface),235.0,14.0
+10980_7,All Fires,34.0,100.0
+10990_3,Replacement,80.0,100.0
+10990_3,Moderate (Mixed),,
+10990_3,Low (Surface),,
+10990_3,All Fires,80.0,100.0
+10990_4,Replacement,81.0,100.0
+10990_4,Moderate (Mixed),,
+10990_4,Low (Surface),,
+10990_4,All Fires,81.0,100.0
+11000_15,Replacement,569.0,59.0
+11000_15,Moderate (Mixed),804.0,41.0
+11000_15,Low (Surface),,
+11000_15,All Fires,333.0,100.0
+11000_26,Replacement,,
+11000_26,Moderate (Mixed),,
+11000_26,Low (Surface),,
+11000_26,All Fires,,
+11002_25,Replacement,,
+11002_25,Moderate (Mixed),,
+11002_25,Low (Surface),,
+11002_25,All Fires,,
+11003_25,Replacement,,
+11003_25,Moderate (Mixed),,
+11003_25,Low (Surface),,
+11003_25,All Fires,,
+11010_25,Replacement,41.0,40.0
+11010_25,Moderate (Mixed),,
+11010_25,Low (Surface),28.0,60.0
+11010_25,All Fires,16.0,100.0
+11010_26,Replacement,40.0,40.0
+11010_26,Moderate (Mixed),,
+11010_26,Low (Surface),27.0,60.0
+11010_26,All Fires,16.0,100.0
+11020_13_15_16_23_24,Replacement,336.0,19.0
+11020_13_15_16_23_24,Moderate (Mixed),223.0,29.0
+11020_13_15_16_23_24,Low (Surface),128.0,52.0
+11020_13_15_16_23_24,All Fires,65.0,100.0
+11020_28,Replacement,431.0,29.0
+11020_28,Moderate (Mixed),193.0,65.0
+11020_28,Low (Surface),2121.0,6.0
+11020_28,All Fires,125.0,100.0
+11030_6_7_12_13_16_17_23,Replacement,50.0,100.0
+11030_6_7_12_13_16_17_23,Moderate (Mixed),,
+11030_6_7_12_13_16_17_23,Low (Surface),,
+11030_6_7_12_13_16_17_23,All Fires,50.0,100.0
+11040_13_14_25,Replacement,79.0,100.0
+11040_13_14_25,Moderate (Mixed),,
+11040_13_14_25,Low (Surface),,
+11040_13_14_25,All Fires,79.0,100.0
+11040_15,Replacement,81.0,96.0
+11040_15,Moderate (Mixed),,
+11040_15,Low (Surface),2188.0,4.0
+11040_15,All Fires,78.0,100.0
+11040_17,Replacement,51.0,100.0
+11040_17,Moderate (Mixed),,
+11040_17,Low (Surface),,
+11040_17,All Fires,51.0,100.0
+11040_23_24,Replacement,47.0,89.0
+11040_23_24,Moderate (Mixed),367.0,11.0
+11040_23_24,Low (Surface),,
+11040_23_24,All Fires,41.0,100.0
+11050_3_ 6_7,Replacement,74.0,100.0
+11050_3_ 6_7,Moderate (Mixed),,
+11050_3_ 6_7,Low (Surface),,
+11050_3_ 6_7,All Fires,74.0,100.0
+11050_4_5,Replacement,51.0,100.0
+11050_4_5,Moderate (Mixed),,
+11050_4_5,Low (Surface),,
+11050_4_5,All Fires,51.0,100.0
+11060_1_8_9,Replacement,41.0,100.0
+11060_1_8_9,Moderate (Mixed),,
+11060_1_8_9,Low (Surface),,
+11060_1_8_9,All Fires,41.0,100.0
+11060_10_19,Replacement,99.0,82.0
+11060_10_19,Moderate (Mixed),440.0,18.0
+11060_10_19,Low (Surface),,
+11060_10_19,All Fires,81.0,100.0
+11060_18,Replacement,102.0,44.0
+11060_18,Moderate (Mixed),79.0,56.0
+11060_18,Low (Surface),,
+11060_18,All Fires,44.0,100.0
+11060_20_21_29,Replacement,79.0,100.0
+11060_20_21_29,Moderate (Mixed),,
+11060_20_21_29,Low (Surface),,
+11060_20_21_29,All Fires,79.0,100.0
+11060_22,Replacement,82.0,83.0
+11060_22,Moderate (Mixed),389.0,17.0
+11060_22,Low (Surface),,
+11060_22,All Fires,68.0,100.0
+11070_13,Replacement,153.0,26.0
+11070_13,Moderate (Mixed),52.0,74.0
+11070_13,Low (Surface),,
+11070_13,All Fires,39.0,100.0
+11070_15,Replacement,51.0,78.0
+11070_15,Moderate (Mixed),175.0,22.0
+11070_15,Low (Surface),,
+11070_15,All Fires,39.0,100.0
+11070_17,Replacement,153.0,25.0
+11070_17,Moderate (Mixed),52.0,75.0
+11070_17,Low (Surface),,
+11070_17,All Fires,39.0,100.0
+11070_23_24,Replacement,52.0,74.0
+11070_23_24,Moderate (Mixed),153.0,26.0
+11070_23_24,Low (Surface),,
+11070_23_24,All Fires,39.0,100.0
+11070_25_28,Replacement,51.0,77.0
+11070_25_28,Moderate (Mixed),174.0,23.0
+11070_25_28,Low (Surface),,
+11070_25_28,All Fires,40.0,100.0
+11070_27_33,Replacement,50.0,100.0
+11070_27_33,Moderate (Mixed),,
+11070_27_33,Low (Surface),,
+11070_27_33,All Fires,50.0,100.0
+11071_16,Replacement,57.0,74.0
+11071_16,Moderate (Mixed),163.0,26.0
+11071_16,Low (Surface),,
+11071_16,All Fires,42.0,100.0
+11072_16,Replacement,155.0,25.0
+11072_16,Moderate (Mixed),52.0,75.0
+11072_16,Low (Surface),,
+11072_16,All Fires,39.0,100.0
+11080_17,Replacement,50.0,100.0
+11080_17,Moderate (Mixed),,
+11080_17,Low (Surface),,
+11080_17,All Fires,50.0,100.0
+11080_4_5_13_14_15_24_25,Replacement,81.0,100.0
+11080_4_5_13_14_15_24_25,Moderate (Mixed),,
+11080_4_5_13_14_15_24_25,Low (Surface),,
+11080_4_5_13_14_15_24_25,All Fires,81.0,100.0
+11090_14,Replacement,1054.0,100.0
+11090_14,Moderate (Mixed),,
+11090_14,Low (Surface),,
+11090_14,All Fires,1054.0,100.0
+11090_15_25,Replacement,1045.0,100.0
+11090_15_25,Moderate (Mixed),,
+11090_15_25,Low (Surface),,
+11090_15_25,All Fires,1045.0,100.0
+11090_4_13,Replacement,1292.0,100.0
+11090_4_13,Moderate (Mixed),,
+11090_4_13,Low (Surface),,
+11090_4_13,All Fires,1292.0,100.0
+11100_4,Replacement,51.0,100.0
+11100_4,Moderate (Mixed),,
+11100_4,Low (Surface),,
+11100_4,All Fires,51.0,100.0
+11110_26,Replacement,14.0,51.0
+11110_26,Moderate (Mixed),,
+11110_26,Low (Surface),15.0,49.0
+11110_26,All Fires,7.0,100.0
+11110_27_33,Replacement,19.0,56.0
+11110_27_33,Moderate (Mixed),,
+11110_27_33,Low (Surface),24.0,44.0
+11110_27_33,All Fires,11.0,100.0
+11110_32_35,Replacement,13.0,54.0
+11110_32_35,Moderate (Mixed),38.0,18.0
+11110_32_35,Low (Surface),24.0,28.0
+11110_32_35,All Fires,7.0,100.0
+11110_34,Replacement,15.0,51.0
+11110_34,Moderate (Mixed),,
+11110_34,Low (Surface),15.0,49.0
+11110_34,All Fires,7.0,100.0
+11120_4_5,Replacement,177.0,6.0
+11120_4_5,Moderate (Mixed),94.0,12.0
+11120_4_5,Low (Surface),14.0,82.0
+11120_4_5,All Fires,11.0,100.0
+11130_3,Replacement,173.0,8.0
+11130_3,Moderate (Mixed),31.0,42.0
+11130_3,Low (Surface),26.0,50.0
+11130_3,All Fires,13.0,100.0
+11130_4,Replacement,175.0,8.0
+11130_4,Moderate (Mixed),31.0,42.0
+11130_4,Low (Surface),26.0,50.0
+11130_4,All Fires,13.0,100.0
+11140_3_6_7,Replacement,127.0,7.0
+11140_3_6_7,Moderate (Mixed),569.0,2.0
+11140_3_6_7,Low (Surface),10.0,91.0
+11140_3_6_7,All Fires,9.0,100.0
+11140_4_5,Replacement,127.0,9.0
+11140_4_5,Moderate (Mixed),150.0,8.0
+11140_4_5,Low (Surface),14.0,83.0
+11140_4_5,All Fires,11.0,100.0
+11150_10_19,Replacement,835.0,23.0
+11150_10_19,Moderate (Mixed),445.0,43.0
+11150_10_19,Low (Surface),569.0,34.0
+11150_10_19,All Fires,192.0,100.0
+11150_13,Replacement,800.0,23.0
+11150_13,Moderate (Mixed),423.0,44.0
+11150_13,Low (Surface),562.0,33.0
+11150_13,All Fires,185.0,100.0
+11150_14,Replacement,843.0,23.0
+11150_14,Moderate (Mixed),444.0,43.0
+11150_14,Low (Surface),561.0,34.0
+11150_14,All Fires,191.0,100.0
+11150_15_16_23_24,Replacement,329.0,19.0
+11150_15_16_23_24,Moderate (Mixed),216.0,29.0
+11150_15_16_23_24,Low (Surface),124.0,52.0
+11150_15_16_23_24,All Fires,64.0,100.0
+11150_17,Replacement,810.0,23.0
+11150_17,Moderate (Mixed),426.0,43.0
+11150_17,Low (Surface),551.0,34.0
+11150_17,All Fires,185.0,100.0
+11150_21_22,Replacement,356.0,18.0
+11150_21_22,Moderate (Mixed),213.0,30.0
+11150_21_22,Low (Surface),124.0,52.0
+11150_21_22,All Fires,64.0,100.0
+11150_28,Replacement,340.0,33.0
+11150_28,Moderate (Mixed),437.0,26.0
+11150_28,Low (Surface),278.0,41.0
+11150_28,All Fires,113.0,100.0
+11160_15_25,Replacement,136.0,34.0
+11160_15_25,Moderate (Mixed),208.0,22.0
+11160_15_25,Low (Surface),107.0,44.0
+11160_15_25,All Fires,46.0,100.0
+11160_24,Replacement,138.0,33.0
+11160_24,Moderate (Mixed),212.0,21.0
+11160_24,Low (Surface),100.0,46.0
+11160_24,All Fires,46.0,100.0
+11160_26,Replacement,25.0,41.0
+11160_26,Moderate (Mixed),27.0,37.0
+11160_26,Low (Surface),47.0,22.0
+11160_26,All Fires,10.0,100.0
+11170_13_15_28,Replacement,367.0,3.0
+11170_13_15_28,Moderate (Mixed),,
+11170_13_15_28,Low (Surface),11.0,97.0
+11170_13_15_28,All Fires,11.0,100.0
+11170_16_23_24,Replacement,159.0,5.0
+11170_16_23_24,Moderate (Mixed),81.0,10.0
+11170_16_23_24,Low (Surface),10.0,85.0
+11170_16_23_24,All Fires,8.0,100.0
+11170_20,Replacement,386.0,4.0
+11170_20,Moderate (Mixed),74.0,18.0
+11170_20,Low (Surface),17.0,78.0
+11170_20,All Fires,14.0,100.0
+11170_29,Replacement,379.0,4.0
+11170_29,Moderate (Mixed),,
+11170_29,Low (Surface),15.0,96.0
+11170_29,All Fires,15.0,100.0
+11170_33,Replacement,458.0,4.0
+11170_33,Moderate (Mixed),,
+11170_33,Low (Surface),20.0,96.0
+11170_33,All Fires,19.0,100.0
+11171_27,Replacement,523.0,2.0
+11171_27,Moderate (Mixed),,
+11171_27,Low (Surface),12.0,98.0
+11171_27,All Fires,12.0,100.0
+11172_27,Replacement,453.0,4.0
+11172_27,Moderate (Mixed),,
+11172_27,Low (Surface),19.0,96.0
+11172_27,All Fires,19.0,100.0
+11180_4,Replacement,173.0,9.0
+11180_4,Moderate (Mixed),43.0,37.0
+11180_4,Low (Surface),30.0,54.0
+11180_4,All Fires,16.0,100.0
+11190_24_25,Replacement,501.0,5.0
+11190_24_25,Moderate (Mixed),217.0,12.0
+11190_24_25,Low (Surface),32.0,83.0
+11190_24_25,All Fires,26.0,100.0
+11190_26,Replacement,29.0,36.0
+11190_26,Moderate (Mixed),32.0,33.0
+11190_26,Low (Surface),34.0,31.0
+11190_26,All Fires,10.0,100.0
+11190_27,Replacement,499.0,5.0
+11190_27,Moderate (Mixed),229.0,12.0
+11190_27,Low (Surface),33.0,83.0
+11190_27,All Fires,27.0,100.0
+11190_28,Replacement,503.0,5.0
+11190_28,Moderate (Mixed),213.0,12.0
+11190_28,Low (Surface),32.0,83.0
+11190_28,All Fires,26.0,100.0
+11190_34,Replacement,88.0,45.0
+11190_34,Moderate (Mixed),346.0,11.0
+11190_34,Low (Surface),89.0,44.0
+11190_34,All Fires,39.0,100.0
+11200_1_2_7,Replacement,290.0,3.0
+11200_1_2_7,Moderate (Mixed),51.0,19.0
+11200_1_2_7,Low (Surface),13.0,78.0
+11200_1_2_7,All Fires,10.0,100.0
+11210_14,Replacement,10.0,80.0
+11210_14,Moderate (Mixed),,
+11210_14,Low (Surface),40.0,20.0
+11210_14,All Fires,8.0,100.0
+11210_15,Replacement,10.0,80.0
+11210_15,Moderate (Mixed),,
+11210_15,Low (Surface),40.0,20.0
+11210_15,All Fires,8.0,100.0
+11210_24,Replacement,10.0,81.0
+11210_24,Moderate (Mixed),,
+11210_24,Low (Surface),42.0,19.0
+11210_24,All Fires,8.0,100.0
+11210_25,Replacement,,
+11210_25,Moderate (Mixed),82.0,100.0
+11210_25,Low (Surface),,
+11210_25,All Fires,82.0,100.0
+11210_26,Replacement,15.0,71.0
+11210_26,Moderate (Mixed),37.0,29.0
+11210_26,Low (Surface),,
+11210_26,All Fires,11.0,100.0
+11210_27,Replacement,13.0,100.0
+11210_27,Moderate (Mixed),,
+11210_27,Low (Surface),,
+11210_27,All Fires,13.0,100.0
+11220_25,Replacement,64.0,100.0
+11220_25,Moderate (Mixed),,
+11220_25,Low (Surface),,
+11220_25,All Fires,64.0,100.0
+11220_26,Replacement,,
+11220_26,Moderate (Mixed),,
+11220_26,Low (Surface),,
+11220_26,All Fires,,
+11220_27,Replacement,,
+11220_27,Moderate (Mixed),,
+11220_27,Low (Surface),,
+11220_27,All Fires,,
+11230_1_7_8_9,Replacement,39.0,100.0
+11230_1_7_8_9,Moderate (Mixed),,
+11230_1_7_8_9,Low (Surface),,
+11230_1_7_8_9,All Fires,39.0,100.0
+11230_10_18,Replacement,50.0,100.0
+11230_10_18,Moderate (Mixed),,
+11230_10_18,Low (Surface),,
+11230_10_18,All Fires,50.0,100.0
+11240_1_7_8_9,Replacement,220.0,100.0
+11240_1_7_8_9,Moderate (Mixed),,
+11240_1_7_8_9,Low (Surface),,
+11240_1_7_8_9,All Fires,220.0,100.0
+11240_10_12_17_18_19_21,Replacement,201.0,100.0
+11240_10_12_17_18_19_21,Moderate (Mixed),,
+11240_10_12_17_18_19_21,Low (Surface),,
+11240_10_12_17_18_19_21,All Fires,201.0,100.0
+11250_1_7_8_9_10_19,Replacement,61.0,100.0
+11250_1_7_8_9_10_19,Moderate (Mixed),,
+11250_1_7_8_9_10_19,Low (Surface),,
+11250_1_7_8_9_10_19,All Fires,61.0,100.0
+11250_20_29_30_31_33,Replacement,92.0,100.0
+11250_20_29_30_31_33,Moderate (Mixed),,
+11250_20_29_30_31_33,Low (Surface),,
+11250_20_29_30_31_33,All Fires,92.0,100.0
+11250_6_12_13_15_16_17_18_23_24_25_28,Replacement,117.0,100.0
+11250_6_12_13_15_16_17_18_23_24_25_28,Moderate (Mixed),,
+11250_6_12_13_15_16_17_18_23_24_25_28,Low (Surface),,
+11250_6_12_13_15_16_17_18_23_24_25_28,All Fires,117.0,100.0
+11260_1_7_8_9_10_19,Replacement,31.0,100.0
+11260_1_7_8_9_10_19,Moderate (Mixed),,
+11260_1_7_8_9_10_19,Low (Surface),,
+11260_1_7_8_9_10_19,All Fires,31.0,100.0
+11260_13,Replacement,50.0,100.0
+11260_13,Moderate (Mixed),,
+11260_13,Low (Surface),,
+11260_13,All Fires,50.0,100.0
+11260_20_29_33,Replacement,51.0,100.0
+11260_20_29_33,Moderate (Mixed),,
+11260_20_29_33,Low (Surface),,
+11260_20_29_33,All Fires,51.0,100.0
+11260_21,Replacement,49.0,100.0
+11260_21,Moderate (Mixed),,
+11260_21,Low (Surface),,
+11260_21,All Fires,49.0,100.0
+11260_22,Replacement,87.0,100.0
+11260_22,Moderate (Mixed),,
+11260_22,Low (Surface),,
+11260_22,All Fires,87.0,100.0
+11260_6_12_17_18_28,Replacement,49.0,100.0
+11260_6_12_17_18_28,Moderate (Mixed),,
+11260_6_12_17_18_28,Low (Surface),,
+11260_6_12_17_18_28,All Fires,49.0,100.0
+11261_16_23_24,Replacement,49.0,100.0
+11261_16_23_24,Moderate (Mixed),,
+11261_16_23_24,Low (Surface),,
+11261_16_23_24,All Fires,49.0,100.0
+11262_16_23,Replacement,219.0,100.0
+11262_16_23,Moderate (Mixed),,
+11262_16_23,Low (Surface),,
+11262_16_23,All Fires,219.0,100.0
+11270_10_12_13_17_18,Replacement,225.0,100.0
+11270_10_12_13_17_18,Moderate (Mixed),,
+11270_10_12_13_17_18,Low (Surface),,
+11270_10_12_13_17_18,All Fires,225.0,100.0
+11270_14,Replacement,228.0,100.0
+11270_14,Moderate (Mixed),,
+11270_14,Low (Surface),,
+11270_14,All Fires,228.0,100.0
+11270_15,Replacement,118.0,100.0
+11270_15,Moderate (Mixed),,
+11270_15,Low (Surface),,
+11270_15,All Fires,118.0,100.0
+11270_16_23_24_25,Replacement,106.0,100.0
+11270_16_23_24_25,Moderate (Mixed),,
+11270_16_23_24_25,Low (Surface),,
+11270_16_23_24_25,All Fires,106.0,100.0
+11270_21,Replacement,215.0,100.0
+11270_21,Moderate (Mixed),,
+11270_21,Low (Surface),,
+11270_21,All Fires,215.0,100.0
+11270_22,Replacement,449.0,100.0
+11270_22,Moderate (Mixed),,
+11270_22,Low (Surface),,
+11270_22,All Fires,449.0,100.0
+11270_28,Replacement,122.0,100.0
+11270_28,Moderate (Mixed),,
+11270_28,Low (Surface),,
+11270_28,All Fires,122.0,100.0
+11270_7_8_9,Replacement,211.0,100.0
+11270_7_8_9,Moderate (Mixed),,
+11270_7_8_9,Low (Surface),,
+11270_7_8_9,All Fires,211.0,100.0
+11280_2_3_4,Replacement,109.0,100.0
+11280_2_3_4,Moderate (Mixed),,
+11280_2_3_4,Low (Surface),,
+11280_2_3_4,All Fires,109.0,100.0
+11290_4_5,Replacement,4.0,100.0
+11290_4_5,Moderate (Mixed),,
+11290_4_5,Low (Surface),,
+11290_4_5,All Fires,4.0,100.0
+11300_3_4,Replacement,7.0,100.0
+11300_3_4,Moderate (Mixed),,
+11300_3_4,Low (Surface),,
+11300_3_4,All Fires,7.0,100.0
+11310_2_3_4,Replacement,2.0,100.0
+11310_2_3_4,Moderate (Mixed),,
+11310_2_3_4,Low (Surface),,
+11310_2_3_4,All Fires,2.0,100.0
+11320_31_38,Replacement,8.0,95.0
+11320_31_38,Moderate (Mixed),,
+11320_31_38,Low (Surface),161.0,5.0
+11320_31_38,All Fires,8.0,100.0
+11320_32_34_35,Replacement,7.0,66.0
+11320_32_34_35,Moderate (Mixed),43.0,11.0
+11320_32_34_35,Low (Surface),20.0,23.0
+11320_32_34_35,All Fires,5.0,100.0
+11320_33,Replacement,15.0,100.0
+11320_33,Moderate (Mixed),,
+11320_33,Low (Surface),,
+11320_33,All Fires,15.0,100.0
+11330_25,Replacement,904.0,100.0
+11330_25,Moderate (Mixed),,
+11330_25,Low (Surface),,
+11330_25,All Fires,904.0,100.0
+11340_10,Replacement,14.0,100.0
+11340_10,Moderate (Mixed),,
+11340_10,Low (Surface),,
+11340_10,All Fires,14.0,100.0
+11340_8_9,Replacement,21.0,43.0
+11340_8_9,Moderate (Mixed),16.0,57.0
+11340_8_9,Low (Surface),,
+11340_8_9,All Fires,9.0,100.0
+11350_13_14,Replacement,117.0,100.0
+11350_13_14,Moderate (Mixed),,
+11350_13_14,Low (Surface),,
+11350_13_14,All Fires,117.0,100.0
+11350_15_28,Replacement,76.0,33.0
+11350_15_28,Moderate (Mixed),37.0,67.0
+11350_15_28,Low (Surface),,
+11350_15_28,All Fires,25.0,100.0
+11350_16_23_24,Replacement,25.0,100.0
+11350_16_23_24,Moderate (Mixed),,
+11350_16_23_24,Low (Surface),,
+11350_16_23_24,All Fires,25.0,100.0
+11350_22,Replacement,25.0,100.0
+11350_22,Moderate (Mixed),,
+11350_22,Low (Surface),,
+11350_22,All Fires,25.0,100.0
+11350_25,Replacement,25.0,98.0
+11350_25,Moderate (Mixed),1003.0,2.0
+11350_25,Low (Surface),,
+11350_25,All Fires,25.0,100.0
+11350_7_8_9_10_12_17_18,Replacement,82.0,100.0
+11350_7_8_9_10_12_17_18,Moderate (Mixed),,
+11350_7_8_9_10_12_17_18,Low (Surface),,
+11350_7_8_9_10_12_17_18,All Fires,82.0,100.0
+11360_6,Replacement,210.0,100.0
+11360_6,Moderate (Mixed),,
+11360_6,Low (Surface),,
+11360_6,All Fires,210.0,100.0
+11370_3_6,Replacement,40.0,80.0
+11370_3_6,Moderate (Mixed),161.0,20.0
+11370_3_6,Low (Surface),,
+11370_3_6,All Fires,32.0,100.0
+11380_1,Replacement,750.0,100.0
+11380_1,Moderate (Mixed),,
+11380_1,Low (Surface),,
+11380_1,All Fires,750.0,100.0
+11380_3_5,Replacement,64.0,100.0
+11380_3_5,Moderate (Mixed),,
+11380_3_5,Low (Surface),,
+11380_3_5,All Fires,64.0,100.0
+11380_6,Replacement,16.0,100.0
+11380_6,Moderate (Mixed),,
+11380_6,Low (Surface),,
+11380_6,All Fires,16.0,100.0
+11390_10_19,Replacement,17.0,100.0
+11390_10_19,Moderate (Mixed),,
+11390_10_19,Low (Surface),,
+11390_10_19,All Fires,17.0,100.0
+11390_18,Replacement,50.0,100.0
+11390_18,Moderate (Mixed),,
+11390_18,Low (Surface),,
+11390_18,All Fires,50.0,100.0
+11390_20,Replacement,20.0,100.0
+11390_20,Moderate (Mixed),,
+11390_20,Low (Surface),,
+11390_20,All Fires,20.0,100.0
+11390_21,Replacement,32.0,100.0
+11390_21,Moderate (Mixed),,
+11390_21,Low (Surface),,
+11390_21,All Fires,32.0,100.0
+11390_22,Replacement,66.0,100.0
+11390_22,Moderate (Mixed),,
+11390_22,Low (Surface),,
+11390_22,All Fires,66.0,100.0
+11390_29,Replacement,35.0,100.0
+11390_29,Moderate (Mixed),,
+11390_29,Low (Surface),,
+11390_29,All Fires,35.0,100.0
+11390_8_9,Replacement,45.0,81.0
+11390_8_9,Moderate (Mixed),190.0,19.0
+11390_8_9,Low (Surface),,
+11390_8_9,All Fires,36.0,100.0
+11400_10_19,Replacement,147.0,100.0
+11400_10_19,Moderate (Mixed),,
+11400_10_19,Low (Surface),,
+11400_10_19,All Fires,147.0,100.0
+11400_20,Replacement,80.0,100.0
+11400_20,Moderate (Mixed),,
+11400_20,Low (Surface),,
+11400_20,All Fires,80.0,100.0
+11400_21,Replacement,205.0,100.0
+11400_21,Moderate (Mixed),,
+11400_21,Low (Surface),,
+11400_21,All Fires,205.0,100.0
+11400_29,Replacement,79.0,100.0
+11400_29,Moderate (Mixed),,
+11400_29,Low (Surface),,
+11400_29,All Fires,79.0,100.0
+11400_9,Replacement,667.0,69.0
+11400_9,Moderate (Mixed),1473.0,31.0
+11400_9,Low (Surface),,
+11400_9,All Fires,459.0,100.0
+11410_20,Replacement,12.0,100.0
+11410_20,Moderate (Mixed),,
+11410_20,Low (Surface),,
+11410_20,All Fires,12.0,100.0
+11410_29_30,Replacement,14.0,100.0
+11410_29_30,Moderate (Mixed),,
+11410_29_30,Low (Surface),,
+11410_29_30,All Fires,14.0,100.0
+11410_31,Replacement,8.0,100.0
+11410_31,Moderate (Mixed),,
+11410_31,Low (Surface),,
+11410_31,All Fires,8.0,100.0
+11410_39,Replacement,8.0,100.0
+11410_39,Moderate (Mixed),,
+11410_39,Low (Surface),,
+11410_39,All Fires,8.0,100.0
+11410_40,Replacement,8.0,100.0
+11410_40,Moderate (Mixed),,
+11410_40,Low (Surface),,
+11410_40,All Fires,8.0,100.0
+11420_8,Replacement,25.0,72.0
+11420_8,Moderate (Mixed),,
+11420_8,Low (Surface),64.0,28.0
+11420_8,All Fires,18.0,100.0
+11420_9_10,Replacement,25.0,100.0
+11420_9_10,Moderate (Mixed),,
+11420_9_10,Low (Surface),,
+11420_9_10,All Fires,25.0,100.0
+11430_9_19_21_28,Replacement,521.0,100.0
+11430_9_19_21_28,Moderate (Mixed),,
+11430_9_19_21_28,Low (Surface),,
+11430_9_19_21_28,All Fires,521.0,100.0
+11440_12_16_19_28,Replacement,203.0,100.0
+11440_12_16_19_28,Moderate (Mixed),,
+11440_12_16_19_28,Low (Surface),,
+11440_12_16_19_28,All Fires,203.0,100.0
+11440_21_22,Replacement,511.0,100.0
+11440_21_22,Moderate (Mixed),,
+11440_21_22,Low (Surface),,
+11440_21_22,All Fires,511.0,100.0
+11450_13,Replacement,40.0,80.0
+11450_13,Moderate (Mixed),159.0,20.0
+11450_13,Low (Surface),,
+11450_13,All Fires,32.0,100.0
+11450_16,Replacement,39.0,80.0
+11450_16,Moderate (Mixed),156.0,20.0
+11450_16,Low (Surface),,
+11450_16,All Fires,31.0,100.0
+11450_17,Replacement,39.0,100.0
+11450_17,Moderate (Mixed),,
+11450_17,Low (Surface),,
+11450_17,All Fires,39.0,100.0
+11450_20,Replacement,84.0,100.0
+11450_20,Moderate (Mixed),,
+11450_20,Low (Surface),,
+11450_20,All Fires,84.0,100.0
+11450_21,Replacement,40.0,100.0
+11450_21,Moderate (Mixed),,
+11450_21,Low (Surface),,
+11450_21,All Fires,40.0,100.0
+11450_22_24_28,Replacement,40.0,80.0
+11450_22_24_28,Moderate (Mixed),162.0,20.0
+11450_22_24_28,Low (Surface),,
+11450_22_24_28,All Fires,32.0,100.0
+11450_29,Replacement,84.0,100.0
+11450_29,Moderate (Mixed),,
+11450_29,Low (Surface),,
+11450_29,All Fires,84.0,100.0
+11450_9_10_19,Replacement,40.0,80.0
+11450_9_10_19,Moderate (Mixed),161.0,20.0
+11450_9_10_19,Low (Surface),,
+11450_9_10_19,All Fires,32.0,100.0
+11460_15_16_23_24_25_28,Replacement,19.0,52.0
+11460_15_16_23_24_25_28,Moderate (Mixed),,
+11460_15_16_23_24_25_28,Low (Surface),21.0,48.0
+11460_15_16_23_24_25_28,All Fires,10.0,100.0
+11460_26,Replacement,,
+11460_26,Moderate (Mixed),,
+11460_26,Low (Surface),,
+11460_26,All Fires,,
+11460_27,Replacement,23.0,100.0
+11460_27,Moderate (Mixed),,
+11460_27,Low (Surface),,
+11460_27,All Fires,23.0,100.0
+11470_27_33,Replacement,24.0,100.0
+11470_27_33,Moderate (Mixed),,
+11470_27_33,Low (Surface),,
+11470_27_33,All Fires,24.0,100.0
+11470_28,Replacement,12.0,87.0
+11470_28,Moderate (Mixed),79.0,13.0
+11470_28,Low (Surface),,
+11470_28,All Fires,10.0,100.0
+11480_20_29_30,Replacement,22.0,100.0
+11480_20_29_30,Moderate (Mixed),,
+11480_20_29_30,Low (Surface),,
+11480_20_29_30,All Fires,22.0,100.0
+11480_31_38,Replacement,15.0,28.0
+11480_31_38,Moderate (Mixed),12.0,36.0
+11480_31_38,Low (Surface),12.0,36.0
+11480_31_38,All Fires,4.0,100.0
+11480_32,Replacement,13.0,88.0
+11480_32,Moderate (Mixed),201.0,6.0
+11480_32,Low (Surface),205.0,6.0
+11480_32,All Fires,12.0,100.0
+11480_34_35,Replacement,13.0,100.0
+11480_34_35,Moderate (Mixed),,
+11480_34_35,Low (Surface),,
+11480_34_35,All Fires,13.0,100.0
+11490_25,Replacement,19.0,100.0
+11490_25,Moderate (Mixed),,
+11490_25,Low (Surface),,
+11490_25,All Fires,19.0,100.0
+11490_26,Replacement,5.0,100.0
+11490_26,Moderate (Mixed),,
+11490_26,Low (Surface),,
+11490_26,All Fires,5.0,100.0
+11490_27_38,Replacement,22.0,100.0
+11490_27_38,Moderate (Mixed),,
+11490_27_38,Low (Surface),,
+11490_27_38,All Fires,22.0,100.0
+11490_28,Replacement,13.0,83.0
+11490_28,Moderate (Mixed),60.0,17.0
+11490_28,Low (Surface),,
+11490_28,All Fires,10.0,100.0
+11490_29,Replacement,21.0,100.0
+11490_29,Moderate (Mixed),,
+11490_29,Low (Surface),,
+11490_29,All Fires,21.0,100.0
+11490_31_33,Replacement,21.0,100.0
+11490_31_33,Moderate (Mixed),,
+11490_31_33,Low (Surface),,
+11490_31_33,All Fires,21.0,100.0
+11490_34_35,Replacement,,
+11490_34_35,Moderate (Mixed),,
+11490_34_35,Low (Surface),,
+11490_34_35,All Fires,,
+11500_31_39_40,Replacement,5.0,98.0
+11500_31_39_40,Moderate (Mixed),,
+11500_31_39_40,Low (Surface),253.0,2.0
+11500_31_39_40,All Fires,5.0,100.0
+11500_38,Replacement,5.0,98.0
+11500_38,Moderate (Mixed),,
+11500_38,Low (Surface),341.0,2.0
+11500_38,All Fires,5.0,100.0
+11510_4_5,Replacement,,
+11510_4_5,Moderate (Mixed),,
+11510_4_5,Low (Surface),,
+11510_4_5,All Fires,,
+11520_2_3_7,Replacement,64.0,55.0
+11520_2_3_7,Moderate (Mixed),79.0,45.0
+11520_2_3_7,Low (Surface),,
+11520_2_3_7,All Fires,35.0,100.0
+11520_4_5,Replacement,100.0,43.0
+11520_4_5,Moderate (Mixed),76.0,57.0
+11520_4_5,Low (Surface),,
+11520_4_5,All Fires,43.0,100.0
+11520_6,Replacement,89.0,52.0
+11520_6,Moderate (Mixed),96.0,48.0
+11520_6,Low (Surface),,
+11520_6,All Fires,46.0,100.0
+11530_16_23_24_25_27,Replacement,204.0,100.0
+11530_16_23_24_25_27,Moderate (Mixed),,
+11530_16_23_24_25_27,Low (Surface),,
+11530_16_23_24_25_27,All Fires,204.0,100.0
+11530_20_22_29_30,Replacement,209.0,100.0
+11530_20_22_29_30,Moderate (Mixed),,
+11530_20_22_29_30,Low (Surface),,
+11530_20_22_29_30,All Fires,209.0,100.0
+11530_28,Replacement,204.0,100.0
+11530_28,Moderate (Mixed),,
+11530_28,Low (Surface),,
+11530_28,All Fires,204.0,100.0
+11530_6_10_12_13_17_18_19_21,Replacement,1049.0,100.0
+11530_6_10_12_13_17_18_19_21,Moderate (Mixed),,
+11530_6_10_12_13_17_18_19_21,Low (Surface),,
+11530_6_10_12_13_17_18_19_21,All Fires,1049.0,100.0
+11530_7_8_9,Replacement,1020.0,100.0
+11530_7_8_9,Moderate (Mixed),,
+11530_7_8_9,Low (Surface),,
+11530_7_8_9,All Fires,1020.0,100.0
+11540_1_7_8_9,Replacement,98.0,100.0
+11540_1_7_8_9,Moderate (Mixed),,
+11540_1_7_8_9,Low (Surface),,
+11540_1_7_8_9,All Fires,98.0,100.0
+11540_10_19,Replacement,174.0,100.0
+11540_10_19,Moderate (Mixed),,
+11540_10_19,Low (Surface),,
+11540_10_19,All Fires,174.0,100.0
+11540_13,Replacement,68.0,100.0
+11540_13,Moderate (Mixed),,
+11540_13,Low (Surface),,
+11540_13,All Fires,68.0,100.0
+11540_18,Replacement,173.0,100.0
+11540_18,Moderate (Mixed),,
+11540_18,Low (Surface),,
+11540_18,All Fires,173.0,100.0
+11540_6_12_16_17,Replacement,378.0,100.0
+11540_6_12_16_17,Moderate (Mixed),,
+11540_6_12_16_17,Low (Surface),,
+11540_6_12_16_17,All Fires,378.0,100.0
+11550_13_14,Replacement,784.0,3.0
+11550_13_14,Moderate (Mixed),23.0,97.0
+11550_13_14,Low (Surface),,
+11550_13_14,All Fires,23.0,100.0
+11550_15,Replacement,763.0,10.0
+11550_15,Moderate (Mixed),82.0,90.0
+11550_15,Low (Surface),,
+11550_15,All Fires,74.0,100.0
+11550_25,Replacement,225.0,100.0
+11550_25,Moderate (Mixed),,
+11550_25,Low (Surface),,
+11550_25,All Fires,225.0,100.0
+11550_26_35,Replacement,,
+11550_26_35,Moderate (Mixed),,
+11550_26_35,Low (Surface),,
+11550_26_35,All Fires,,
+11550_4,Replacement,797.0,3.0
+11550_4,Moderate (Mixed),24.0,97.0
+11550_4,Low (Surface),,
+11550_4,All Fires,23.0,100.0
+11552_13_14_15,Replacement,733.0,100.0
+11552_13_14_15,Moderate (Mixed),,
+11552_13_14_15,Low (Surface),,
+11552_13_14_15,All Fires,733.0,100.0
+11560_1_2_7,Replacement,755.0,100.0
+11560_1_2_7,Moderate (Mixed),,
+11560_1_2_7,Low (Surface),,
+11560_1_2_7,All Fires,755.0,100.0
+11570_1_2,Replacement,,
+11570_1_2,Moderate (Mixed),,
+11570_1_2,Low (Surface),,
+11570_1_2,All Fires,,
+11581_1_2_7,Replacement,1893.0,46.0
+11581_1_2_7,Moderate (Mixed),1605.0,54.0
+11581_1_2_7,Low (Surface),,
+11581_1_2_7,All Fires,868.0,100.0
+11582_1_2_7,Replacement,470.0,33.0
+11582_1_2_7,Moderate (Mixed),236.0,67.0
+11582_1_2_7,Low (Surface),,
+11582_1_2_7,All Fires,157.0,100.0
+11590_10_19,Replacement,99.0,50.0
+11590_10_19,Moderate (Mixed),100.0,50.0
+11590_10_19,Low (Surface),,
+11590_10_19,All Fires,50.0,100.0
+11590_12_17,Replacement,378.0,100.0
+11590_12_17,Moderate (Mixed),,
+11590_12_17,Low (Surface),,
+11590_12_17,All Fires,378.0,100.0
+11590_13,Replacement,68.0,100.0
+11590_13,Moderate (Mixed),,
+11590_13,Low (Surface),,
+11590_13,All Fires,68.0,100.0
+11590_15,Replacement,54.0,12.0
+11590_15,Moderate (Mixed),,
+11590_15,Low (Surface),8.0,88.0
+11590_15,All Fires,7.0,100.0
+11590_16_23_24_26,Replacement,269.0,23.0
+11590_16_23_24_26,Moderate (Mixed),,
+11590_16_23_24_26,Low (Surface),79.0,77.0
+11590_16_23_24_26,All Fires,61.0,100.0
+11590_18,Replacement,173.0,100.0
+11590_18,Moderate (Mixed),,
+11590_18,Low (Surface),,
+11590_18,All Fires,173.0,100.0
+11590_20,Replacement,101.0,53.0
+11590_20,Moderate (Mixed),115.0,47.0
+11590_20,Low (Surface),,
+11590_20,All Fires,54.0,100.0
+11590_21,Replacement,182.0,100.0
+11590_21,Moderate (Mixed),,
+11590_21,Low (Surface),,
+11590_21,All Fires,182.0,100.0
+11590_22,Replacement,276.0,23.0
+11590_22,Moderate (Mixed),,
+11590_22,Low (Surface),81.0,77.0
+11590_22,All Fires,63.0,100.0
+11590_25,Replacement,271.0,23.0
+11590_25,Moderate (Mixed),,
+11590_25,Low (Surface),79.0,77.0
+11590_25,All Fires,61.0,100.0
+11590_27_33,Replacement,274.0,23.0
+11590_27_33,Moderate (Mixed),,
+11590_27_33,Low (Surface),80.0,77.0
+11590_27_33,All Fires,62.0,100.0
+11590_28,Replacement,273.0,23.0
+11590_28,Moderate (Mixed),,
+11590_28,Low (Surface),80.0,77.0
+11590_28,All Fires,62.0,100.0
+11590_29,Replacement,100.0,54.0
+11590_29,Moderate (Mixed),118.0,46.0
+11590_29,Low (Surface),,
+11590_29,All Fires,54.0,100.0
+11590_8_9,Replacement,100.0,50.0
+11590_8_9,Moderate (Mixed),101.0,50.0
+11590_8_9,Low (Surface),,
+11590_8_9,All Fires,50.0,100.0
+11600_10_19,Replacement,198.0,40.0
+11600_10_19,Moderate (Mixed),132.0,60.0
+11600_10_19,Low (Surface),,
+11600_10_19,All Fires,79.0,100.0
+11600_12_17,Replacement,271.0,23.0
+11600_12_17,Moderate (Mixed),,
+11600_12_17,Low (Surface),79.0,77.0
+11600_12_17,All Fires,61.0,100.0
+11600_15_28,Replacement,268.0,23.0
+11600_15_28,Moderate (Mixed),,
+11600_15_28,Low (Surface),79.0,77.0
+11600_15_28,All Fires,61.0,100.0
+11600_16,Replacement,269.0,23.0
+11600_16,Moderate (Mixed),,
+11600_16,Low (Surface),79.0,77.0
+11600_16,All Fires,61.0,100.0
+11600_18,Replacement,67.0,63.0
+11600_18,Moderate (Mixed),,
+11600_18,Low (Surface),113.0,37.0
+11600_18,All Fires,42.0,100.0
+11600_20_29,Replacement,299.0,50.0
+11600_20_29,Moderate (Mixed),296.0,50.0
+11600_20_29,Low (Surface),,
+11600_20_29,All Fires,149.0,100.0
+11600_21,Replacement,335.0,89.0
+11600_21,Moderate (Mixed),2765.0,11.0
+11600_21,Low (Surface),,
+11600_21,All Fires,299.0,100.0
+11600_23,Replacement,271.0,22.0
+11600_23,Moderate (Mixed),,
+11600_23,Low (Surface),78.0,78.0
+11600_23,All Fires,61.0,100.0
+11600_8_9,Replacement,202.0,40.0
+11600_8_9,Moderate (Mixed),134.0,60.0
+11600_8_9,Low (Surface),,
+11600_8_9,All Fires,80.0,100.0
+11610_21,Replacement,392.0,100.0
+11610_21,Moderate (Mixed),,
+11610_21,Low (Surface),,
+11610_21,All Fires,392.0,100.0
+11610_9_10_19,Replacement,377.0,100.0
+11610_9_10_19,Moderate (Mixed),,
+11610_9_10_19,Low (Surface),,
+11610_9_10_19,All Fires,377.0,100.0
+11620_20,Replacement,107.0,54.0
+11620_20,Moderate (Mixed),249.0,23.0
+11620_20,Low (Surface),249.0,23.0
+11620_20,All Fires,58.0,100.0
+11620_22,Replacement,574.0,18.0
+11620_22,Moderate (Mixed),126.0,82.0
+11620_22,Low (Surface),,
+11620_22,All Fires,103.0,100.0
+11620_27_33,Replacement,,
+11620_27_33,Moderate (Mixed),27.0,100.0
+11620_27_33,Low (Surface),,
+11620_27_33,All Fires,27.0,100.0
+11620_29_30,Replacement,111.0,46.0
+11620_29_30,Moderate (Mixed),147.0,34.0
+11620_29_30,Low (Surface),257.0,20.0
+11620_29_30,All Fires,51.0,100.0
+11620_31_39_40,Replacement,245.0,20.0
+11620_31_39_40,Moderate (Mixed),92.0,54.0
+11620_31_39_40,Low (Surface),192.0,26.0
+11620_31_39_40,All Fires,50.0,100.0
+11620_32_35,Replacement,181.0,7.0
+11620_32_35,Moderate (Mixed),,
+11620_32_35,Low (Surface),14.0,93.0
+11620_32_35,All Fires,13.0,100.0
+11620_34,Replacement,76.0,100.0
+11620_34,Moderate (Mixed),,
+11620_34,Low (Surface),,
+11620_34,All Fires,76.0,100.0
+11620_38,Replacement,241.0,21.0
+11620_38,Moderate (Mixed),94.0,54.0
+11620_38,Low (Surface),201.0,25.0
+11620_38,All Fires,51.0,100.0
+11630_3_4_5,Replacement,16.0,69.0
+11630_3_4_5,Moderate (Mixed),35.0,31.0
+11630_3_4_5,Low (Surface),,
+11630_3_4_5,All Fires,11.0,100.0
+11650_1_7_8,Replacement,125.0,43.0
+11650_1_7_8,Moderate (Mixed),400.0,14.0
+11650_1_7_8,Low (Surface),127.0,43.0
+11650_1_7_8,All Fires,54.0,100.0
+11650_9,Replacement,208.0,9.0
+11650_9,Moderate (Mixed),152.0,12.0
+11650_9,Low (Surface),23.0,79.0
+11650_9,All Fires,18.0,100.0
+11660_21,Replacement,295.0,14.0
+11660_21,Moderate (Mixed),46.0,86.0
+11660_21,Low (Surface),,
+11660_21,All Fires,40.0,100.0
+11660_22,Replacement,206.0,16.0
+11660_22,Moderate (Mixed),53.0,60.0
+11660_22,Low (Surface),137.0,24.0
+11660_22,All Fires,32.0,100.0
+11660_29,Replacement,210.0,9.0
+11660_29,Moderate (Mixed),110.0,17.0
+11660_29,Low (Surface),25.0,74.0
+11660_29,All Fires,18.0,100.0
+11660_9_10_19,Replacement,112.0,24.0
+11660_9_10_19,Moderate (Mixed),55.0,50.0
+11660_9_10_19,Low (Surface),107.0,26.0
+11660_9_10_19,All Fires,27.0,100.0
+11662_19,Replacement,202.0,9.0
+11662_19,Moderate (Mixed),151.0,12.0
+11662_19,Low (Surface),23.0,79.0
+11662_19,All Fires,18.0,100.0
+11670_1_7_9,Replacement,111.0,50.0
+11670_1_7_9,Moderate (Mixed),113.0,50.0
+11670_1_7_9,Low (Surface),,
+11670_1_7_9,All Fires,56.0,100.0
+11670_10_19,Replacement,332.0,88.0
+11670_10_19,Moderate (Mixed),2465.0,12.0
+11670_10_19,Low (Surface),,
+11670_10_19,All Fires,292.0,100.0
+11670_21,Replacement,331.0,63.0
+11670_21,Moderate (Mixed),563.0,37.0
+11670_21,Low (Surface),,
+11670_21,All Fires,208.0,100.0
+11700_2_3_7,Replacement,200.0,7.0
+11700_2_3_7,Moderate (Mixed),,
+11700_2_3_7,Low (Surface),14.0,93.0
+11700_2_3_7,All Fires,13.0,100.0
+11710_1,Replacement,509.0,100.0
+11710_1,Moderate (Mixed),,
+11710_1,Low (Surface),,
+11710_1,All Fires,509.0,100.0
+11710_7,Replacement,202.0,100.0
+11710_7,Moderate (Mixed),,
+11710_7,Low (Surface),,
+11710_7,All Fires,202.0,100.0
+11720_7,Replacement,203.0,12.0
+11720_7,Moderate (Mixed),65.0,36.0
+11720_7,Low (Surface),46.0,52.0
+11720_7,All Fires,24.0,100.0
+11730_1_7,Replacement,490.0,100.0
+11730_1_7,Moderate (Mixed),,
+11730_1_7,Low (Surface),,
+11730_1_7,All Fires,490.0,100.0
+11740_1_7,Replacement,330.0,48.0
+11740_1_7,Moderate (Mixed),305.0,52.0
+11740_1_7,Low (Surface),,
+11740_1_7,All Fires,158.0,100.0
+11770_3,Replacement,46.0,48.0
+11770_3,Moderate (Mixed),87.0,26.0
+11770_3,Low (Surface),87.0,26.0
+11770_3,All Fires,22.0,100.0
+11770_4,Replacement,41.0,90.0
+11770_4,Moderate (Mixed),347.0,10.0
+11770_4,Low (Surface),,
+11770_4,All Fires,36.0,100.0
+11780_1_2_7,Replacement,,
+11780_1_2_7,Moderate (Mixed),,
+11780_1_2_7,Low (Surface),,
+11780_1_2_7,All Fires,,
+11790_31,Replacement,419.0,3.0
+11790_31,Moderate (Mixed),101.0,14.0
+11790_31,Low (Surface),17.0,83.0
+11790_31,All Fires,14.0,100.0
+11791_29_30,Replacement,311.0,6.0
+11791_29_30,Moderate (Mixed),267.0,7.0
+11791_29_30,Low (Surface),20.0,87.0
+11791_29_30,All Fires,18.0,100.0
+11792_29_30,Replacement,382.0,4.0
+11792_29_30,Moderate (Mixed),,
+11792_29_30,Low (Surface),15.0,96.0
+11792_29_30,All Fires,15.0,100.0
+13010_40,Replacement,82.0,100.0
+13010_40,Moderate (Mixed),,
+13010_40,Low (Surface),,
+13010_40,All Fires,82.0,100.0
+13020_40,Replacement,2117.0,100.0
+13020_40,Moderate (Mixed),,
+13020_40,Low (Surface),,
+13020_40,All Fires,2117.0,100.0
+13020_63,Replacement,1994.0,100.0
+13020_63,Moderate (Mixed),,
+13020_63,Low (Surface),,
+13020_63,All Fires,1994.0,100.0
+13020_64,Replacement,2098.0,100.0
+13020_64,Moderate (Mixed),,
+13020_64,Low (Surface),,
+13020_64,All Fires,2098.0,100.0
+13020_65_66,Replacement,992.0,100.0
+13020_65_66,Moderate (Mixed),,
+13020_65_66,Low (Surface),,
+13020_65_66,All Fires,992.0,100.0
+13022_41_50_51,Replacement,2042.0,100.0
+13022_41_50_51,Moderate (Mixed),,
+13022_41_50_51,Low (Surface),,
+13022_41_50_51,All Fires,2042.0,100.0
+13023_51,Replacement,1012.0,100.0
+13023_51,Moderate (Mixed),,
+13023_51,Low (Surface),,
+13023_51,All Fires,1012.0,100.0
+13030_60,Replacement,7.0,53.0
+13030_60,Moderate (Mixed),17.0,22.0
+13030_60,Low (Surface),15.0,25.0
+13030_60,All Fires,4.0,100.0
+13030_61_63_64_65_66,Replacement,38.0,14.0
+13030_61_63_64_65_66,Moderate (Mixed),24.0,23.0
+13030_61_63_64_65_66,Low (Surface),9.0,63.0
+13030_61_63_64_65_66,All Fires,5.0,100.0
+13030_62,Replacement,39.0,15.0
+13030_62,Moderate (Mixed),52.0,11.0
+13030_62,Low (Surface),8.0,74.0
+13030_62,All Fires,6.0,100.0
+13040_32_43_44_49,Replacement,186.0,6.0
+13040_32_43_44_49,Moderate (Mixed),66.0,17.0
+13040_32_43_44_49,Low (Surface),15.0,77.0
+13040_32_43_44_49,All Fires,11.0,100.0
+13050_47_48,Replacement,6.0,78.0
+13050_47_48,Moderate (Mixed),198.0,2.0
+13050_47_48,Low (Surface),21.0,20.0
+13050_47_48,All Fires,4.0,100.0
+13050_49,Replacement,62.0,12.0
+13050_49,Moderate (Mixed),119.0,6.0
+13050_49,Low (Surface),9.0,82.0
+13050_49,All Fires,8.0,100.0
+13050_53,Replacement,2.0,89.0
+13050_53,Moderate (Mixed),1004.0,
+13050_53,Low (Surface),15.0,11.0
+13050_53,All Fires,2.0,100.0
+13060_47_48,Replacement,383.0,2.0
+13060_47_48,Moderate (Mixed),87.0,10.0
+13060_47_48,Low (Surface),9.0,88.0
+13060_47_48,All Fires,8.0,100.0
+13070_46_47_48,Replacement,392.0,2.0
+13070_46_47_48,Moderate (Mixed),91.0,9.0
+13070_46_47_48,Low (Surface),9.0,89.0
+13070_46_47_48,All Fires,8.0,100.0
+13080_32_35,Replacement,157.0,3.0
+13080_32_35,Moderate (Mixed),93.0,5.0
+13080_32_35,Low (Surface),5.0,92.0
+13080_32_35,All Fires,5.0,100.0
+13080_38_43_44,Replacement,158.0,3.0
+13080_38_43_44,Moderate (Mixed),94.0,5.0
+13080_38_43_44,Low (Surface),5.0,92.0
+13080_38_43_44,All Fires,5.0,100.0
+13090_53_57,Replacement,691.0,25.0
+13090_53_57,Moderate (Mixed),675.0,25.0
+13090_53_57,Low (Surface),347.0,50.0
+13090_53_57,All Fires,172.0,100.0
+13100_38_42_43,Replacement,128.0,19.0
+13100_38_42_43,Moderate (Mixed),51.0,49.0
+13100_38_42_43,Low (Surface),78.0,32.0
+13100_38_42_43,All Fires,25.0,100.0
+13100_39,Replacement,113.0,17.0
+13100_39,Moderate (Mixed),43.0,43.0
+13100_39,Low (Surface),47.0,40.0
+13100_39,All Fires,19.0,100.0
+13100_41_62,Replacement,75.0,18.0
+13100_41_62,Moderate (Mixed),57.0,24.0
+13100_41_62,Low (Surface),23.0,58.0
+13100_41_62,All Fires,13.0,100.0
+13100_44_50,Replacement,120.0,20.0
+13100_44_50,Moderate (Mixed),48.0,48.0
+13100_44_50,Low (Surface),74.0,32.0
+13100_44_50,All Fires,23.0,100.0
+13100_47,Replacement,166.0,6.0
+13100_47,Moderate (Mixed),164.0,6.0
+13100_47,Low (Surface),11.0,88.0
+13100_47,All Fires,10.0,100.0
+13100_49,Replacement,75.0,17.0
+13100_49,Moderate (Mixed),47.0,27.0
+13100_49,Low (Surface),23.0,56.0
+13100_49,All Fires,13.0,100.0
+13100_51,Replacement,160.0,6.0
+13100_51,Moderate (Mixed),160.0,6.0
+13100_51,Low (Surface),10.0,88.0
+13100_51,All Fires,9.0,100.0
+13100_52,Replacement,73.0,17.0
+13100_52,Moderate (Mixed),46.0,27.0
+13100_52,Low (Surface),22.0,56.0
+13100_52,All Fires,12.0,100.0
+13110_39,Replacement,77.0,17.0
+13110_39,Moderate (Mixed),86.0,15.0
+13110_39,Low (Surface),19.0,68.0
+13110_39,All Fires,13.0,100.0
+13110_42_43,Replacement,141.0,6.0
+13110_42_43,Moderate (Mixed),111.0,8.0
+13110_42_43,Low (Surface),11.0,86.0
+13110_42_43,All Fires,9.0,100.0
+13110_44,Replacement,105.0,13.0
+13110_44,Moderate (Mixed),98.0,14.0
+13110_44,Low (Surface),19.0,73.0
+13110_44,All Fires,14.0,100.0
+13110_49,Replacement,144.0,6.0
+13110_49,Moderate (Mixed),145.0,6.0
+13110_49,Low (Surface),10.0,88.0
+13110_49,All Fires,9.0,100.0
+13110_50,Replacement,102.0,13.0
+13110_50,Moderate (Mixed),96.0,14.0
+13110_50,Low (Surface),19.0,73.0
+13110_50,All Fires,14.0,100.0
+13110_51,Replacement,136.0,7.0
+13110_51,Moderate (Mixed),111.0,8.0
+13110_51,Low (Surface),11.0,85.0
+13110_51,All Fires,9.0,100.0
+13110_52,Replacement,149.0,6.0
+13110_52,Moderate (Mixed),152.0,6.0
+13110_52,Low (Surface),11.0,88.0
+13110_52,All Fires,9.0,100.0
+13120_44,Replacement,38.0,13.0
+13120_44,Moderate (Mixed),89.0,6.0
+13120_44,Low (Surface),6.0,81.0
+13120_44,All Fires,5.0,100.0
+13130_47_50_51,Replacement,987.0,45.0
+13130_47_50_51,Moderate (Mixed),,
+13130_47_50_51,Low (Surface),823.0,55.0
+13130_47_50_51,All Fires,449.0,100.0
+13130_49_52_62,Replacement,1011.0,45.0
+13130_49_52_62,Moderate (Mixed),,
+13130_49_52_62,Low (Surface),840.0,55.0
+13130_49_52_62,All Fires,459.0,100.0
+13140_38_39_40_41_42_43_44_50,Replacement,1038.0,46.0
+13140_38_39_40_41_42_43_44_50,Moderate (Mixed),,
+13140_38_39_40_41_42_43_44_50,Low (Surface),866.0,54.0
+13140_38_39_40_41_42_43_44_50,All Fires,472.0,100.0
+13140_49,Replacement,1042.0,45.0
+13140_49,Moderate (Mixed),,
+13140_49,Low (Surface),854.0,55.0
+13140_49,All Fires,469.0,100.0
+13150_48_53_57_59_61,Replacement,603.0,2.0
+13150_48_53_57_59_61,Moderate (Mixed),138.0,10.0
+13150_48_53_57_59_61,Low (Surface),16.0,88.0
+13150_48_53_57_59_61,All Fires,14.0,100.0
+13160_54_57_59_61,Replacement,509.0,8.0
+13160_54_57_59_61,Moderate (Mixed),347.0,12.0
+13160_54_57_59_61,Low (Surface),52.0,80.0
+13160_54_57_59_61,All Fires,42.0,100.0
+13160_60,Replacement,499.0,8.0
+13160_60,Moderate (Mixed),355.0,12.0
+13160_60,Low (Surface),52.0,80.0
+13160_60,All Fires,41.0,100.0
+13170_48_53,Replacement,91.0,6.0
+13170_48_53,Moderate (Mixed),1207.0,
+13170_48_53,Low (Surface),6.0,94.0
+13170_48_53,All Fires,6.0,100.0
+13170_57_61,Replacement,125.0,9.0
+13170_57_61,Moderate (Mixed),61.0,18.0
+13170_57_61,Low (Surface),15.0,73.0
+13170_57_61,All Fires,11.0,100.0
+13170_62,Replacement,37.0,21.0
+13170_62,Moderate (Mixed),116.0,7.0
+13170_62,Low (Surface),10.0,72.0
+13170_62,All Fires,8.0,100.0
+13180_48_53,Replacement,554.0,12.0
+13180_48_53,Moderate (Mixed),726.0,9.0
+13180_48_53,Low (Surface),88.0,79.0
+13180_48_53,All Fires,69.0,100.0
+13180_57_59_61,Replacement,994.0,8.0
+13180_57_59_61,Moderate (Mixed),498.0,15.0
+13180_57_59_61,Low (Surface),100.0,77.0
+13180_57_59_61,All Fires,77.0,100.0
+13200_48_57_61,Replacement,147.0,14.0
+13200_48_57_61,Moderate (Mixed),95.0,22.0
+13200_48_57_61,Low (Surface),33.0,64.0
+13200_48_57_61,All Fires,21.0,100.0
+13210_47_48_53_57,Replacement,867.0,8.0
+13210_47_48_53_57,Moderate (Mixed),532.0,13.0
+13210_47_48_53_57,Low (Surface),86.0,79.0
+13210_47_48_53_57,All Fires,68.0,100.0
+13210_49,Replacement,715.0,32.0
+13210_49,Moderate (Mixed),816.0,28.0
+13210_49,Low (Surface),554.0,40.0
+13210_49,All Fires,226.0,100.0
+13210_61_63,Replacement,844.0,9.0
+13210_61_63,Moderate (Mixed),572.0,14.0
+13210_61_63,Low (Surface),101.0,77.0
+13210_61_63,All Fires,78.0,100.0
+13210_62,Replacement,944.0,20.0
+13210_62,Moderate (Mixed),786.0,24.0
+13210_62,Low (Surface),336.0,56.0
+13210_62,All Fires,188.0,100.0
+13220_45,Replacement,487.0,9.0
+13220_45,Moderate (Mixed),108.0,41.0
+13220_45,Low (Surface),88.0,50.0
+13220_45,All Fires,44.0,100.0
+13230_32_36_37_44_45_98,Replacement,268.0,6.0
+13230_32_36_37_44_45_98,Moderate (Mixed),89.0,19.0
+13230_32_36_37_44_45_98,Low (Surface),23.0,75.0
+13230_32_36_37_44_45_98,All Fires,17.0,100.0
+13240_60_65_66,Replacement,47.0,7.0
+13240_60_65_66,Moderate (Mixed),44.0,8.0
+13240_60_65_66,Low (Surface),4.0,85.0
+13240_60_65_66,All Fires,4.0,100.0
+13250_46_47_48,Replacement,401.0,9.0
+13250_46_47_48,Moderate (Mixed),158.0,22.0
+13250_46_47_48,Low (Surface),51.0,69.0
+13250_46_47_48,All Fires,35.0,100.0
+13260_47,Replacement,185.0,3.0
+13260_47,Moderate (Mixed),180.0,3.0
+13260_47,Low (Surface),5.0,94.0
+13260_47,All Fires,5.0,100.0
+13260_49,Replacement,128.0,8.0
+13260_49,Moderate (Mixed),33.0,31.0
+13260_49,Low (Surface),16.0,61.0
+13260_49,All Fires,10.0,100.0
+13270_45_46_47,Replacement,392.0,21.0
+13270_45_46_47,Moderate (Mixed),354.0,24.0
+13270_45_46_47,Low (Surface),151.0,55.0
+13270_45_46_47,All Fires,83.0,100.0
+13280_46_99,Replacement,201.0,3.0
+13280_46_99,Moderate (Mixed),100.0,7.0
+13280_46_99,Low (Surface),8.0,90.0
+13280_46_99,All Fires,7.0,100.0
+13290_45_46_99,Replacement,218.0,19.0
+13290_45_46_99,Moderate (Mixed),189.0,22.0
+13290_45_46_99,Low (Surface),69.0,59.0
+13290_45_46_99,All Fires,41.0,100.0
+13300_46_48_54_55_56_99,Replacement,193.0,4.0
+13300_46_48_54_55_56_99,Moderate (Mixed),96.0,7.0
+13300_46_48_54_55_56_99,Low (Surface),8.0,89.0
+13300_46_48_54_55_56_99,All Fires,7.0,100.0
+13310_39_40_41,Replacement,16.0,35.0
+13310_39_40_41,Moderate (Mixed),,
+13310_39_40_41,Low (Surface),8.0,65.0
+13310_39_40_41,All Fires,6.0,100.0
+13330_56,Replacement,176.0,69.0
+13330_56,Moderate (Mixed),392.0,31.0
+13330_56,Low (Surface),,
+13330_56,All Fires,122.0,100.0
+13340_32_43_44,Replacement,316.0,6.0
+13340_32_43_44,Moderate (Mixed),109.0,18.0
+13340_32_43_44,Low (Surface),25.0,76.0
+13340_32_43_44,All Fires,19.0,100.0
+13350_55_58_60,Replacement,,
+13350_55_58_60,Moderate (Mixed),,
+13350_55_58_60,Low (Surface),,
+13350_55_58_60,All Fires,,
+13360_56,Replacement,,
+13360_56,Moderate (Mixed),455.0,2.0
+13360_56,Low (Surface),10.0,98.0
+13360_56,All Fires,10.0,100.0
+13370_56,Replacement,,
+13370_56,Moderate (Mixed),242.0,6.0
+13370_56,Low (Surface),15.0,94.0
+13370_56,All Fires,15.0,100.0
+13380_36,Replacement,442.0,18.0
+13380_36,Moderate (Mixed),100.0,82.0
+13380_36,Low (Surface),,
+13380_36,All Fires,82.0,100.0
+13390_36_37_98,Replacement,87.0,21.0
+13390_36_37_98,Moderate (Mixed),,
+13390_36_37_98,Low (Surface),23.0,79.0
+13390_36_37_98,All Fires,18.0,100.0
+13400_61,Replacement,,
+13400_61,Moderate (Mixed),1022.0,100.0
+13400_61,Low (Surface),,
+13400_61,All Fires,1022.0,100.0
+13420_59,Replacement,307.0,2.0
+13420_59,Moderate (Mixed),331.0,1.0
+13420_59,Low (Surface),5.0,97.0
+13420_59,All Fires,5.0,100.0
+13430_54_55,Replacement,392.0,9.0
+13430_54_55,Moderate (Mixed),159.0,22.0
+13430_54_55,Low (Surface),52.0,69.0
+13430_54_55,All Fires,35.0,100.0
+13430_58_60,Replacement,473.0,7.0
+13430_58_60,Moderate (Mixed),377.0,9.0
+13430_58_60,Low (Surface),42.0,84.0
+13430_58_60,All Fires,35.0,100.0
+13440_41,Replacement,83.0,100.0
+13440_41,Moderate (Mixed),,
+13440_41,Low (Surface),,
+13440_41,All Fires,83.0,100.0
+13440_66,Replacement,213.0,100.0
+13440_66,Moderate (Mixed),,
+13440_66,Low (Surface),,
+13440_66,All Fires,213.0,100.0
+13441_51,Replacement,34.0,15.0
+13441_51,Moderate (Mixed),64.0,8.0
+13441_51,Low (Surface),7.0,77.0
+13441_51,All Fires,5.0,100.0
+13442_51,Replacement,110.0,100.0
+13442_51,Moderate (Mixed),,
+13442_51,Low (Surface),,
+13442_51,All Fires,110.0,100.0
+13460_54_55_58,Replacement,134.0,3.0
+13460_54_55_58,Moderate (Mixed),372.0,1.0
+13460_54_55_58,Low (Surface),4.0,96.0
+13460_54_55_58,All Fires,4.0,100.0
+13470_55_58_60,Replacement,130.0,3.0
+13470_55_58_60,Moderate (Mixed),374.0,1.0
+13470_55_58_60,Low (Surface),4.0,96.0
+13470_55_58_60,All Fires,4.0,100.0
+13480_37_45_98,Replacement,631.0,1.0
+13480_37_45_98,Moderate (Mixed),784.0,
+13480_37_45_98,Low (Surface),4.0,99.0
+13480_37_45_98,All Fires,4.0,100.0
+13490_46_48_54_55_99,Replacement,,
+13490_46_48_54_55_99,Moderate (Mixed),,
+13490_46_48_54_55_99,Low (Surface),,
+13490_46_48_54_55_99,All Fires,,
+13500_57,Replacement,997.0,54.0
+13500_57,Moderate (Mixed),1149.0,46.0
+13500_57,Low (Surface),,
+13500_57,All Fires,534.0,100.0
+13500_61,Replacement,824.0,93.0
+13500_61,Moderate (Mixed),11710.0,7.0
+13500_61,Low (Surface),,
+13500_61,All Fires,770.0,100.0
+13510_48_54_59,Replacement,548.0,1.0
+13510_48_54_59,Moderate (Mixed),297.0,1.0
+13510_48_54_59,Low (Surface),3.0,98.0
+13510_48_54_59,All Fires,3.0,100.0
+13520_53_54_57_59_60_61,Replacement,86.0,6.0
+13520_53_54_57_59_60_61,Moderate (Mixed),99.0,5.0
+13520_53_54_57_59_60_61,Low (Surface),5.0,89.0
+13520_53_54_57_59_60_61,All Fires,5.0,100.0
+13530_46_48_53_54_57_59_60_61,Replacement,154.0,5.0
+13530_46_48_53_54_57_59_60_61,Moderate (Mixed),67.0,11.0
+13530_46_48_53_54_57_59_60_61,Low (Surface),9.0,84.0
+13530_46_48_53_54_57_59_60_61,All Fires,8.0,100.0
+13530_47,Replacement,101.0,2.0
+13530_47,Moderate (Mixed),1201.0,
+13530_47,Low (Surface),2.0,98.0
+13530_47,All Fires,2.0,100.0
+13540_64_66,Replacement,77.0,10.0
+13540_64_66,Moderate (Mixed),31.0,24.0
+13540_64_66,Low (Surface),12.0,66.0
+13540_64_66,All Fires,8.0,100.0
+13550_60_65,Replacement,77.0,10.0
+13550_60_65,Moderate (Mixed),31.0,25.0
+13550_60_65,Low (Surface),12.0,65.0
+13550_60_65,All Fires,8.0,100.0
+13560_55_56_99,Replacement,187.0,1.0
+13560_55_56_99,Moderate (Mixed),14045.0,
+13560_55_56_99,Low (Surface),3.0,99.0
+13560_55_56_99,All Fires,2.0,100.0
+13570_46_47_55_58_99,Replacement,404.0,9.0
+13570_46_47_55_58_99,Moderate (Mixed),159.0,22.0
+13570_46_47_55_58_99,Low (Surface),52.0,69.0
+13570_46_47_55_58_99,All Fires,36.0,100.0
+13580_35_36,Replacement,,
+13580_35_36,Moderate (Mixed),,
+13580_35_36,Low (Surface),,
+13580_35_36,All Fires,,
+13600_56,Replacement,426.0,1.0
+13600_56,Moderate (Mixed),185.0,2.0
+13600_56,Low (Surface),4.0,97.0
+13600_56,All Fires,3.0,100.0
+13610_58_60,Replacement,355.0,14.0
+13610_58_60,Moderate (Mixed),118.0,42.0
+13610_58_60,Low (Surface),112.0,44.0
+13610_58_60,All Fires,50.0,100.0
+13620_41_50,Replacement,349.0,3.0
+13620_41_50,Moderate (Mixed),669.0,2.0
+13620_41_50,Low (Surface),11.0,95.0
+13620_41_50,All Fires,11.0,100.0
+13620_51_63_64_65_66,Replacement,309.0,16.0
+13620_51_63_64_65_66,Moderate (Mixed),448.0,11.0
+13620_51_63_64_65_66,Low (Surface),65.0,73.0
+13620_51_63_64_65_66,All Fires,48.0,100.0
+13622_41_50,Replacement,228.0,15.0
+13622_41_50,Moderate (Mixed),,
+13622_41_50,Low (Surface),40.0,85.0
+13622_41_50,All Fires,34.0,100.0
+13630_47_53,Replacement,29.0,15.0
+13630_47_53,Moderate (Mixed),16.0,27.0
+13630_47_53,Low (Surface),7.0,58.0
+13630_47_53,All Fires,4.0,100.0
+13640_32_ 44_ 49,Replacement,38.0,13.0
+13640_32_ 44_ 49,Moderate (Mixed),89.0,5.0
+13640_32_ 44_ 49,Low (Surface),6.0,82.0
+13640_32_ 44_ 49,All Fires,5.0,100.0
+13651_40_41_50,Replacement,252.0,85.0
+13651_40_41_50,Moderate (Mixed),1479.0,15.0
+13651_40_41_50,Low (Surface),,
+13651_40_41_50,All Fires,216.0,100.0
+13651_51,Replacement,496.0,52.0
+13651_51,Moderate (Mixed),531.0,48.0
+13651_51,Low (Surface),,
+13651_51,All Fires,256.0,100.0
+13652_41,Replacement,937.0,55.0
+13652_41,Moderate (Mixed),1143.0,45.0
+13652_41,Low (Surface),,
+13652_41,All Fires,515.0,100.0
+13652_51,Replacement,877.0,60.0
+13652_51,Moderate (Mixed),1311.0,40.0
+13652_51,Low (Surface),,
+13652_51,All Fires,526.0,100.0
+13653_41,Replacement,114.0,68.0
+13653_41,Moderate (Mixed),247.0,32.0
+13653_41,Low (Surface),,
+13653_41,All Fires,78.0,100.0
+13660_50,Replacement,484.0,32.0
+13660_50,Moderate (Mixed),1019.0,15.0
+13660_50,Low (Surface),291.0,53.0
+13660_50,All Fires,154.0,100.0
+13660_51_63_64_65_66,Replacement,485.0,32.0
+13660_51_63_64_65_66,Moderate (Mixed),1000.0,15.0
+13660_51_63_64_65_66,Low (Surface),291.0,53.0
+13660_51_63_64_65_66,All Fires,154.0,100.0
+13670_32_44,Replacement,352.0,1.0
+13670_32_44,Moderate (Mixed),93.0,5.0
+13670_32_44,Low (Surface),5.0,94.0
+13670_32_44,All Fires,5.0,100.0
+13680_46_48_54_57_59_60_61,Replacement,325.0,2.0
+13680_46_48_54_57_59_60_61,Moderate (Mixed),235.0,2.0
+13680_46_48_54_57_59_60_61,Low (Surface),5.0,96.0
+13680_46_48_54_57_59_60_61,All Fires,5.0,100.0
+13690_60_61_63_64_65_66,Replacement,178.0,8.0
+13690_60_61_63_64_65_66,Moderate (Mixed),451.0,3.0
+13690_60_61_63_64_65_66,Low (Surface),15.0,89.0
+13690_60_61_63_64_65_66,All Fires,13.0,100.0
+13700_53_61_62,Replacement,1043.0,51.0
+13700_53_61_62,Moderate (Mixed),1089.0,49.0
+13700_53_61_62,Low (Surface),,
+13700_53_61_62,All Fires,533.0,100.0
+13700_60_63_64_65_66,Replacement,1005.0,53.0
+13700_60_63_64_65_66,Moderate (Mixed),1118.0,47.0
+13700_60_63_64_65_66,Low (Surface),,
+13700_60_63_64_65_66,All Fires,529.0,100.0
+13710_32_36_37_45_98,Replacement,121.0,4.0
+13710_32_36_37_45_98,Moderate (Mixed),64.0,7.0
+13710_32_36_37_45_98,Low (Surface),5.0,89.0
+13710_32_36_37_45_98,All Fires,4.0,100.0
+13710_44,Replacement,120.0,4.0
+13710_44,Moderate (Mixed),52.0,9.0
+13710_44,Low (Surface),5.0,87.0
+13710_44,All Fires,4.0,100.0
+13720_46_99,Replacement,189.0,4.0
+13720_46_99,Moderate (Mixed),88.0,8.0
+13720_46_99,Low (Surface),8.0,88.0
+13720_46_99,All Fires,7.0,100.0
+13730_63_64,Replacement,1039.0,100.0
+13730_63_64,Moderate (Mixed),,
+13730_63_64,Low (Surface),,
+13730_63_64,All Fires,1039.0,100.0
+13730_65_66,Replacement,1118.0,100.0
+13730_65_66,Moderate (Mixed),,
+13730_65_66,Low (Surface),,
+13730_65_66,All Fires,1118.0,100.0
+13740_64_65_66,Replacement,584.0,100.0
+13740_64_65_66,Moderate (Mixed),,
+13740_64_65_66,Low (Surface),,
+13740_64_65_66,All Fires,584.0,100.0
+13750_60,Replacement,88.0,5.0
+13750_60,Moderate (Mixed),57.0,8.0
+13750_60,Low (Surface),5.0,87.0
+13750_60,All Fires,5.0,100.0
+13760_48_53_57_61,Replacement,189.0,4.0
+13760_48_53_57_61,Moderate (Mixed),111.0,6.0
+13760_48_53_57_61,Low (Surface),8.0,90.0
+13760_48_53_57_61,All Fires,7.0,100.0
+13770_60_61_63_64_65_66,Replacement,411.0,46.0
+13770_60_61_63_64_65_66,Moderate (Mixed),383.0,50.0
+13770_60_61_63_64_65_66,Low (Surface),4591.0,4.0
+13770_60_61_63_64_65_66,All Fires,190.0,100.0
+13780_37_44,Replacement,157.0,3.0
+13780_37_44,Moderate (Mixed),385.0,1.0
+13780_37_44,Low (Surface),5.0,96.0
+13780_37_44,All Fires,5.0,100.0
+13790_60_65,Replacement,74.0,10.0
+13790_60_65,Moderate (Mixed),159.0,5.0
+13790_60_65,Low (Surface),9.0,85.0
+13790_60_65,All Fires,7.0,100.0
+13800_55_99,Replacement,119.0,23.0
+13800_55_99,Moderate (Mixed),1659.0,2.0
+13800_55_99,Low (Surface),36.0,75.0
+13800_55_99,All Fires,27.0,100.0
+13810_45,Replacement,340.0,1.0
+13810_45,Moderate (Mixed),451.0,1.0
+13810_45,Low (Surface),5.0,98.0
+13810_45,All Fires,5.0,100.0
+13820_55_58,Replacement,69.0,17.0
+13820_55_58,Moderate (Mixed),878.0,1.0
+13820_55_58,Low (Surface),14.0,82.0
+13820_55_58,All Fires,12.0,100.0
+13830_32_35_36,Replacement,15.0,38.0
+13830_32_35_36,Moderate (Mixed),24.0,23.0
+13830_32_35_36,Low (Surface),14.0,39.0
+13830_32_35_36,All Fires,6.0,100.0
+13840_98,Replacement,127.0,3.0
+13840_98,Moderate (Mixed),,
+13840_98,Low (Surface),4.0,97.0
+13840_98,All Fires,4.0,100.0
+13850_20,Replacement,47.0,39.0
+13850_20,Moderate (Mixed),50.0,38.0
+13850_20,Low (Surface),84.0,23.0
+13850_20,All Fires,19.0,100.0
+13850_29_30,Replacement,73.0,26.0
+13850_29_30,Moderate (Mixed),38.0,50.0
+13850_29_30,Low (Surface),81.0,24.0
+13850_29_30,All Fires,19.0,100.0
+13850_31_39_40_42,Replacement,91.0,36.0
+13850_31_39_40_42,Moderate (Mixed),65.0,50.0
+13850_31_39_40_42,Low (Surface),231.0,14.0
+13850_31_39_40_42,All Fires,33.0,100.0
+13860_66,Replacement,,
+13860_66,Moderate (Mixed),,
+13860_66,Low (Surface),,
+13860_66,All Fires,,
+13870_55_56,Replacement,33.0,97.0
+13870_55_56,Moderate (Mixed),1265.0,3.0
+13870_55_56,Low (Surface),,
+13870_55_56,All Fires,32.0,100.0
+13890_64_66,Replacement,3360.0,27.0
+13890_64_66,Moderate (Mixed),1805.0,52.0
+13890_64_66,Low (Surface),4310.0,21.0
+13890_64_66,All Fires,923.0,100.0
+13900_35_36,Replacement,15.0,100.0
+13900_35_36,Moderate (Mixed),,
+13900_35_36,Low (Surface),,
+13900_35_36,All Fires,15.0,100.0
+13920_35,Replacement,,
+13920_35,Moderate (Mixed),,
+13920_35,Low (Surface),,
+13920_35,All Fires,,
+13920_36,Replacement,,
+13920_36,Moderate (Mixed),,
+13920_36,Low (Surface),,
+13920_36,All Fires,,
+13930_26_34,Replacement,48.0,55.0
+13930_26_34,Moderate (Mixed),,
+13930_26_34,Low (Surface),58.0,45.0
+13930_26_34,All Fires,26.0,100.0
+13930_32_35,Replacement,,
+13930_32_35,Moderate (Mixed),,
+13930_32_35,Low (Surface),,
+13930_32_35,All Fires,,
+13940_39_40_41,Replacement,559.0,1.0
+13940_39_40_41,Moderate (Mixed),168.0,3.0
+13940_39_40_41,Low (Surface),5.0,96.0
+13940_39_40_41,All Fires,5.0,100.0
+13940_42,Replacement,532.0,1.0
+13940_42,Moderate (Mixed),167.0,3.0
+13940_42,Low (Surface),5.0,96.0
+13940_42,All Fires,5.0,100.0
+13940_44_49.doc,Replacement,556.0,1.0
+13940_44_49.doc,Moderate (Mixed),191.0,3.0
+13940_44_49.doc,Low (Surface),5.0,96.0
+13940_44_49.doc,All Fires,5.0,100.0
+13940_50_51,Replacement,66.0,7.0
+13940_50_51,Moderate (Mixed),183.0,3.0
+13940_50_51,Low (Surface),5.0,90.0
+13940_50_51,All Fires,5.0,100.0
+13940_52,Replacement,556.0,1.0
+13940_52,Moderate (Mixed),188.0,3.0
+13940_52,Low (Surface),5.0,96.0
+13940_52,All Fires,5.0,100.0
+13950_41_42_43_49_52,Replacement,339.0,1.0
+13950_41_42_43_49_52,Moderate (Mixed),245.0,2.0
+13950_41_42_43_49_52,Low (Surface),5.0,97.0
+13950_41_42_43_49_52,All Fires,5.0,100.0
+13950_50,Replacement,53.0,9.0
+13950_50,Moderate (Mixed),143.0,3.0
+13950_50,Low (Surface),6.0,88.0
+13950_50,All Fires,5.0,100.0
+13950_51,Replacement,49.0,10.0
+13950_51,Moderate (Mixed),180.0,3.0
+13950_51,Low (Surface),6.0,87.0
+13950_51,All Fires,5.0,100.0
+13970_48,Replacement,39.0,9.0
+13970_48,Moderate (Mixed),13.0,27.0
+13970_48,Low (Surface),5.0,64.0
+13970_48,All Fires,3.0,100.0
+14000_60_61,Replacement,5.0,79.0
+14000_60_61,Moderate (Mixed),19.0,21.0
+14000_60_61,Low (Surface),1570.0,
+14000_60_61,All Fires,4.0,100.0
+14000_63,Replacement,5.0,79.0
+14000_63,Moderate (Mixed),19.0,21.0
+14000_63,Low (Surface),1420.0,
+14000_63,All Fires,4.0,100.0
+14000_64,Replacement,5.0,79.0
+14000_64,Moderate (Mixed),19.0,21.0
+14000_64,Low (Surface),1586.0,
+14000_64,All Fires,4.0,100.0
+14010_43_44_47_48_53,Replacement,19.0,18.0
+14010_43_44_47_48_53,Moderate (Mixed),16.0,21.0
+14010_43_44_47_48_53,Low (Surface),6.0,61.0
+14010_43_44_47_48_53,All Fires,3.0,100.0
+14010_49,Replacement,19.0,18.0
+14010_49,Moderate (Mixed),15.0,21.0
+14010_49,Low (Surface),5.0,61.0
+14010_49,All Fires,3.0,100.0
+14071_41_50_51,Replacement,108.0,4.0
+14071_41_50_51,Moderate (Mixed),74.0,6.0
+14071_41_50_51,Low (Surface),5.0,90.0
+14071_41_50_51,All Fires,4.0,100.0
+14072_41_50_51,Replacement,25.0,34.0
+14072_41_50_51,Moderate (Mixed),46.0,18.0
+14072_41_50_51,Low (Surface),18.0,48.0
+14072_41_50_51,All Fires,8.0,100.0
+14080_48,Replacement,19.0,18.0
+14080_48,Moderate (Mixed),16.0,21.0
+14080_48,Low (Surface),6.0,61.0
+14080_48,All Fires,3.0,100.0
+14090_50_64,Replacement,438.0,88.0
+14090_50_64,Moderate (Mixed),3222.0,12.0
+14090_50_64,Low (Surface),,
+14090_50_64,All Fires,386.0,100.0
+14100_35,Replacement,17.0,30.0
+14100_35,Moderate (Mixed),26.0,19.0
+14100_35,Low (Surface),10.0,51.0
+14100_35,All Fires,5.0,100.0
+14110_49_51_52,Replacement,24.0,100.0
+14110_49_51_52,Moderate (Mixed),,
+14110_49_51_52,Low (Surface),,
+14110_49_51_52,All Fires,24.0,100.0
+14120_39_40_41_42_43_50_51,Replacement,4.0,96.0
+14120_39_40_41_42_43_50_51,Moderate (Mixed),,
+14120_39_40_41_42_43_50_51,Low (Surface),87.0,4.0
+14120_39_40_41_42_43_50_51,All Fires,3.0,100.0
+14120_49,Replacement,4.0,96.0
+14120_49,Moderate (Mixed),,
+14120_49,Low (Surface),85.0,4.0
+14120_49,All Fires,3.0,100.0
+14120_52,Replacement,4.0,96.0
+14120_52,Moderate (Mixed),,
+14120_52,Low (Surface),90.0,4.0
+14120_52,All Fires,3.0,100.0
+14130_47,Replacement,80.0,34.0
+14130_47,Moderate (Mixed),131.0,21.0
+14130_47,Low (Surface),62.0,45.0
+14130_47,All Fires,28.0,100.0
+14140_57,Replacement,278.0,55.0
+14140_57,Moderate (Mixed),339.0,45.0
+14140_57,Low (Surface),,
+14140_57,All Fires,153.0,100.0
+14151_44,Replacement,2.0,82.0
+14151_44,Moderate (Mixed),340.0,1.0
+14151_44,Low (Surface),12.0,17.0
+14151_44,All Fires,2.0,100.0
+14152_44,Replacement,97.0,2.0
+14152_44,Moderate (Mixed),14.0,14.0
+14152_44,Low (Surface),3.0,84.0
+14152_44,All Fires,2.0,100.0
+14160_48,Replacement,40.0,21.0
+14160_48,Moderate (Mixed),26.0,33.0
+14160_48,Low (Surface),18.0,46.0
+14160_48,All Fires,8.0,100.0
+14170_48,Replacement,18.0,33.0
+14170_48,Moderate (Mixed),34.0,17.0
+14170_48,Low (Surface),12.0,50.0
+14170_48,All Fires,6.0,100.0
+14180_47,Replacement,2.0,91.0
+14180_47,Moderate (Mixed),73.0,2.0
+14180_47,Low (Surface),21.0,7.0
+14180_47,All Fires,1.0,100.0
+14200_39_40_42,Replacement,6.0,100.0
+14200_39_40_42,Moderate (Mixed),,
+14200_39_40_42,Low (Surface),,
+14200_39_40_42,All Fires,6.0,100.0
+14200_41,Replacement,4.0,100.0
+14200_41,Moderate (Mixed),,
+14200_41,Low (Surface),,
+14200_41,All Fires,4.0,100.0
+14210_31_38_42_43_44_50_51,Replacement,4.0,100.0
+14210_31_38_42_43_44_50_51,Moderate (Mixed),,
+14210_31_38_42_43_44_50_51,Low (Surface),,
+14210_31_38_42_43_44_50_51,All Fires,4.0,100.0
+14210_49_52,Replacement,4.0,100.0
+14210_49_52,Moderate (Mixed),,
+14210_49_52,Low (Surface),,
+14210_49_52,All Fires,4.0,100.0
+14220_32_35_36_37,Replacement,3.0,92.0
+14220_32_35_36_37,Moderate (Mixed),169.0,1.0
+14220_32_35_36_37,Low (Surface),34.0,7.0
+14220_32_35_36_37,All Fires,2.0,100.0
+14230_32_35,Replacement,2.0,98.0
+14230_32_35,Moderate (Mixed),82.0,2.0
+14230_32_35,Low (Surface),492.0,
+14230_32_35,All Fires,2.0,100.0
+14230_38,Replacement,3.0,96.0
+14230_38,Moderate (Mixed),81.0,3.0
+14230_38,Low (Surface),491.0,1.0
+14230_38,All Fires,2.0,100.0
+14230_43_44_,Replacement,2.0,98.0
+14230_43_44_,Moderate (Mixed),80.0,2.0
+14230_43_44_,Low (Surface),502.0,
+14230_43_44_,All Fires,2.0,100.0
+14250_56,Replacement,2.0,85.0
+14250_56,Moderate (Mixed),38.0,5.0
+14250_56,Low (Surface),19.0,10.0
+14250_56,All Fires,2.0,100.0
+14260_58,Replacement,8.0,63.0
+14260_58,Moderate (Mixed),14.0,37.0
+14260_58,Low (Surface),,
+14260_58,All Fires,5.0,100.0
+14270_47,Replacement,18.0,33.0
+14270_47,Moderate (Mixed),34.0,17.0
+14270_47,Low (Surface),12.0,50.0
+14270_47,All Fires,6.0,100.0
+14280_37_44,Replacement,1288.0,
+14280_37_44,Moderate (Mixed),7.0,53.0
+14280_37_44,Low (Surface),7.0,47.0
+14280_37_44,All Fires,3.0,100.0
+14290_37_45,Replacement,5.0,86.0
+14290_37_45,Moderate (Mixed),,
+14290_37_45,Low (Surface),28.0,14.0
+14290_37_45,All Fires,4.0,100.0
+14300_46,Replacement,50.0,5.0
+14300_46,Moderate (Mixed),3.0,92.0
+14300_46,Low (Surface),95.0,3.0
+14300_46,All Fires,3.0,100.0
+14320_45,Replacement,,
+14320_45,Moderate (Mixed),3.0,99.0
+14320_45,Low (Surface),316.0,1.0
+14320_45,All Fires,3.0,100.0
+14340_36,Replacement,3.0,100.0
+14340_36,Moderate (Mixed),,
+14340_36,Low (Surface),,
+14340_36,All Fires,3.0,100.0
+14340_37_98,Replacement,5.0,95.0
+14340_37_98,Moderate (Mixed),97.0,5.0
+14340_37_98,Low (Surface),,
+14340_37_98,All Fires,5.0,100.0
+14350_99,Replacement,,
+14350_99,Moderate (Mixed),,
+14350_99,Low (Surface),,
+14350_99,All Fires,,
+14360_60,Replacement,8.0,63.0
+14360_60,Moderate (Mixed),14.0,37.0
+14360_60,Low (Surface),,
+14360_60,All Fires,5.0,100.0
+14360_65_66,Replacement,10.0,62.0
+14360_65_66,Moderate (Mixed),17.0,38.0
+14360_65_66,Low (Surface),,
+14360_65_66,All Fires,6.0,100.0
+14370_36,Replacement,3.0,100.0
+14370_36,Moderate (Mixed),,
+14370_36,Low (Surface),,
+14370_36,All Fires,3.0,100.0
+14380_36,Replacement,6.0,95.0
+14380_36,Moderate (Mixed),102.0,5.0
+14380_36,Low (Surface),,
+14380_36,All Fires,5.0,100.0
+14390_36,Replacement,,
+14390_36,Moderate (Mixed),,
+14390_36,Low (Surface),,
+14390_36,All Fires,,
+14400_36,Replacement,3.0,99.0
+14400_36,Moderate (Mixed),264.0,1.0
+14400_36,Low (Surface),,
+14400_36,All Fires,3.0,100.0
+14420_36,Replacement,4.0,100.0
+14420_36,Moderate (Mixed),,
+14420_36,Low (Surface),,
+14420_36,All Fires,4.0,100.0
+14440_41_50_51,Replacement,,
+14440_41_50_51,Moderate (Mixed),590.0,35.0
+14440_41_50_51,Low (Surface),317.0,65.0
+14440_41_50_51,All Fires,206.0,100.0
+14450_56,Replacement,117.0,17.0
+14450_56,Moderate (Mixed),73.0,27.0
+14450_56,Low (Surface),35.0,56.0
+14450_56,All Fires,20.0,100.0
+14460_56,Replacement,50.0,6.0
+14460_56,Moderate (Mixed),1130.0,
+14460_56,Low (Surface),3.0,94.0
+14460_56,All Fires,3.0,100.0
+14470_56,Replacement,128.0,7.0
+14470_56,Moderate (Mixed),,
+14470_56,Low (Surface),10.0,93.0
+14470_56,All Fires,9.0,100.0
+14490_58_60,Replacement,90.0,3.0
+14490_58_60,Moderate (Mixed),263.0,1.0
+14490_58_60,Low (Surface),3.0,96.0
+14490_58_60,All Fires,3.0,100.0
+14500_55_58,Replacement,100.0,3.0
+14500_55_58,Moderate (Mixed),480.0,1.0
+14500_55_58,Low (Surface),3.0,96.0
+14500_55_58,All Fires,3.0,100.0
+14510_37_98,Replacement,146.0,2.0
+14510_37_98,Moderate (Mixed),180.0,1.0
+14510_37_98,Low (Surface),3.0,97.0
+14510_37_98,All Fires,2.0,100.0
+14520_58_60,Replacement,14.0,53.0
+14520_58_60,Moderate (Mixed),15.0,47.0
+14520_58_60,Low (Surface),,
+14520_58_60,All Fires,7.0,100.0
+14530_55_56,Replacement,84.0,3.0
+14530_55_56,Moderate (Mixed),8803.0,
+14530_55_56,Low (Surface),2.0,97.0
+14530_55_56,All Fires,2.0,100.0
+14540_55_56_99,Replacement,99.0,3.0
+14540_55_56_99,Moderate (Mixed),479.0,1.0
+14540_55_56_99,Low (Surface),3.0,96.0
+14540_55_56_99,All Fires,3.0,100.0
+14550_46_99,Replacement,78.0,9.0
+14550_46_99,Moderate (Mixed),,
+14550_46_99,Low (Surface),8.0,91.0
+14550_46_99,All Fires,7.0,100.0
+14570_47_48,Replacement,190.0,4.0
+14570_47_48,Moderate (Mixed),118.0,7.0
+14570_47_48,Low (Surface),9.0,89.0
+14570_47_48,All Fires,8.0,100.0
+14570_49,Replacement,93.0,11.0
+14570_49,Moderate (Mixed),120.0,9.0
+14570_49,Low (Surface),13.0,80.0
+14570_49,All Fires,11.0,100.0
+14580_37_44_45_98,Replacement,177.0,3.0
+14580_37_44_45_98,Moderate (Mixed),103.0,4.0
+14580_37_44_45_98,Low (Surface),5.0,93.0
+14580_37_44_45_98,All Fires,5.0,100.0
+14590_58,Replacement,,
+14590_58,Moderate (Mixed),,
+14590_58,Low (Surface),,
+14590_58,All Fires,,
+14600_55_56_99,Replacement,126.0,7.0
+14600_55_56_99,Moderate (Mixed),,
+14600_55_56_99,Low (Surface),10.0,93.0
+14600_55_56_99,All Fires,9.0,100.0
+14610_46_55_56_99,Replacement,297.0,55.0
+14610_46_55_56_99,Moderate (Mixed),356.0,45.0
+14610_46_55_56_99,Low (Surface),,
+14610_46_55_56_99,All Fires,162.0,100.0
+14660_49,Replacement,2627.0,17.0
+14660_49,Moderate (Mixed),527.0,83.0
+14660_49,Low (Surface),,
+14660_49,All Fires,439.0,100.0
+14660_50_51,Replacement,3655.0,13.0
+14660_50_51,Moderate (Mixed),531.0,87.0
+14660_50_51,Low (Surface),,
+14660_50_51,All Fires,463.0,100.0
+14670_36,Replacement,57.0,42.0
+14670_36,Moderate (Mixed),,
+14670_36,Low (Surface),40.0,58.0
+14670_36,All Fires,24.0,100.0
+14680_46_55_58_99,Replacement,58.0,14.0
+14680_46_55_58_99,Moderate (Mixed),23.0,35.0
+14680_46_55_58_99,Low (Surface),16.0,51.0
+14680_46_55_58_99,All Fires,8.0,100.0
+14680_60,Replacement,97.0,8.0
+14680_60,Moderate (Mixed),27.0,30.0
+14680_60,Low (Surface),13.0,62.0
+14680_60,All Fires,8.0,100.0
+14690_31_39_40_43,Replacement,523.0,9.0
+14690_31_39_40_43,Moderate (Mixed),78.0,63.0
+14690_31_39_40_43,Low (Surface),178.0,28.0
+14690_31_39_40_43,All Fires,49.0,100.0
+14690_38_42_49_,Replacement,506.0,9.0
+14690_38_42_49_,Moderate (Mixed),76.0,64.0
+14690_38_42_49_,Low (Surface),176.0,27.0
+14690_38_42_49_,All Fires,48.0,100.0
+14700_56,Replacement,126.0,74.0
+14700_56,Moderate (Mixed),360.0,26.0
+14700_56,Low (Surface),,
+14700_56,All Fires,93.0,100.0
+14710_32_35,Replacement,184.0,14.0
+14710_32_35,Moderate (Mixed),,
+14710_32_35,Low (Surface),31.0,86.0
+14710_32_35,All Fires,26.0,100.0
+14710_41_50,Replacement,,
+14710_41_50,Moderate (Mixed),431.0,14.0
+14710_41_50,Low (Surface),67.0,86.0
+14710_41_50,All Fires,58.0,100.0
+14710_42_43,Replacement,,
+14710_42_43,Moderate (Mixed),,
+14710_42_43,Low (Surface),,
+14710_42_43,All Fires,,
+14710_44,Replacement,,
+14710_44,Moderate (Mixed),,
+14710_44,Low (Surface),,
+14710_44,All Fires,,
+14710_47_48_53_54_57_59_60_61_63,Replacement,607.0,13.0
+14710_47_48_53_54_57_59_60_61_63,Moderate (Mixed),388.0,21.0
+14710_47_48_53_54_57_59_60_61_63,Low (Surface),120.0,66.0
+14710_47_48_53_54_57_59_60_61_63,All Fires,80.0,100.0
+14710_49_52,Replacement,,
+14710_49_52,Moderate (Mixed),423.0,14.0
+14710_49_52,Low (Surface),67.0,86.0
+14710_49_52,All Fires,58.0,100.0
+14710_51_62,Replacement,,
+14710_51_62,Moderate (Mixed),430.0,14.0
+14710_51_62,Low (Surface),68.0,86.0
+14710_51_62,All Fires,58.0,100.0
+14710_64_65,Replacement,613.0,13.0
+14710_64_65,Moderate (Mixed),399.0,20.0
+14710_64_65,Low (Surface),122.0,67.0
+14710_64_65,All Fires,81.0,100.0
+14712_44,Replacement,139.0,41.0
+14712_44,Moderate (Mixed),,
+14712_44,Low (Surface),98.0,59.0
+14712_44,All Fires,58.0,100.0
+14720_32_35,Replacement,186.0,14.0
+14720_32_35,Moderate (Mixed),,
+14720_32_35,Low (Surface),31.0,86.0
+14720_32_35,All Fires,26.0,100.0
+14720_44_46_47_48,Replacement,993.0,17.0
+14720_44_46_47_48,Moderate (Mixed),,
+14720_44_46_47_48,Low (Surface),201.0,83.0
+14720_44_46_47_48,All Fires,167.0,100.0
+14720_49,Replacement,996.0,17.0
+14720_49,Moderate (Mixed),,
+14720_49,Low (Surface),198.0,83.0
+14720_49,All Fires,165.0,100.0
+14720_53_54_57_59_60,Replacement,985.0,17.0
+14720_53_54_57_59_60,Moderate (Mixed),,
+14720_53_54_57_59_60,Low (Surface),199.0,83.0
+14720_53_54_57_59_60,All Fires,166.0,100.0
+14720_61_62_63,Replacement,1005.0,17.0
+14720_61_62_63,Moderate (Mixed),,
+14720_61_62_63,Low (Surface),201.0,83.0
+14720_61_62_63,All Fires,167.0,100.0
+14720_64_65_66,Replacement,982.0,17.0
+14720_64_65_66,Moderate (Mixed),,
+14720_64_65_66,Low (Surface),198.0,83.0
+14720_64_65_66,All Fires,165.0,100.0
+14730_32_37_44,Replacement,394.0,10.0
+14730_32_37_44,Moderate (Mixed),258.0,15.0
+14730_32_37_44,Low (Surface),49.0,75.0
+14730_32_37_44,All Fires,37.0,100.0
+14730_36,Replacement,391.0,10.0
+14730_36,Moderate (Mixed),255.0,15.0
+14730_36,Low (Surface),50.0,75.0
+14730_36,All Fires,38.0,100.0
+14730_45_46_47_98_99,Replacement,113.0,46.0
+14730_45_46_47_98_99,Moderate (Mixed),,
+14730_45_46_47_98_99,Low (Surface),98.0,54.0
+14730_45_46_47_98_99,All Fires,53.0,100.0
+14730_55_58_60,Replacement,114.0,47.0
+14730_55_58_60,Moderate (Mixed),,
+14730_55_58_60,Low (Surface),101.0,53.0
+14730_55_58_60,All Fires,54.0,100.0
+14740_32_37_44_45_98,Replacement,428.0,8.0
+14740_32_37_44_45_98,Moderate (Mixed),129.0,26.0
+14740_32_37_44_45_98,Low (Surface),49.0,66.0
+14740_32_37_44_45_98,All Fires,33.0,100.0
+14740_36,Replacement,186.0,5.0
+14740_36,Moderate (Mixed),172.0,5.0
+14740_36,Low (Surface),10.0,90.0
+14740_36,All Fires,9.0,100.0
+14740_46_47_48_55_56_58_60_99,Replacement,473.0,14.0
+14740_46_47_48_55_56_58_60_99,Moderate (Mixed),201.0,34.0
+14740_46_47_48_55_56_58_60_99,Low (Surface),130.0,52.0
+14740_46_47_48_55_56_58_60_99,All Fires,68.0,100.0
+14750_41_50_51_63_64_65_66,Replacement,,
+14750_41_50_51_63_64_65_66,Moderate (Mixed),442.0,14.0
+14750_41_50_51_63_64_65_66,Low (Surface),69.0,86.0
+14750_41_50_51_63_64_65_66,All Fires,60.0,100.0
+14760_36,Replacement,,
+14760_36,Moderate (Mixed),,
+14760_36,Low (Surface),31.0,100.0
+14760_36,All Fires,31.0,100.0
+14770_40_41_50_51,Replacement,721.0,15.0
+14770_40_41_50_51,Moderate (Mixed),,
+14770_40_41_50_51,Low (Surface),124.0,85.0
+14770_40_41_50_51,All Fires,106.0,100.0
+14770_63_64_65_66,Replacement,956.0,15.0
+14770_63_64_65_66,Moderate (Mixed),,
+14770_63_64_65_66,Low (Surface),174.0,85.0
+14770_63_64_65_66,All Fires,147.0,100.0
+14780_56,Replacement,1368.0,100.0
+14780_56,Moderate (Mixed),,
+14780_56,Low (Surface),,
+14780_56,All Fires,1368.0,100.0
+14790_41_42_47_48_50_51_53,Replacement,989.0,100.0
+14790_41_42_47_48_50_51_53,Moderate (Mixed),,
+14790_41_42_47_48_50_51_53,Low (Surface),,
+14790_41_42_47_48_50_51_53,All Fires,989.0,100.0
+14790_52_62,Replacement,981.0,100.0
+14790_52_62,Moderate (Mixed),,
+14790_52_62,Low (Surface),,
+14790_52_62,All Fires,981.0,100.0
+14790_60_61_63_64_65_66,Replacement,1014.0,57.0
+14790_60_61_63_64_65_66,Moderate (Mixed),,
+14790_60_61_63_64_65_66,Low (Surface),1356.0,43.0
+14790_60_61_63_64_65_66,All Fires,580.0,100.0
+14800_36_37_44,Replacement,1034.0,40.0
+14800_36_37_44,Moderate (Mixed),,
+14800_36_37_44,Low (Surface),694.0,60.0
+14800_36_37_44,All Fires,415.0,100.0
+14800_45_98,Replacement,993.0,41.0
+14800_45_98,Moderate (Mixed),,
+14800_45_98,Low (Surface),681.0,59.0
+14800_45_98,All Fires,404.0,100.0
+14800_46_56_58_60_64_65_66,Replacement,,
+14800_46_56_58_60_64_65_66,Moderate (Mixed),,
+14800_46_56_58_60_64_65_66,Low (Surface),221.0,100.0
+14800_46_56_58_60_64_65_66,All Fires,221.0,100.0
+14800_47,Replacement,,
+14800_47,Moderate (Mixed),,
+14800_47,Low (Surface),219.0,100.0
+14800_47,All Fires,219.0,100.0
+14800_55_99,Replacement,,
+14800_55_99,Moderate (Mixed),,
+14800_55_99,Low (Surface),225.0,100.0
+14800_55_99,All Fires,225.0,100.0
+14810_41_50_51_63,Replacement,996.0,100.0
+14810_41_50_51_63,Moderate (Mixed),,
+14810_41_50_51_63,Low (Surface),,
+14810_41_50_51_63,All Fires,996.0,100.0
+14820_30,Replacement,49.0,100.0
+14820_30,Moderate (Mixed),,
+14820_30,Low (Surface),,
+14820_30,All Fires,49.0,100.0
+14820_39_40,Replacement,50.0,100.0
+14820_39_40,Moderate (Mixed),,
+14820_39_40,Low (Surface),,
+14820_39_40,All Fires,50.0,100.0
+14830_56,Replacement,3.0,96.0
+14830_56,Moderate (Mixed),,
+14830_56,Low (Surface),76.0,4.0
+14830_56,All Fires,3.0,100.0
+14850_55_99,Replacement,163.0,2.0
+14850_55_99,Moderate (Mixed),510.0,1.0
+14850_55_99,Low (Surface),3.0,97.0
+14850_55_99,All Fires,3.0,100.0
+14860_36,Replacement,4.0,100.0
+14860_36,Moderate (Mixed),,
+14860_36,Low (Surface),,
+14860_36,All Fires,4.0,100.0
+14880_38_42_43,Replacement,3.0,100.0
+14880_38_42_43,Moderate (Mixed),,
+14880_38_42_43,Low (Surface),,
+14880_38_42_43,All Fires,3.0,100.0
+14890_55_56_99,Replacement,5.0,93.0
+14890_55_56_99,Moderate (Mixed),69.0,7.0
+14890_55_56_99,Low (Surface),,
+14890_55_56_99,All Fires,5.0,100.0
+14900_36,Replacement,27.0,100.0
+14900_36,Moderate (Mixed),,
+14900_36,Low (Surface),,
+14900_36,All Fires,27.0,100.0
+14900_37_98,Replacement,11.0,100.0
+14900_37_98,Moderate (Mixed),,
+14900_37_98,Low (Surface),,
+14900_37_98,All Fires,11.0,100.0
+14900_55_56_58_99,Replacement,5.0,98.0
+14900_55_56_58_99,Moderate (Mixed),287.0,2.0
+14900_55_56_58_99,Low (Surface),,
+14900_55_56_58_99,All Fires,5.0,100.0
+14900_60,Replacement,5.0,98.0
+14900_60,Moderate (Mixed),299.0,2.0
+14900_60,Low (Surface),,
+14900_60,All Fires,5.0,100.0
+14900_65_66,Replacement,503.0,100.0
+14900_65_66,Moderate (Mixed),,
+14900_65_66,Low (Surface),,
+14900_65_66,All Fires,503.0,100.0
+14920_41_50_51_52_63,Replacement,,
+14920_41_50_51_52_63,Moderate (Mixed),,
+14920_41_50_51_52_63,Low (Surface),,
+14920_41_50_51_52_63,All Fires,,
+14930_41_42_44_50,Replacement,17.0,100.0
+14930_41_42_44_50,Moderate (Mixed),,
+14930_41_42_44_50,Low (Surface),,
+14930_41_42_44_50,All Fires,17.0,100.0
+14930_52_62,Replacement,17.0,100.0
+14930_52_62,Moderate (Mixed),,
+14930_52_62,Low (Surface),,
+14930_52_62,All Fires,17.0,100.0
+14940_41_50_51,Replacement,18.0,100.0
+14940_41_50_51,Moderate (Mixed),,
+14940_41_50_51,Low (Surface),,
+14940_41_50_51,All Fires,18.0,100.0
+14940_63_65_66,Replacement,792.0,100.0
+14940_63_65_66,Moderate (Mixed),,
+14940_63_65_66,Low (Surface),,
+14940_63_65_66,All Fires,792.0,100.0
+14940_64,Replacement,791.0,100.0
+14940_64,Moderate (Mixed),,
+14940_64,Low (Surface),,
+14940_64,All Fires,791.0,100.0
+14950_20,Replacement,50.0,100.0
+14950_20,Moderate (Mixed),,
+14950_20,Low (Surface),,
+14950_20,All Fires,50.0,100.0
+14950_27_33,Replacement,15.0,100.0
+14950_27_33,Moderate (Mixed),,
+14950_27_33,Low (Surface),,
+14950_27_33,All Fires,15.0,100.0
+14950_30,Replacement,50.0,100.0
+14950_30,Moderate (Mixed),,
+14950_30,Low (Surface),,
+14950_30,All Fires,50.0,100.0
+14950_31_39_40,Replacement,20.0,100.0
+14950_31_39_40,Moderate (Mixed),,
+14950_31_39_40,Low (Surface),,
+14950_31_39_40,All Fires,20.0,100.0
+14950_35,Replacement,7.0,100.0
+14950_35,Moderate (Mixed),,
+14950_35,Low (Surface),,
+14950_35,All Fires,7.0,100.0
+14950_36,Replacement,3.0,100.0
+14950_36,Moderate (Mixed),,
+14950_36,Low (Surface),,
+14950_36,All Fires,3.0,100.0
+14950_38,Replacement,20.0,100.0
+14950_38,Moderate (Mixed),,
+14950_38,Low (Surface),,
+14950_38,All Fires,20.0,100.0
+14951_26_34,Replacement,7.0,100.0
+14951_26_34,Moderate (Mixed),,
+14951_26_34,Low (Surface),,
+14951_26_34,All Fires,7.0,100.0
+14952_34,Replacement,15.0,100.0
+14952_34,Moderate (Mixed),,
+14952_34,Low (Surface),,
+14952_34,All Fires,15.0,100.0
+15010_58_60,Replacement,93.0,82.0
+15010_58_60,Moderate (Mixed),425.0,18.0
+15010_58_60,Low (Surface),,
+15010_58_60,All Fires,76.0,100.0
+15030_25_27,Replacement,,
+15030_25_27,Moderate (Mixed),,
+15030_25_27,Low (Surface),,
+15030_25_27,All Fires,,
+15030_26,Replacement,15.0,100.0
+15030_26,Moderate (Mixed),,
+15030_26,Low (Surface),,
+15030_26,All Fires,15.0,100.0
+15040_25_27,Replacement,10.0,100.0
+15040_25_27,Moderate (Mixed),,
+15040_25_27,Low (Surface),,
+15040_25_27,All Fires,10.0,100.0
+15040_32_35,Replacement,10.0,100.0
+15040_32_35,Moderate (Mixed),,
+15040_32_35,Low (Surface),,
+15040_32_35,All Fires,10.0,100.0
+15041_26_34,Replacement,10.0,100.0
+15041_26_34,Moderate (Mixed),,
+15041_26_34,Low (Surface),,
+15041_26_34,All Fires,10.0,100.0
+15042_26_34,Replacement,14.0,84.0
+15042_26_34,Moderate (Mixed),,
+15042_26_34,Low (Surface),74.0,16.0
+15042_26_34,All Fires,12.0,100.0
+15060_37_44,Replacement,310.0,9.0
+15060_37_44,Moderate (Mixed),130.0,21.0
+15060_37_44,Low (Surface),38.0,70.0
+15060_37_44,All Fires,27.0,100.0
+15070_44,Replacement,100.0,2.0
+15070_44,Moderate (Mixed),1226.0,
+15070_44,Low (Surface),2.0,98.0
+15070_44,All Fires,2.0,100.0
+15090_45_47,Replacement,473.0,9.0
+15090_45_47,Moderate (Mixed),104.0,41.0
+15090_45_47,Low (Surface),87.0,50.0
+15090_45_47,All Fires,43.0,100.0
+15100_45,Replacement,138.0,4.0
+15100_45,Moderate (Mixed),494.0,1.0
+15100_45,Low (Surface),6.0,95.0
+15100_45,All Fires,5.0,100.0
+15130_45,Replacement,397.0,13.0
+15130_45,Moderate (Mixed),163.0,32.0
+15130_45,Low (Surface),95.0,55.0
+15130_45,All Fires,52.0,100.0
+15170_42_49_50,Replacement,15.0,79.0
+15170_42_49_50,Moderate (Mixed),128.0,9.0
+15170_42_49_50,Low (Surface),104.0,12.0
+15170_42_49_50,All Fires,12.0,100.0
+15180_43_47_49_52_62_63_64_65,Replacement,972.0,100.0
+15180_43_47_49_52_62_63_64_65,Moderate (Mixed),,
+15180_43_47_49_52_62_63_64_65,Low (Surface),,
+15180_43_47_49_52_62_63_64_65,All Fires,972.0,100.0
+15190_32_35_36_37,Replacement,57.0,8.0
+15190_32_35_36_37,Moderate (Mixed),53.0,8.0
+15190_32_35_36_37,Low (Surface),5.0,84.0
+15190_32_35_36_37,All Fires,4.0,100.0
+15230_32_35,Replacement,,
+15230_32_35,Moderate (Mixed),,
+15230_32_35,Low (Surface),,
+15230_32_35,All Fires,,
+15240_35,Replacement,139.0,44.0
+15240_35,Moderate (Mixed),,
+15240_35,Low (Surface),109.0,56.0
+15240_35,All Fires,61.0,100.0
+15250_35,Replacement,144.0,18.0
+15250_35,Moderate (Mixed),,
+15250_35,Low (Surface),31.0,82.0
+15250_35,All Fires,25.0,100.0
+15260_64_65_66,Replacement,1013.0,100.0
+15260_64_65_66,Moderate (Mixed),,
+15260_64_65_66,Low (Surface),,
+15260_64_65_66,All Fires,1013.0,100.0
+16011_67_68_69_70_71_72_73_74_76_78,Replacement,285.0,64.0
+16011_67_68_69_70_71_72_73_74_76_78,Moderate (Mixed),511.0,36.0
+16011_67_68_69_70_71_72_73_74_76_78,Low (Surface),,
+16011_67_68_69_70_71_72_73_74_76_78,All Fires,183.0,100.0
+16012_73_74_75_77_78,Replacement,401.0,73.0
+16012_73_74_75_77_78,Moderate (Mixed),1062.0,27.0
+16012_73_74_75_77_78,Low (Surface),,
+16012_73_74_75_77_78,All Fires,291.0,100.0
+16013_68_69_70_72_73_74_76,Replacement,1183.0,18.0
+16013_68_69_70_72_73_74_76,Moderate (Mixed),258.0,82.0
+16013_68_69_70_72_73_74_76,Low (Surface),,
+16013_68_69_70_72_73_74_76,All Fires,212.0,100.0
+16030_67_68_69_70_71_72_73_74_75_76_77_78,Replacement,253.0,60.0
+16030_67_68_69_70_71_72_73_74_75_76_77_78,Moderate (Mixed),373.0,40.0
+16030_67_68_69_70_71_72_73_74_75_76_77_78,Low (Surface),,
+16030_67_68_69_70_71_72_73_74_75_76_77_78,All Fires,151.0,100.0
+16041_68_69_70_71_72_73_74_75_76_77_78,Replacement,172.0,59.0
+16041_68_69_70_71_72_73_74_75_76_77_78,Moderate (Mixed),251.0,41.0
+16041_68_69_70_71_72_73_74_75_76_77_78,Low (Surface),,
+16041_68_69_70_71_72_73_74_75_76_77_78,All Fires,102.0,100.0
+16042_73_74_75_76_77_78,Replacement,219.0,87.0
+16042_73_74_75_76_77_78,Moderate (Mixed),1424.0,13.0
+16042_73_74_75_76_77_78,Low (Surface),,
+16042_73_74_75_76_77_78,All Fires,190.0,100.0
+16050_67_68_69_70_71_72_73_74_75_76_77_78_80,Replacement,249.0,64.0
+16050_67_68_69_70_71_72_73_74_75_76_77_78_80,Moderate (Mixed),444.0,36.0
+16050_67_68_69_70_71_72_73_74_75_76_77_78_80,Low (Surface),,
+16050_67_68_69_70_71_72_73_74_75_76_77_78_80,All Fires,160.0,100.0
+16061_70_71_73_74_75_76_77_78,Replacement,301.0,66.0
+16061_70_71_73_74_75_76_77_78,Moderate (Mixed),576.0,34.0
+16061_70_71_73_74_75_76_77_78,Low (Surface),,
+16061_70_71_73_74_75_76_77_78,All Fires,198.0,100.0
+16062_74,Replacement,253.0,100.0
+16062_74,Moderate (Mixed),,
+16062_74,Low (Surface),,
+16062_74,All Fires,253.0,100.0
+16090_68_69_70_71_72_73_74_75_76_77_78,Replacement,620.0,100.0
+16090_68_69_70_71_72_73_74_75_76_77_78,Moderate (Mixed),,
+16090_68_69_70_71_72_73_74_75_76_77_78,Low (Surface),,
+16090_68_69_70_71_72_73_74_75_76_77_78,All Fires,620.0,100.0
+16091_68_69_70_71_72_73_74_75_76,Replacement,788.0,100.0
+16091_68_69_70_71_72_73_74_75_76,Moderate (Mixed),,
+16091_68_69_70_71_72_73_74_75_76,Low (Surface),,
+16091_68_69_70_71_72_73_74_75_76,All Fires,788.0,100.0
+16101_68_69_70_71_72_73_74_75_76_77,Replacement,201.0,100.0
+16101_68_69_70_71_72_73_74_75_76_77,Moderate (Mixed),,
+16101_68_69_70_71_72_73_74_75_76_77,Low (Surface),,
+16101_68_69_70_71_72_73_74_75_76_77,All Fires,201.0,100.0
+16102_73_74_75_76_77,Replacement,301.0,100.0
+16102_73_74_75_76_77,Moderate (Mixed),,
+16102_73_74_75_76_77,Low (Surface),,
+16102_73_74_75_76_77,All Fires,301.0,100.0
+16110_68_69_70_71_72_73_74_75_76_77_78_80,Replacement,1034.0,83.0
+16110_68_69_70_71_72_73_74_75_76_77_78_80,Moderate (Mixed),5112.0,17.0
+16110_68_69_70_71_72_73_74_75_76_77_78_80,Low (Surface),,
+16110_68_69_70_71_72_73_74_75_76_77_78_80,All Fires,860.0,100.0
+16120_70_71_73_74,Replacement,100.0,100.0
+16120_70_71_73_74,Moderate (Mixed),,
+16120_70_71_73_74,Low (Surface),,
+16120_70_71_73_74,All Fires,100.0,100.0
+16130_68,Replacement,,
+16130_68,Moderate (Mixed),,
+16130_68,Low (Surface),,
+16130_68,All Fires,,
+16141_68_69_70_71_72_73_74_76_78,Replacement,5952.0,5.0
+16141_68_69_70_71_72_73_74_76_78,Moderate (Mixed),315.0,95.0
+16141_68_69_70_71_72_73_74_76_78,Low (Surface),,
+16141_68_69_70_71_72_73_74_76_78,All Fires,299.0,100.0
+16142_73_74_75_76_77_78,Replacement,6702.0,10.0
+16142_73_74_75_76_77_78,Moderate (Mixed),754.0,90.0
+16142_73_74_75_76_77_78,Low (Surface),,
+16142_73_74_75_76_77_78,All Fires,678.0,100.0
+16150_68_69_70_71_72_73_74_75_76_77_80,Replacement,4055.0,6.0
+16150_68_69_70_71_72_73_74_75_76_77_80,Moderate (Mixed),280.0,94.0
+16150_68_69_70_71_72_73_74_75_76_77_80,Low (Surface),,
+16150_68_69_70_71_72_73_74_75_76_77_80,All Fires,262.0,100.0
+16160_70_71_72_73_74_75_76_77_78_80,Replacement,694.0,43.0
+16160_70_71_72_73_74_75_76_77_78_80,Moderate (Mixed),529.0,57.0
+16160_70_71_72_73_74_75_76_77_78_80,Low (Surface),,
+16160_70_71_72_73_74_75_76_77_78_80,All Fires,300.0,100.0
+16180_68_70_71_72_73_74_75_76_77_78,Replacement,,
+16180_68_70_71_72_73_74_75_76_77_78,Moderate (Mixed),,
+16180_68_70_71_72_73_74_75_76_77_78,Low (Surface),304.0,100.0
+16180_68_70_71_72_73_74_75_76_77_78,All Fires,304.0,100.0
+16200_68_69_70_71_72_73_74_75_76_77_78,Replacement,,
+16200_68_69_70_71_72_73_74_75_76_77_78,Moderate (Mixed),,
+16200_68_69_70_71_72_73_74_75_76_77_78,Low (Surface),,
+16200_68_69_70_71_72_73_74_75_76_77_78,All Fires,,
+16210_68_69_70_71_72_73_74_75_76_77,Replacement,177.0,78.0
+16210_68_69_70_71_72_73_74_75_76_77,Moderate (Mixed),631.0,22.0
+16210_68_69_70_71_72_73_74_75_76_77,Low (Surface),,
+16210_68_69_70_71_72_73_74_75_76_77,All Fires,138.0,100.0
+16240_68_69_70_71_72_73_74_75_76_77_78,Replacement,504.0,100.0
+16240_68_69_70_71_72_73_74_75_76_77_78,Moderate (Mixed),,
+16240_68_69_70_71_72_73_74_75_76_77_78,Low (Surface),,
+16240_68_69_70_71_72_73_74_75_76_77_78,All Fires,504.0,100.0
+16281_68_69_70_71_72_73_74_76,Replacement,178.0,99.0
+16281_68_69_70_71_72_73_74_76,Moderate (Mixed),12755.0,1.0
+16281_68_69_70_71_72_73_74_76,Low (Surface),,
+16281_68_69_70_71_72_73_74_76,All Fires,176.0,100.0
+16282_67_68_69_70_71_72_73_74_75_76_77,Replacement,3238.0,100.0
+16282_67_68_69_70_71_72_73_74_75_76_77,Moderate (Mixed),,
+16282_67_68_69_70_71_72_73_74_75_76_77,Low (Surface),,
+16282_67_68_69_70_71_72_73_74_75_76_77,All Fires,3238.0,100.0
+16291_68,Replacement,122.0,100.0
+16291_68,Moderate (Mixed),,
+16291_68,Low (Surface),,
+16291_68,All Fires,122.0,100.0
+16292_67_68_69_70_71_72_73_74_76,Replacement,3224.0,100.0
+16292_67_68_69_70_71_72_73_74_76,Moderate (Mixed),,
+16292_67_68_69_70_71_72_73_74_76,Low (Surface),,
+16292_67_68_69_70_71_72_73_74_76,All Fires,3224.0,100.0
+16300_68_69_70_71_72_73_74_75_76_77_78,Replacement,115.0,87.0
+16300_68_69_70_71_72_73_74_75_76_77_78,Moderate (Mixed),773.0,13.0
+16300_68_69_70_71_72_73_74_75_76_77_78,Low (Surface),,
+16300_68_69_70_71_72_73_74_75_76_77_78,All Fires,100.0,100.0
+16330_68_69_70_71_73_74_75_76_77_78,Replacement,398.0,100.0
+16330_68_69_70_71_73_74_75_76_77_78,Moderate (Mixed),,
+16330_68_69_70_71_73_74_75_76_77_78,Low (Surface),,
+16330_68_69_70_71_73_74_75_76_77_78,All Fires,398.0,100.0
+16350_68_69_70_71_72_73_74_75_76_77_78,Replacement,,
+16350_68_69_70_71_72_73_74_75_76_77_78,Moderate (Mixed),,
+16350_68_69_70_71_72_73_74_75_76_77_78,Low (Surface),,
+16350_68_69_70_71_72_73_74_75_76_77_78,All Fires,,
+16370_68_69_70_71_72_73_74_75_76_77_78_80,Replacement,,
+16370_68_69_70_71_72_73_74_75_76_77_78_80,Moderate (Mixed),,
+16370_68_69_70_71_72_73_74_75_76_77_78_80,Low (Surface),,
+16370_68_69_70_71_72_73_74_75_76_77_78_80,All Fires,,
+16380_67_68_69_70_71_72_73_76,Replacement,,
+16380_67_68_69_70_71_72_73_76,Moderate (Mixed),,
+16380_67_68_69_70_71_72_73_76,Low (Surface),,
+16380_67_68_69_70_71_72_73_76,All Fires,,
+16390_67_68_69_70_71_72_73_76,Replacement,,
+16390_67_68_69_70_71_72_73_76,Moderate (Mixed),,
+16390_67_68_69_70_71_72_73_76,Low (Surface),,
+16390_67_68_69_70_71_72_73_76,All Fires,,
+16400_73_76_80,Replacement,,
+16400_73_76_80,Moderate (Mixed),,
+16400_73_76_80,Low (Surface),,
+16400_73_76_80,All Fires,,
+16430_73_74_75_76_77_78,Replacement,,
+16430_73_74_75_76_77_78,Moderate (Mixed),,
+16430_73_74_75_76_77_78,Low (Surface),,
+16430_73_74_75_76_77_78,All Fires,,
+16441_73_75_76_77_78_80,Replacement,,
+16441_73_75_76_77_78_80,Moderate (Mixed),,
+16441_73_75_76_77_78_80,Low (Surface),,
+16441_73_75_76_77_78_80,All Fires,,
+16442_77_78,Replacement,,
+16442_77_78,Moderate (Mixed),,
+16442_77_78,Low (Surface),,
+16442_77_78,All Fires,,
+16443_73_77_78,Replacement,,
+16443_73_77_78,Moderate (Mixed),,
+16443_73_77_78,Low (Surface),,
+16443_73_77_78,All Fires,,
+16460_75_77_78,Replacement,,
+16460_75_77_78,Moderate (Mixed),,
+16460_75_77_78,Low (Surface),,
+16460_75_77_78,All Fires,,
+16470_73_74_75_76_77_78_80,Replacement,,
+16470_73_74_75_76_77_78_80,Moderate (Mixed),,
+16470_73_74_75_76_77_78_80,Low (Surface),,
+16470_73_74_75_76_77_78_80,All Fires,,
+16481_75_77,Replacement,1284.0,80.0
+16481_75_77,Moderate (Mixed),5198.0,20.0
+16481_75_77,Low (Surface),,
+16481_75_77,All Fires,1029.0,100.0
+16482_78,Replacement,,
+16482_78,Moderate (Mixed),,
+16482_78,Low (Surface),,
+16482_78,All Fires,,
+16510_72_76_80,Replacement,,
+16510_72_76_80,Moderate (Mixed),,
+16510_72_76_80,Low (Surface),,
+16510_72_76_80,All Fires,,
+16520_73_74_75_76_77_78_80,Replacement,,
+16520_73_74_75_76_77_78_80,Moderate (Mixed),,
+16520_73_74_75_76_77_78_80,Low (Surface),,
+16520_73_74_75_76_77_78_80,All Fires,,
+16530_75_77_78,Replacement,,
+16530_75_77_78,Moderate (Mixed),,
+16530_75_77_78,Low (Surface),,
+16530_75_77_78,All Fires,,
+16550_75_76_77_78_80,Replacement,,
+16550_75_76_77_78_80,Moderate (Mixed),,
+16550_75_76_77_78_80,Low (Surface),,
+16550_75_76_77_78_80,All Fires,,
+16560_75_76_77_78,Replacement,,
+16560_75_76_77_78,Moderate (Mixed),,
+16560_75_76_77_78,Low (Surface),,
+16560_75_76_77_78,All Fires,,
+16570_75_77_78,Replacement,,
+16570_75_77_78,Moderate (Mixed),,
+16570_75_77_78,Low (Surface),,
+16570_75_77_78,All Fires,,
+16610_73_74_75_76_77_78_80,Replacement,,
+16610_73_74_75_76_77_78_80,Moderate (Mixed),,
+16610_73_74_75_76_77_78_80,Low (Surface),,
+16610_73_74_75_76_77_78_80,All Fires,,
+16620_73_75_77_78,Replacement,,
+16620_73_75_77_78,Moderate (Mixed),,
+16620_73_75_77_78,Low (Surface),,
+16620_73_75_77_78,All Fires,,
+16630_73_74_75_76_77_78,Replacement,,
+16630_73_74_75_76_77_78,Moderate (Mixed),,
+16630_73_74_75_76_77_78,Low (Surface),,
+16630_73_74_75_76_77_78,All Fires,,
+16650_73_75_76_77_78_80,Replacement,,
+16650_73_75_76_77_78_80,Moderate (Mixed),,
+16650_73_75_76_77_78_80,Low (Surface),,
+16650_73_75_76_77_78_80,All Fires,,
+16680_73_75_76_77_78_80,Replacement,,
+16680_73_75_76_77_78_80,Moderate (Mixed),,
+16680_73_75_76_77_78_80,Low (Surface),,
+16680_73_75_76_77_78_80,All Fires,,
+16760_75_77_78,Replacement,,
+16760_75_77_78,Moderate (Mixed),,
+16760_75_77_78,Low (Surface),,
+16760_75_77_78,All Fires,,
+16780_75_77,Replacement,1008.0,80.0
+16780_75_77,Moderate (Mixed),3912.0,20.0
+16780_75_77,Low (Surface),,
+16780_75_77,All Fires,802.0,100.0
+16790_73_74_75_76_77_78_80,Replacement,712.0,86.0
+16790_73_74_75_76_77_78_80,Moderate (Mixed),4529.0,14.0
+16790_73_74_75_76_77_78_80,Low (Surface),,
+16790_73_74_75_76_77_78_80,All Fires,615.0,100.0
+16800_74_75_77_78,Replacement,,
+16800_74_75_77_78,Moderate (Mixed),,
+16800_74_75_77_78,Low (Surface),,
+16800_74_75_77_78,All Fires,,
+16810_73_75_76_77_78,Replacement,,
+16810_73_75_76_77_78,Moderate (Mixed),,
+16810_73_75_76_77_78,Low (Surface),,
+16810_73_75_76_77_78,All Fires,,
+16821_68,Replacement,559.0,100.0
+16821_68,Moderate (Mixed),,
+16821_68,Low (Surface),,
+16821_68,All Fires,559.0,100.0
+16822_67_68_69_70_71_72_73_74_76,Replacement,252.0,100.0
+16822_67_68_69_70_71_72_73_74_76,Moderate (Mixed),,
+16822_67_68_69_70_71_72_73_74_76,Low (Surface),,
+16822_67_68_69_70_71_72_73_74_76,All Fires,252.0,100.0
+16831_68,Replacement,253.0,100.0
+16831_68,Moderate (Mixed),,
+16831_68,Low (Surface),,
+16831_68,All Fires,253.0,100.0
+16832_67_68_69,Replacement,3322.0,100.0
+16832_67_68_69,Moderate (Mixed),,
+16832_67_68_69,Low (Surface),,
+16832_67_68_69,All Fires,3322.0,100.0
+16850_67_68_69_70_71_72_73_76,Replacement,,
+16850_67_68_69_70_71_72_73_76,Moderate (Mixed),,
+16850_67_68_69_70_71_72_73_76,Low (Surface),,
+16850_67_68_69_70_71_72_73_76,All Fires,,
+16870_67_68_69_70_71_72_73_74_75_76_77,Replacement,,
+16870_67_68_69_70_71_72_73_74_75_76_77,Moderate (Mixed),,
+16870_67_68_69_70_71_72_73_74_75_76_77,Low (Surface),,
+16870_67_68_69_70_71_72_73_74_75_76_77,All Fires,,
+16880_67_68_69_70_71_72_73_74_76,Replacement,,
+16880_67_68_69_70_71_72_73_74_76,Moderate (Mixed),,
+16880_67_68_69_70_71_72_73_74_76,Low (Surface),,
+16880_67_68_69_70_71_72_73_74_76,All Fires,,
+16901_68,Replacement,247.0,100.0
+16901_68,Moderate (Mixed),,
+16901_68,Low (Surface),,
+16901_68,All Fires,247.0,100.0
+16902_67_68_69_70_71_72_73_74_75_76_77,Replacement,1019.0,100.0
+16902_67_68_69_70_71_72_73_74_75_76_77,Moderate (Mixed),,
+16902_67_68_69_70_71_72_73_74_75_76_77,Low (Surface),,
+16902_67_68_69_70_71_72_73_74_75_76_77,All Fires,1019.0,100.0
+16970_67_68_69_70_71_72_76,Replacement,,
+16970_67_68_69_70_71_72_76,Moderate (Mixed),,
+16970_67_68_69_70_71_72_76,Low (Surface),,
+16970_67_68_69_70_71_72_76,All Fires,,
+16990_67_68_69_70_71_72_73_76,Replacement,,
+16990_67_68_69_70_71_72_73_76,Moderate (Mixed),,
+16990_67_68_69_70_71_72_73_76,Low (Surface),,
+16990_67_68_69_70_71_72_73_76,All Fires,,
+17010_67_68_72,Replacement,,
+17010_67_68_72,Moderate (Mixed),,
+17010_67_68_72,Low (Surface),,
+17010_67_68_72,All Fires,,
+17020_67_68_69_70_72_73_76,Replacement,,
+17020_67_68_69_70_72_73_76,Moderate (Mixed),,
+17020_67_68_69_70_72_73_76,Low (Surface),,
+17020_67_68_69_70_72_73_76,All Fires,,
+17040_68_72,Replacement,498.0,100.0
+17040_68_72,Moderate (Mixed),,
+17040_68_72,Low (Surface),,
+17040_68_72,All Fires,498.0,100.0
+17060_67_68_69_70_71_72_73_76,Replacement,,
+17060_67_68_69_70_71_72_73_76,Moderate (Mixed),,
+17060_67_68_69_70_71_72_73_76,Low (Surface),,
+17060_67_68_69_70_71_72_73_76,All Fires,,
+17080_67_68_69,Replacement,,
+17080_67_68_69,Moderate (Mixed),,
+17080_67_68_69,Low (Surface),,
+17080_67_68_69,All Fires,,
+17090_67_68_72_76_80,Replacement,,
+17090_67_68_72_76_80,Moderate (Mixed),,
+17090_67_68_72_76_80,Low (Surface),,
+17090_67_68_72_76_80,All Fires,,
+17110_67_68_72,Replacement,,
+17110_67_68_72,Moderate (Mixed),,
+17110_67_68_72,Low (Surface),,
+17110_67_68_72,All Fires,,
+17130_67_68_72_76,Replacement,,
+17130_67_68_72_76,Moderate (Mixed),,
+17130_67_68_72_76,Low (Surface),,
+17130_67_68_72_76,All Fires,,
+17140_67_68_69_72_76,Replacement,,
+17140_67_68_69_72_76,Moderate (Mixed),,
+17140_67_68_69_72_76,Low (Surface),,
+17140_67_68_69_72_76,All Fires,,
+17150_67_68_69_72,Replacement,,
+17150_67_68_69_72,Moderate (Mixed),,
+17150_67_68_69_72,Low (Surface),,
+17150_67_68_69_72,All Fires,,
+17200_72_73_76_80,Replacement,,
+17200_72_73_76_80,Moderate (Mixed),,
+17200_72_73_76_80,Low (Surface),,
+17200_72_73_76_80,All Fires,,
+17220_68_69_70_71_72_73_74_75_76_77_78,Replacement,,
+17220_68_69_70_71_72_73_74_75_76_77_78,Moderate (Mixed),,
+17220_68_69_70_71_72_73_74_75_76_77_78,Low (Surface),,
+17220_68_69_70_71_72_73_74_75_76_77_78,All Fires,,
+18040_79,Replacement,,
+18040_79,Moderate (Mixed),,
+18040_79,Low (Surface),,
+18040_79,All Fires,,
+18060_79,Replacement,,
+18060_79,Moderate (Mixed),,
+18060_79,Low (Surface),,
+18060_79,All Fires,,
+18080_79,Replacement,,
+18080_79,Moderate (Mixed),1090.0,100.0
+18080_79,Low (Surface),,
+18080_79,All Fires,1090.0,100.0
+18090_79,Replacement,,
+18090_79,Moderate (Mixed),,
+18090_79,Low (Surface),,
+18090_79,All Fires,,
+18100_79,Replacement,17921.0,48.0
+18100_79,Moderate (Mixed),16502.0,52.0
+18100_79,Low (Surface),,
+18100_79,All Fires,8591.0,100.0
+18110_79,Replacement,,
+18110_79,Moderate (Mixed),,
+18110_79,Low (Surface),,
+18110_79,All Fires,,
+18130_79,Replacement,81.0,26.0
+18130_79,Moderate (Mixed),28.0,74.0
+18130_79,Low (Surface),,
+18130_79,All Fires,21.0,100.0
+18140_79,Replacement,,
+18140_79,Moderate (Mixed),506.0,100.0
+18140_79,Low (Surface),,
+18140_79,All Fires,506.0,100.0
+18151_79,Replacement,3274.0,13.0
+18151_79,Moderate (Mixed),470.0,87.0
+18151_79,Low (Surface),,
+18151_79,All Fires,411.0,100.0
+18160_79,Replacement,,
+18160_79,Moderate (Mixed),503.0,100.0
+18160_79,Low (Surface),,
+18160_79,All Fires,503.0,100.0
+18170_79,Replacement,81.0,15.0
+18170_79,Moderate (Mixed),,
+18170_79,Low (Surface),15.0,85.0
+18170_79,All Fires,12.0,100.0
+18180_79,Replacement,,
+18180_79,Moderate (Mixed),51.0,100.0
+18180_79,Low (Surface),,
+18180_79,All Fires,51.0,100.0
+18190_79,Replacement,,
+18190_79,Moderate (Mixed),,
+18190_79,Low (Surface),21.0,100.0
+18190_79,All Fires,21.0,100.0
+18200_79,Replacement,,
+18200_79,Moderate (Mixed),,
+18200_79,Low (Surface),60.0,100.0
+18200_79,All Fires,60.0,100.0
+18210_79,Replacement,,
+18210_79,Moderate (Mixed),,
+18210_79,Low (Surface),,
+18210_79,All Fires,,
+18220_79,Replacement,,
+18220_79,Moderate (Mixed),,
+18220_79,Low (Surface),103.0,100.0
+18220_79,All Fires,103.0,100.0
+18230_79,Replacement,,
+18230_79,Moderate (Mixed),,
+18230_79,Low (Surface),506.0,100.0
+18230_79,All Fires,506.0,100.0
+18240_79,Replacement,,
+18240_79,Moderate (Mixed),,
+18240_79,Low (Surface),,
+18240_79,All Fires,,
+18250_79,Replacement,,
+18250_79,Moderate (Mixed),533.0,100.0
+18250_79,Low (Surface),,
+18250_79,All Fires,533.0,100.0
+18260_79,Replacement,,
+18260_79,Moderate (Mixed),,
+18260_79,Low (Surface),,
+18260_79,All Fires,,
+18270_79,Replacement,,
+18270_79,Moderate (Mixed),,
+18270_79,Low (Surface),,
+18270_79,All Fires,,
+18280_79,Replacement,,
+18280_79,Moderate (Mixed),51.0,100.0
+18280_79,Low (Surface),,
+18280_79,All Fires,51.0,100.0

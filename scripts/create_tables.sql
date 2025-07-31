@@ -1,3 +1,2 @@
-
-
+.mode csv
 .tables
