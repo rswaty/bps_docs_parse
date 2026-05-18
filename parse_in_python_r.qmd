@@ -310,6 +310,7 @@ Blank cells and formatting (centered fonts) may cause issues. \*\*Looks OK, empt
 # Load the dplyr package
 library(dplyr)
 library(docxtractr)
+library(janitor)
 
 ## SET DIRECTORY AND MAKE LIST OF DOCS ------------
 
@@ -351,7 +352,10 @@ for (docx_file_path in docx_files) {
 
 # Combine all tables into a single dataframe
 fire_frequency <- bind_rows(all_tables) %>%
-  select(BPS_MODEL, everything())
+  select(BPS_MODEL, everything()) |>
+  select(c(BPS_MODEL, Severity, Avg.FI, Percent.of.All.Fires, Min.FI, Max.FI  )) |>
+  rename(bps_model_id = BPS_MODEL) |>
+  clean_names()
   
 
 #*** kb changed output location

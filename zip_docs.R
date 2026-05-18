@@ -56,12 +56,12 @@ for (file in files) {
 }
 
 # Print zone counts
-print(zone_counts)
+# print(zone_counts)
 
 
 # Print actual file counts per zone from zone_to_files
 actual_zone_file_counts <- sapply(zone_to_files, length)
-print(actual_zone_file_counts)
+# print(actual_zone_file_counts)
 
 
 # Compare expected vs actual
@@ -92,7 +92,7 @@ zone_comparison_df <- data.frame(
 )
 
 # Print the data frame
-print(zone_comparison_df)
+# print(zone_comparison_df)
 
 # Optionally, save to CSV
 write.csv(zone_comparison_df, "mz_zips/zone_comparison_summary.csv", row.names = FALSE)
@@ -111,7 +111,7 @@ for (zone in names(zone_to_files)) {
 }
 
 # Print the data frame
-print(file_zone_df)
+# print(file_zone_df)
 
 # Optionally, save to CSV
 write.csv(file_zone_df, "mz_zips/zone_file_listing.csv", row.names = FALSE)

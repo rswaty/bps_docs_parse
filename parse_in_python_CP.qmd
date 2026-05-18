@@ -1,0 +1,181 @@
+---
+title: "parse in python"
+format: html
+editor: source
+---
+
+## Basics
+
+The goal of this workflow is to **break apart BpS Word documents into structured components** so they can be stored in a database and later reassembled or queried.
+
+These documents are only semi-structured:
+
+- Sections are typically indicated using **bold text**
+- However, bold text also appears inside tables, which creates ambiguity
+- Table structure and formatting vary across documents
+
+### Approach
+
+1. **Remove all tables (Python)**
+   - Simplifies the document structure
+   - Prevents misidentifying bold table text as section headers
+
+2. **Extract text sections (Python)**
+   - Use section headers as anchors
+   - Capture all text between headers
+
+3. **Extract tables separately (R)**
+   - Each table is handled independently due to formatting differences
+
+### Notes
+
+- Column naming will follow **snake_case** (via `janitor`)
+- Error handling can be added later once structure stabilizes
+- Separate scripts per table are intentional due to inconsistent formatting
+
+## Python to remove tables
+
+This step removes all tables from each `.docx` file so downstream parsing operates only on text.
+
+```{python}
+
+# Input and output directories
+input_directory = 'AK_bps_docs/'
+output_directory = 'no_tables_AK'
+
+import os
+from docx import Document
+
+def remove_tables_from_docx(input_file, output_file):
+    # Load Word document
+    doc = Document(input_file)
+    
+    # Get all tables in the document
+    tables = doc.tables
+    
+    # Iterate in reverse order to safely remove elements
+    for table in reversed(tables):
+        table._element.getparent().remove(table._element)
+    
+    # Save new version without tables
+    doc.save(output_file)
+    
+    print(f"Tables removed and saved to {output_file}")
+
+def process_directory(input_directory, output_directory):
+    # Create output directory if needed
+    if not os.path.exists(output_directory):
+        os.makedirs(output_directory)
+    
+    # Loop through files in input directory
+    for filename in os.listdir(input_directory):
+        
+        # Only process .docx files
+        if filename.endswith('.docx'):
+            input_file = os.path.join(input_directory, filename)
+            output_file = os.path.join(output_directory, filename)
+            
+            # Remove tables for each file
+            remove_tables_from_docx(input_file, output_file)
+
+# Run the process
+process_directory(input_directory, output_directory)
+
+```
+
+## Extract text sections
+
+```{python}
+import os
+import zipfile
+import pandas as pd
+from docx import Document
+from lxml import etree
+
+# Directory with table-free documents
+directory_path = "no_tables_AK/"
+
+# Expected section headers
+sections = [
+    "Vegetation Type",
+    "Map Zones",
+    "Model Splits or Lumps",
+    "Geographic Range",
+    "Biophysical Site Description",
+    "Vegetation Description",
+    "Disturbance Description",
+    "Scale Description",
+    "Adjacency or Identification Concerns",
+    "Issues or Problems",
+    "Native Uncharacteristic Conditions",
+    "Comments",
+    "References"
+]
+
+def extract_sections(doc_path, sections):
+    doc = Document(doc_path)
+    paragraphs = [p.text for p in doc.paragraphs]
+    
+    content_dict = {}
+    
+    for section in sections:
+        if section in paragraphs:
+            section_index = paragraphs.index(section)
+            content = []
+            
+            for i in range(section_index + 1, len(paragraphs)):
+                if paragraphs[i] in sections:
+                    break
+                content.append(paragraphs[i])
+            
+            content_dict[section] = "
+".join(content).strip()
+        else:
+            content_dict[section] = None
+    
+    content_dict["document"] = os.path.basename(doc_path)
+    
+    return content_dict
+
+
+def extract_core_properties(doc_path):
+    with zipfile.ZipFile(doc_path, 'r') as docx:
+        with docx.open('docProps/core.xml') as core_xml:
+            tree = etree.parse(core_xml)
+            
+            ns = {
+                'cp': 'http://schemas.openxmlformats.org/package/2006/metadata/core-properties',
+                'dc': 'http://purl.org/dc/elements/1.1/',
+                'dcterms': 'http://purl.org/dc/terms/'
+            }
+            
+            properties = {
+                "creator": tree.findtext('cp:coreProperties/dc:creator', namespaces=ns),
+                "lastModifiedBy": tree.findtext('cp:coreProperties/cp:lastModifiedBy', namespaces=ns),
+                "revision": tree.findtext('cp:coreProperties/cp:revision', namespaces=ns),
+                "created": tree.findtext('cp:coreProperties/dcterms:created', namespaces=ns),
+                "modified": tree.findtext('cp:coreProperties/dcterms:modified', namespaces=ns)
+            }
+    return properties
+
+
+doc_paths = [
+    os.path.join(directory_path, f)
+    for f in os.listdir(directory_path)
+    if f.endswith('.docx')
+]
+
+data_list = []
+
+for doc_path in doc_paths:
+    sections_data = extract_sections(doc_path, sections)
+    core_props_data = extract_core_properties(doc_path)
+    combined_data = {**sections_data, **core_props_data}
+    data_list.append(combined_data)
+
+# Convert to dataframe
+df = pd.DataFrame(data_list)
+
+# Save to CSV
+df.to_csv("tables_AK/text_df.csv", index=False)
+```
