@@ -107,6 +107,7 @@ from lxml import etree
 
 # Define the directory path and sections
 directory_path = "no_tables_AK/"
+
 sections = [
     "Vegetation Type",
     "Map Zones",
@@ -123,28 +124,39 @@ sections = [
     "References"
 ]
 
-# Function to extract sections from a Word document
+# Extract sections (robust to formatting issues)
 def extract_sections(doc_path, sections):
     doc = Document(doc_path)
-    paragraphs = [p.text for p in doc.paragraphs]
-    
-    content_dict = {}
-    for section in sections:
-        if section in paragraphs:
-            section_index = paragraphs.index(section)
-            content = []
-            for i in range(section_index + 1, len(paragraphs)):
-                if paragraphs[i] in sections:
-                    break
-                content.append(paragraphs[i])
-            content_dict[section] = "\n".join(content).strip()
-        else:
-            content_dict[section] = None
-    
+
+    # clean + normalize text
+    paragraphs = [
+        p.text.replace("\xa0", " ").strip()
+        for p in doc.paragraphs
+        if p.text.strip() != ""
+    ]
+
+    content_dict = {sec: None for sec in sections}
+
+    for i, para in enumerate(paragraphs):
+        for section in sections:
+            if para.lower() == section.lower():
+
+                content = []
+                for j in range(i + 1, len(paragraphs)):
+
+                    # stop at next section
+                    if paragraphs[j].lower() in [s.lower() for s in sections]:
+                        break
+
+                    content.append(paragraphs[j])
+
+                text = "\n".join(content).strip()
+                content_dict[section] = text if text != "" else None
+
     content_dict["document"] = os.path.basename(doc_path)
     return content_dict
 
-# Function to extract core properties from a Word document
+# Extract core properties
 def extract_core_properties(doc_path):
     with zipfile.ZipFile(doc_path, 'r') as docx:
         with docx.open('docProps/core.xml') as core_xml:
@@ -154,30 +166,31 @@ def extract_core_properties(doc_path):
                 'dc': 'http://purl.org/dc/elements/1.1/',
                 'dcterms': 'http://purl.org/dc/terms/'
             }
-            properties = {
+            return {
                 "creator": tree.findtext('cp:coreProperties/dc:creator', namespaces=ns),
                 "lastModifiedBy": tree.findtext('cp:coreProperties/cp:lastModifiedBy', namespaces=ns),
                 "revision": tree.findtext('cp:coreProperties/cp:revision', namespaces=ns),
                 "created": tree.findtext('cp:coreProperties/dcterms:created', namespaces=ns),
                 "modified": tree.findtext('cp:coreProperties/dcterms:modified', namespaces=ns)
             }
-    return properties
 
-# Get all docx files in the directory
-doc_paths = [os.path.join(directory_path, f) for f in os.listdir(directory_path) if f.endswith('.docx')]
+# Process all docs
+doc_paths = [
+    os.path.join(directory_path, f)
+    for f in os.listdir(directory_path)
+    if f.endswith('.docx')
+]
 
-# Extract data from each document
 data_list = []
 for doc_path in doc_paths:
     sections_data = extract_sections(doc_path, sections)
     core_props_data = extract_core_properties(doc_path)
-    combined_data = {**sections_data, **core_props_data}
-    data_list.append(combined_data)
+    data_list.append({**sections_data, **core_props_data})
 
-# Combine the data into a single dataframe
 df = pd.DataFrame(data_list)
 
-# Save the results to a CSV file
+# Save output
+os.makedirs("tables_AK", exist_ok=True)
 df.to_csv("tables_AK/text_df.csv", index=False)
 
 ```
@@ -371,3 +384,58 @@ fire_frequency <- bind_rows(all_tables) %>%
 #*** kb changed output location
 write.csv(fire_frequency , file = 'tables_AK/fire_frequency.csv', row.names = FALSE)
 ```
+
+
+
+### Table 4: Succession Classes
+
+Blank cells and formatting (centered fonts) may cause issues. \*\*Looks OK, empty cells are empty and no issues with centered values.
+
+```{r}
+library(dplyr)
+library(docxtractr)
+library(janitor)
+library(purrr)
+
+docx_directory <- "AK_bps_docs/"
+docx_files <- list.files(path = docx_directory, pattern = "\\.docx$", full.names = TRUE)
+
+all_tables <- list()
+
+for (docx_file_path in docx_files) {
+
+  docx_file <- read_docx(docx_file_path)
+  tbls <- docx_extract_all_tbls(docx_file)
+
+  # find species tables (clean names first to standardize)
+  species_tbls <- tbls %>%
+    map(~ clean_names(.x)) %>%
+    keep(~ all(c("symbol", "scientific_name", "common_name", "canopy_position") %in% names(.)))
+
+  if (length(species_tbls) == 0) next
+
+  class_labels <- LETTERS[seq_along(species_tbls)]
+  doc_name <- tools::file_path_sans_ext(basename(docx_file_path))
+
+  for (i in seq_along(species_tbls)) {
+
+    table_from_docx <- species_tbls[[i]] %>%
+      mutate(
+        bps_model_id = doc_name,
+        class = class_labels[i]
+      )
+
+    all_tables[[paste0(doc_name, "_", class_labels[i])]] <- table_from_docx
+  }
+}
+
+class_all <- bind_rows(all_tables) %>%
+  select(bps_model_id, class, symbol, scientific_name, common_name, canopy_position)
+
+write.csv(class_all, "tables_AK/class_all_classes.csv", row.names = FALSE)
+```
+
+
+
+
+

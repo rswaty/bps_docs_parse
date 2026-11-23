@@ -1,0 +1,207 @@
+---
+title: "Test Single BpS Parse"
+format: html
+editor: source
+---
+
+## Test one document only
+
+This tests whether table-related headers are bleeding into adjacent text sections.
+
+```{python}
+
+import os
+import zipfile
+import pandas as pd
+from docx import Document
+from lxml import etree
+
+# =====================================================
+# TEST DOCUMENT
+# =====================================================
+
+doc_path = "no_tables_AK/16901_68.docx"
+
+# =====================================================
+# OUTPUT DIRECTORY
+# =====================================================
+
+output_directory = "tables_AK_test"
+
+os.makedirs(output_directory, exist_ok=True)
+
+# =====================================================
+# SECTIONS TO EXTRACT
+# =====================================================
+
+sections = [
+    "Vegetation Type",
+    "Map Zones",
+    "Model Splits or Lumps",
+    "Geographic Range",
+    "Biophysical Site Description",
+    "Vegetation Description",
+    "Disturbance Description",
+    "Scale Description",
+    "Adjacency or Identification Concerns",
+    "Issues or Problems",
+    "Native Uncharacteristic Conditions",
+    "Comments",
+    "References"
+]
+
+# =====================================================
+# HEADERS THAT SHOULD STOP EXTRACTION
+# =====================================================
+
+stop_headers = [
+    "Vegetation Type",
+    "Map Zones",
+    "Model Splits or Lumps",
+    "Geographic Range",
+    "Biophysical Site Description",
+    "Vegetation Description",
+    "BpS Dominant and Indicator Species",
+    "Disturbance Description",
+    "Fire Frequency",
+    "Scale Description",
+    "Adjacency or Identification Concerns",
+    "Issues or Problems",
+    "Native Uncharacteristic Conditions",
+    "Comments",
+    "Succession Classes",
+    "References"
+]
+
+stop_headers_lower = [x.lower() for x in stop_headers]
+
+# =====================================================
+# EXTRACT SECTIONS
+# =====================================================
+
+def extract_sections(doc_path, sections):
+
+    doc = Document(doc_path)
+
+    paragraphs = [
+        p.text.replace("\xa0", " ").strip()
+        for p in doc.paragraphs
+        if p.text.strip() != ""
+    ]
+
+    content_dict = {sec: None for sec in sections}
+
+    for i, para in enumerate(paragraphs):
+
+        for section in sections:
+
+            if para.lower() == section.lower():
+
+                content = []
+
+                for j in range(i + 1, len(paragraphs)):
+
+                    current_text = paragraphs[j].strip().lower()
+
+                    if current_text in stop_headers_lower:
+                        break
+
+                    content.append(paragraphs[j])
+
+                text = "\n".join(content).strip()
+
+                content_dict[section] = text if text else None
+
+    content_dict["document"] = os.path.basename(doc_path)
+
+    return content_dict
+
+# =====================================================
+# EXTRACT DOC METADATA
+# =====================================================
+
+def extract_core_properties(doc_path):
+
+    with zipfile.ZipFile(doc_path, "r") as docx:
+
+        with docx.open("docProps/core.xml") as core_xml:
+
+            tree = etree.parse(core_xml)
+
+            ns = {
+                "cp": "http://schemas.openxmlformats.org/package/2006/metadata/core-properties",
+                "dc": "http://purl.org/dc/elements/1.1/",
+                "dcterms": "http://purl.org/dc/terms/"
+            }
+
+            return {
+                "creator":
+                    tree.findtext(
+                        "cp:coreProperties/dc:creator",
+                        namespaces=ns
+                    ),
+                "lastModifiedBy":
+                    tree.findtext(
+                        "cp:coreProperties/cp:lastModifiedBy",
+                        namespaces=ns
+                    ),
+                "revision":
+                    tree.findtext(
+                        "cp:coreProperties/cp:revision",
+                        namespaces=ns
+                    ),
+                "created":
+                    tree.findtext(
+                        "cp:coreProperties/dcterms:created",
+                        namespaces=ns
+                    ),
+                "modified":
+                    tree.findtext(
+                        "cp:coreProperties/dcterms:modified",
+                        namespaces=ns
+                    )
+            }
+
+# =====================================================
+# RUN TEST
+# =====================================================
+
+sections_data = extract_sections(doc_path, sections)
+core_props_data = extract_core_properties(doc_path)
+
+df = pd.DataFrame([{**sections_data, **core_props_data}])
+
+# use same name as source docx
+
+doc_name = os.path.splitext(
+    os.path.basename(doc_path)
+)[0]
+
+output_file = os.path.join(
+    output_directory,
+    f"{doc_name}.csv"
+)
+
+df.to_csv(output_file, index=False)
+
+print("\n===================================")
+print("DOCUMENT:")
+print(df["document"][0])
+
+print("\n===================================")
+print("VEGETATION DESCRIPTION")
+print(df["Vegetation Description"][0])
+
+print("\n===================================")
+print("DISTURBANCE DESCRIPTION")
+print(df["Disturbance Description"][0])
+
+print("\n===================================")
+print("COMMENTS")
+print(df["Comments"][0])
+
+print("\n===================================")
+print("CSV WRITTEN TO:")
+print(output_file)
+
+```

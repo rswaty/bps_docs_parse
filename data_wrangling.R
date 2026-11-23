@@ -10,7 +10,7 @@
 # load packages ----
 library(tidyverse)
 
-# Add BpS indicator species to s-class description table ---
+# Add BpS indicator species to s-class description table ---  why?  
 
 # first pivot bps indicator table to wide
 

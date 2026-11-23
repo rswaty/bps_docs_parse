@@ -1,0 +1,13 @@
+
+
+Alaska document cleanup after first round of review by Sarah, Kori and Jim
+June 30, 2026
+
+1. Table title and caption for table following a text section included in text_df column, 
+e.g., Vegetation Description would include "BpS Dominant and Indicator Species" and "Species names are from the NRCS PLANTS database. 
+Check species codes at http://plants.usda.gov."
+
+--- fixed----The fix was to tell the parser to stop when it encounters any known section header—including table-related headers like "BpS Dominant and Indicator Species", "Fire Frequency", and "Succession Classes"—instead of only stopping at the text sections you wanted to extract.
+
+2. 
+
