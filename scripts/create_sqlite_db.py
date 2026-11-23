@@ -1,141 +1,149 @@
 import sqlite3
 import pandas as pd
 
-# Script Configs
-DB_NAME = 'bps_database.db'
+DB_NAME = "bps_database.db"
 TABLES = [
-    'bps_indicators',
-    'deterministic',
-    'fire_frequency',
-    'modelers',
-    'probabilistic',
-    'ref_con_long',
-    'ref_con_modified',
-    'scls_descriptions',
-    'text_df',
+    "bps_indicators",
+    "deterministic",
+    "fire_frequency",
+    "modelers",
+    "probabilistic",
+    "ref_con_long",
+    "ref_con_modified",
+    "sclass_species",
+    "scls_descriptions",
+    "text_df",
 ]
 
 pd.options.mode.copy_on_write = True
 
-# Load CSV files to pandas dataframes and strip whitespace from column names
+BLANK_TOKENS = {"", "none", "na", "n/a", "many"}
+
+
+def blank_token(value):
+    if pd.isna(value):
+        return ""
+    text = str(value).strip()
+    if text.lower() in BLANK_TOKENS:
+        return ""
+    return text
+
+
+def split_people(names, emails):
+    """Keep a combined reviewer string unless names and emails split evenly."""
+    names = blank_token(names)
+    emails = blank_token(emails)
+    name_parts = [part.strip() for part in names.split(",") if part.strip()] if names else []
+    email_parts = [part.strip() for part in emails.split(",") if part.strip()] if emails else []
+    if len(name_parts) > 1 and len(name_parts) == len(email_parts):
+        return list(zip(name_parts, email_parts))
+    if names or emails:
+        return [(names, emails)]
+    return []
+
+
+def person_key(name, email):
+    if "@" in email:
+        return ("email", email.lower())
+    if name:
+        return ("name", " ".join(name.lower().split()))
+    if email:
+        return ("text", email.lower())
+    return None
+
+
 dataframes = {}
 for table in TABLES:
-    dataframes[table] = pd.read_csv(f'tables/{table}.csv')
-    dataframes[table].columns = dataframes[table].columns.str.strip()
-    dataframes[table] = dataframes[table].dropna(axis=1, how='all')
+    frame = pd.read_csv(f"tables/{table}.csv")
+    frame.columns = frame.columns.str.strip()
+    frame = frame.dropna(axis=1, how="all")
+    dataframes[table] = frame
 
-# ---------------------- CREATE NEW TABLES FOR MODELERS AND MODELS -----------------------------
-# clean up modelers table
-dataframes['modelers'] = dataframes['modelers'].drop(columns=['Unnamed: 9'])
-dataframes['modelers']['modeler_email'] = dataframes['modelers']['modeler_email'].str.lower()
-dataframes['modelers']['modelers'] = dataframes['modelers']['modelers'].str.lower()
-dataframes['modelers']['reviewers'] = dataframes['modelers']['reviewers'].str.lower()
-dataframes['modelers']['reviewer_email'] = dataframes['modelers']['reviewer_email'].str.lower()
-dataframes['modelers'] = dataframes['modelers'].dropna(subset=['modelers', 'modeler_email', 'reviewers', 'reviewer_email'], how='all') # drop rows with all nulls
-print(len(dataframes['modelers']))
+raw_modelers = dataframes["modelers"].copy()
+id_column = "bps_model_id" if "bps_model_id" in raw_modelers.columns else "bps_model"
+for column in ["modelers", "modeler_email", "reviewers", "reviewer_email"]:
+    raw_modelers[column] = raw_modelers[column].map(blank_token)
+raw_modelers = raw_modelers[
+    raw_modelers[["modelers", "modeler_email", "reviewers", "reviewer_email"]].ne("").any(axis=1)
+].copy()
 
-num_unique_bps_models = len(dataframes['modelers']['bps_model_id'].unique())
-print(f"Number of unique BPS models: {num_unique_bps_models}")
+people = []
+links = []
+person_ids = {}
+for row in raw_modelers.itertuples(index=False):
+    model_id = str(getattr(row, id_column)).strip()
+    for role, pairs in (
+        ("modeler", split_people(row.modelers, row.modeler_email)),
+        ("reviewer", split_people(row.reviewers, row.reviewer_email)),
+    ):
+        for name, email in pairs:
+            key = person_key(name, email)
+            if key is None:
+                continue
+            if key not in person_ids:
+                person_ids[key] = len(person_ids) + 1
+                stored_email = email.lower() if "@" in email else email
+                people.append({"modeler_id": person_ids[key], "name": name, "email": stored_email})
+            links.append(
+                {"bps_model_id": model_id, "modeler_id": person_ids[key], "role": role}
+            )
 
-# split modelers table to two tables
-# First table: Models, to have modeler_id and bps_model_id, and attributes: reviewers and reviewer_email,
-# modeler_email and modelers are needed to link to modelers table for now, but will be dropped later
-models = dataframes['modelers'][['modeler_email', 'modelers', 'bps_model_id', 'reviewers', 'reviewer_email']]
+modelers = pd.DataFrame(people).drop_duplicates(subset=["modeler_id"])
+models = pd.DataFrame(links).drop_duplicates().sort_values(
+    ["bps_model_id", "role", "modeler_id"]
+).reset_index(drop=True)
+source_models = set(raw_modelers[id_column].astype(str))
+linked_models = set(models["bps_model_id"])
+missing_models = sorted(source_models - linked_models)
+if missing_models:
+    raise SystemExit(f"Models lost their people during cleanup: {missing_models[:10]}")
 
-# "Modelers": new primary key modeler_id, name, and email,
-modelers = dataframes['modelers'][['modelers', 'modeler_email']]
+dataframes["modelers"] = modelers
+dataframes["models"] = models
+print(f"People: {len(modelers)}. Model links: {len(models)}. Models with a person: {models['bps_model_id'].nunique()}.")
 
-
-# create three tables for merge, one for modelers with no emails, one for modelers with emails, and one for modelers with no info
-modelers_without_emails = modelers[modelers['modeler_email'].isna()]
-modelers_without_emails.dropna(subset=['modelers'], inplace=True)
-modelers_without_emails.drop_duplicates(inplace=True, subset=['modelers'])
-modelers_without_emails.reset_index(drop=True, inplace=True)
-modelers_without_emails['modeler_id'] = modelers_without_emails.index
-
-# need reviewer info to merge merge back with models table
-modelers_with_no_info = models[models['modelers'].isna() & models['modeler_email'].isna()]
-modelers_with_no_info.dropna(subset=['reviewers', 'reviewer_email'], inplace=True) # redundant, but just in case
-modelers_with_no_info.reset_index(drop=True, inplace=True)
-modelers_with_no_info['modeler_id'] = modelers_with_no_info.index + len(modelers_without_emails)
-
-# we have modelers who have entered their names differently but have the same email
-# want to get rid of these duplicates
-modelers_with_emails = modelers[modelers['modeler_email'].notna()]
-modelers_with_emails.drop_duplicates(inplace=True, subset=['modeler_email'])
-modelers_with_emails.reset_index(drop=True, inplace=True)
-modelers_with_emails['modeler_id'] = modelers_with_emails.index+len(modelers_without_emails)+len(modelers_with_no_info)
-
-modelers = pd.concat([modelers_without_emails, modelers_with_emails, modelers_with_no_info]).reset_index(drop=True)
-modelers.drop(columns=['reviewers', 'reviewer_email', 'bps_model_id'], inplace=True)
-
-# merge the three tables
-modelers_with_emails.drop(columns=['modelers'], inplace=True) # drop modelers column, we don't need it
-
-merged_by_email = models.merge(modelers_with_emails, on=['modeler_email'], how='inner')
-merged_by_name = models.merge(modelers_without_emails, on=['modelers', 'modeler_email'], how='inner')
-models = pd.concat([merged_by_email, merged_by_name, modelers_with_no_info])
-models.drop(columns=['modeler_email', 'modelers'], inplace=True)
-
-models.sort_values(by=['bps_model_id', 'modeler_id'], inplace=True)
-models.reset_index(drop=True, inplace=True)
-
-# write to tables
-dataframes['models'] = models
-dataframes['modelers'] = modelers
-
-print(models)
-print(modelers.sort_values(by='modeler_id'))
-print(dataframes['modelers'])
-assert (num_unique_bps_models == len(models['bps_model_id'].unique())), "Number of unique BPS models does not match"
-
-# ---------------------- CREATE DATABASE! -----------------------------
-# Connect to SQLite database
 conn = sqlite3.connect(DB_NAME)
+conn.execute("PRAGMA foreign_keys = OFF")
+conn.execute("DROP TABLE IF EXISTS models")
 
-# create main bps_models table FIRST (referenced by foreign key)
-dataframes['text_df'] = pd.read_csv('tables/text_df.csv')
-dataframes['text_df'].to_sql("bps_models", conn, if_exists='replace', index=False, dtype={'bps_model_id': 'TEXT PRIMARY KEY'})
+dataframes["text_df"].to_sql(
+    "bps_models", conn, if_exists="replace", index=False, dtype={"bps_model_id": "TEXT PRIMARY KEY"}
+)
+dataframes["modelers"].to_sql(
+    "modelers", conn, if_exists="replace", index=False, dtype={"modeler_id": "INTEGER PRIMARY KEY"}
+)
 
-# Create modelers table SECOND (referenced by foreign key)
-dataframes['modelers'].to_sql("modelers", conn, if_exists='replace', index=False, dtype={'modeler_id': 'INTEGER PRIMARY KEY'})
-
-# Create models table with composite primary key and foreign keys THIRD
-conn.execute('DROP TABLE IF EXISTS models')  # Drop if exists to recreate
-conn.execute('''
+conn.execute("DROP TABLE IF EXISTS models")
+conn.execute(
+    """
     CREATE TABLE models (
         bps_model_id TEXT NOT NULL,
         modeler_id INTEGER NOT NULL,
-        reviewers TEXT,
-        reviewer_email TEXT,
-        PRIMARY KEY (bps_model_id, modeler_id),
+        role TEXT NOT NULL,
+        PRIMARY KEY (bps_model_id, modeler_id, role),
         FOREIGN KEY (bps_model_id) REFERENCES bps_models(bps_model_id),
         FOREIGN KEY (modeler_id) REFERENCES modelers(modeler_id)
     )
-''')
+    """
+)
+conn.executemany(
+    "INSERT INTO models (bps_model_id, modeler_id, role) VALUES (?, ?, ?)",
+    models[["bps_model_id", "modeler_id", "role"]].itertuples(index=False, name=None),
+)
 
-# Insert data into models table using executemany for better performance
-models_data = models[['bps_model_id', 'modeler_id', 'reviewers', 'reviewer_email']].values.tolist()
-conn.executemany('''
-    INSERT INTO models (bps_model_id, modeler_id, reviewers, reviewer_email)
-    VALUES (?, ?, ?, ?)
-''', models_data)
-
-# Load dataframes to SQLite database
-for table in dataframes.keys():
-    # current index is created by pandas, so we need to remove it
-    # also need to set the primary key to bps_model_label, as it is the only column that is unique
-    # then need to set the foreign key to bps_model
-    if table == 'ref_con_long':
-        dataframes[table].to_sql(table, conn, if_exists='replace', index=False, dtype={'model_label': 'TEXT PRIMARY KEY'})
-    elif table == 'ref_con_modified':
-        dataframes[table].to_sql(table, conn, if_exists='replace', index=False, dtype={'bps_model_id': 'TEXT PRIMARY KEY'})
-    elif table in ['modelers', 'models', 'text_df']:
-        # Skip these - already created above
+for table, frame in dataframes.items():
+    if table in {"modelers", "models", "text_df"}:
         continue
+    if table == "ref_con_long":
+        frame.to_sql(table, conn, if_exists="replace", index=False, dtype={"model_label": "TEXT PRIMARY KEY"})
+    elif table == "ref_con_modified":
+        frame.to_sql(table, conn, if_exists="replace", index=False, dtype={"Model_Code": "TEXT PRIMARY KEY"})
     else:
-        # also need to set the primary key to the first column
-        dataframes[table].to_sql(table, conn, if_exists='replace', index=False)
+        frame.to_sql(table, conn, if_exists="replace", index=False)
 
-# Close connection
+conn.execute("PRAGMA foreign_keys = ON")
+violations = conn.execute("PRAGMA foreign_key_check").fetchall()
+if violations:
+    raise SystemExit(f"Foreign key check failed: {violations[:10]}")
+conn.commit()
 conn.close()

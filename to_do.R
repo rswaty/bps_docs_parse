@@ -1,6 +1,7 @@
 
 
-# add reviewers to text.df script and try.  bps 16141 is an example
+# description reviewers from the header line are in tables_AK/text_df.csv
+# (Description Reviewers). 16141 is an example. These are not the modeler-table reviewers.
 
 # in text_df there are blanks to check across multiple columns
 

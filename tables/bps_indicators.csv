@@ -77,11 +77,11 @@ bps_model_id,symbol,scientific_name,common_name
 10160_15_28,JUSC2,Juniperus scopulorum,Rocky mountain juniper
 10160_15_28,ARTR2,Artemisia tridentata,Big sagebrush
 10160_15_28,JUMO,Juniperus monosperma,Oneseed juniper
-10160_16_ 23_24_25,PIED,Pinus edulis,Twoneedle pinyon
-10160_16_ 23_24_25,JUMO,Juniperus monosperma,Oneseed juniper
-10160_16_ 23_24_25,JUSC2,Juniperus scopulorum,Rocky Mountain juniper
-10160_16_ 23_24_25,PIMO,Pinus monophylla,Singleleaf pinyon
-10160_16_ 23_24_25,JUOS,Juniperus osteosperma,Utah juniper
+10160_16_23_24_25,PIED,Pinus edulis,Twoneedle pinyon
+10160_16_23_24_25,JUMO,Juniperus monosperma,Oneseed juniper
+10160_16_23_24_25,JUSC2,Juniperus scopulorum,Rocky Mountain juniper
+10160_16_23_24_25,PIMO,Pinus monophylla,Singleleaf pinyon
+10160_16_23_24_25,JUOS,Juniperus osteosperma,Utah juniper
 10160_17,PIED,Pinus edulis,Twoneedle pinyon
 10160_17,JUOS,Juniperus osteosperma,Utah juniper
 10160_17,PIMO,Pinus monophylla,Singleleaf pinyon
@@ -1479,13 +1479,13 @@ bps_model_id,symbol,scientific_name,common_name
 11040_23_24,CEMO2,Cercocarpus montanus,Alderleaf mountain mahogany
 11040_23_24,CAHO3,Canotia holacantha,Crucifixion thorn
 11040_23_24,ARPR,Arctostaphylos pringlei,Pringle manzanita
-11050_3_ 6_7,ADFA,Adenostoma fasciculatum,Chamise
-11050_3_ 6_7,CECU,Ceanothus cuneatus,Buckbrush
-11050_3_ 6_7,ARCTO3,Arctostaphylos,Manzanita
-11050_3_ 6_7,FRCA6,Fremontodendron californicum,California flannelbush
-11050_3_ 6_7,MAFA,Malacothamnus fasciculatus,Mendocino bushmallow
-11050_3_ 6_7,DERI,Dendromecon rigida,Tree poppy
-11050_3_ 6_7,PIMO5,Pickeringia montana,Montana chaparral pea
+11050_3_6_7,ADFA,Adenostoma fasciculatum,Chamise
+11050_3_6_7,CECU,Ceanothus cuneatus,Buckbrush
+11050_3_6_7,ARCTO3,Arctostaphylos,Manzanita
+11050_3_6_7,FRCA6,Fremontodendron californicum,California flannelbush
+11050_3_6_7,MAFA,Malacothamnus fasciculatus,Mendocino bushmallow
+11050_3_6_7,DERI,Dendromecon rigida,Tree poppy
+11050_3_6_7,PIMO5,Pickeringia montana,Montana chaparral pea
 11050_4_5,ADFA,Adenostoma fasciculatum,Chamise
 11050_4_5,CECU,Ceanothus cuneatus,Buckbrush
 11050_4_5,ARCTO3,Arctostaphylos,Manzanita
@@ -3616,12 +3616,12 @@ bps_model_id,symbol,scientific_name,common_name
 13630_47_53,VAAR,Vaccinium arboreum,Farkleberry
 13630_47_53,CATE9,Carya texana,Black hickory
 13630_47_53,QUPR2,Quercus prinus,Chestnut oak
-13640_32_ 44_ 49,QUST,Quercus stellata,Post oak
-13640_32_ 44_ 49,QUMA,Quercus marilandica,Quercus marilandica
-13640_32_ 44_ 49,ANGE,Andropogon gerardii,Big bluestem
-13640_32_ 44_ 49,SCHIZ4,Schizachyrium,Little bluestem
-13640_32_ 44_ 49,VAAR,Vaccinium arboreum,Farkleberry
-13640_32_ 44_ 49,CATE9,Carya texana,Black hickory
+13640_32_44_49,QUST,Quercus stellata,Post oak
+13640_32_44_49,QUMA,Quercus marilandica,Quercus marilandica
+13640_32_44_49,ANGE,Andropogon gerardii,Big bluestem
+13640_32_44_49,SCHIZ4,Schizachyrium,Little bluestem
+13640_32_44_49,VAAR,Vaccinium arboreum,Farkleberry
+13640_32_44_49,CATE9,Carya texana,Black hickory
 13651_40_41_50,ABBA,Abies balsamea,Balsam fir
 13651_40_41_50,PIGL,Picea glauca,White spruce
 13651_40_41_50,THOC2,Thuja occidentalis,Arborvitae
@@ -3887,14 +3887,14 @@ bps_model_id,symbol,scientific_name,common_name
 13940_42,SCHIZ4,Schizachyrium,Little bluestem
 13940_42,SONU2,Sorghastrum nutans,Indiangrass
 13940_42,CEAM,Ceanothus americanus,New jersey tea
-13940_44_49.doc,QUAL,Quercus alba,White oak
-13940_44_49.doc,QUVE,Quercus velutina,Black oak
-13940_44_49.doc,QUMA2,Quercus macrocarpa,Bur oak
-13940_44_49.doc,ANGE,Andropogon gerardii,Big bluestem
-13940_44_49.doc,CORYL,Corylus,Hazelnut
-13940_44_49.doc,SCHIZ4,Schizachyrium,Little bluestem
-13940_44_49.doc,SONU2,Sorghastrum nutans,Indiangrass
-13940_44_49.doc,CEAM,Ceanothus americanus,New jersey tea
+13940_44_49,QUAL,Quercus alba,White oak
+13940_44_49,QUVE,Quercus velutina,Black oak
+13940_44_49,QUMA2,Quercus macrocarpa,Bur oak
+13940_44_49,ANGE,Andropogon gerardii,Big bluestem
+13940_44_49,CORYL,Corylus,Hazelnut
+13940_44_49,SCHIZ4,Schizachyrium,Little bluestem
+13940_44_49,SONU2,Sorghastrum nutans,Indiangrass
+13940_44_49,CEAM,Ceanothus americanus,New jersey tea
 13940_50_51,QUAL,Quercus alba,White oak
 13940_50_51,QUVE,Quercus velutina,Black oak
 13940_50_51,QUMA2,Quercus macrocarpa,Bur oak
@@ -4135,14 +4135,14 @@ bps_model_id,symbol,scientific_name,common_name
 14230_38,LECA8,Lespedeza capitata,Roundhead lespedeza
 14230_38,SYER,Symphyotrichum ericoides,White heath aster
 14230_38,QUERC,Quercus,Oak
-14230_43_44_,SCSC,Schizachyrium scoparium,Little bluestem
-14230_43_44_,ANGE,Andropogon gerardii,Big bluestem
-14230_43_44_,SONU2,Sorghastrum nutans,Indiangrass
-14230_43_44_,PAVI2,Panicum virgatum,Switchgrass
-14230_43_44_,LIATR,Liatris,Blazing star
-14230_43_44_,LECA8,Lespedeza capitata,Roundhead lespedeza
-14230_43_44_,SYER,Symphyotrichum ericoides,White heath aster
-14230_43_44_,QUERC,Quercus,Oak
+14230_43_44,SCSC,Schizachyrium scoparium,Little bluestem
+14230_43_44,ANGE,Andropogon gerardii,Big bluestem
+14230_43_44,SONU2,Sorghastrum nutans,Indiangrass
+14230_43_44,PAVI2,Panicum virgatum,Switchgrass
+14230_43_44,LIATR,Liatris,Blazing star
+14230_43_44,LECA8,Lespedeza capitata,Roundhead lespedeza
+14230_43_44,SYER,Symphyotrichum ericoides,White heath aster
+14230_43_44,QUERC,Quercus,Oak
 14250_56,ARBE7,Aristida beyrichiana,Beyrich threeawn
 14250_56,SERE2,Serenoa repens,Saw palmetto
 14250_56,ANVI2,Andropogon virginicus,Broomsedge bluestem
@@ -4416,13 +4416,13 @@ bps_model_id,symbol,scientific_name,common_name
 14690_31_39_40_43,SANI,Salix nigra,Black willow
 14690_31_39_40_43,CORNU,Cornus,Dogwood
 14690_31_39_40_43,ULAM,Ulmus Americana,American elm
-14690_38_42_49_,ACSA2,Acer saccharinum,Silver maple
-14690_38_42_49_,PODE3,Populus deltoides,Eastern cottonwood
-14690_38_42_49_,SAAM2,Salix amygdaloides,Peachleaf willow
-14690_38_42_49_,FRPE,Fraxinus pennsylvanica,Green ash
-14690_38_42_49_,SANI,Salix nigra,Black willow
-14690_38_42_49_,CORNU,Cornus,Dogwood
-14690_38_42_49_,ULAM,Ulmus americana,American elm
+14690_38_42_49,ACSA2,Acer saccharinum,Silver maple
+14690_38_42_49,PODE3,Populus deltoides,Eastern cottonwood
+14690_38_42_49,SAAM2,Salix amygdaloides,Peachleaf willow
+14690_38_42_49,FRPE,Fraxinus pennsylvanica,Green ash
+14690_38_42_49,SANI,Salix nigra,Black willow
+14690_38_42_49,CORNU,Cornus,Dogwood
+14690_38_42_49,ULAM,Ulmus americana,American elm
 14700_56,AVGE,Avicennia germinans,Black mangrove
 14700_56,LARA2,Laguncularia racemosa,White mangrove
 14700_56,RHMA2,Rhizophora mangle,American mangrove

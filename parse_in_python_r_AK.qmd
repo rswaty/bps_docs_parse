@@ -88,18 +88,23 @@ Components:
 
 Vegetation Type Map Zones Model Splits or Lumps Geographic Range Biophysical Site Description Vegetation Description Disturbance Description Scale Description Adjacency or Identification Concerns Issues or Problems Native Uncharacteristic Conditions Comments
 
-## Get specific sections in R from table-less docs
+## Get specific sections from table-less docs
 
-Ignoring these sections as they have tables elsewhere:
+Section text stops at the next field heading and at the headings below. Those headings belong to other tables, or to blocks this extract does not store:
 
 -   BpS Dominant and Indicator Species
 -   Fire Frequency
+-   Fire Frequency Results
 -   Succession Classes
+-   Model Parameters
 
+A heading matches after case-folding and stripping a trailing period or colon, so `References.` is References.
 
+`Description Reviewers` is the `Reviewer:` or `Reviewers:` line above Vegetation Type. Those names are not the reviewers in the modeler table.
 
 ```{python}
 import os
+import re
 import zipfile
 import pandas as pd
 from docx import Document
@@ -124,6 +129,37 @@ sections = [
     "References"
 ]
 
+# Headings that end a field but are not stored in this table.
+stop_headings = [
+    "BpS Dominant and Indicator Species",
+    "Fire Frequency",
+    "Fire Frequency Results",
+    "Succession Classes",
+    "Model Parameters",
+]
+
+def normalize_heading(text):
+    text = text.replace("\xa0", " ").strip()
+    return text.rstrip(" .:").lower()
+
+def extract_description_reviewers(paragraphs):
+    """Names on the header line above Vegetation Type, not the modeler table."""
+    veg_index = next(
+        (
+            i for i, para in enumerate(paragraphs)
+            if normalize_heading(para) == "vegetation type"
+        ),
+        len(paragraphs),
+    )
+    names = []
+    for para in paragraphs[:veg_index]:
+        match = re.match(r"^reviewers?\s*:\s*(.+)$", para, flags=re.IGNORECASE)
+        if match:
+            name = match.group(1).strip()
+            if name:
+                names.append(name)
+    return "; ".join(names) if names else None
+
 # Extract sections (robust to formatting issues)
 def extract_sections(doc_path, sections):
     doc = Document(doc_path)
@@ -135,17 +171,19 @@ def extract_sections(doc_path, sections):
         if p.text.strip() != ""
     ]
 
+    stop = {normalize_heading(s) for s in list(sections) + stop_headings}
     content_dict = {sec: None for sec in sections}
+    content_dict["Description Reviewers"] = extract_description_reviewers(paragraphs)
 
     for i, para in enumerate(paragraphs):
         for section in sections:
-            if para.lower() == section.lower():
+            if normalize_heading(para) == normalize_heading(section):
 
                 content = []
                 for j in range(i + 1, len(paragraphs)):
 
-                    # stop at next section
-                    if paragraphs[j].lower() in [s.lower() for s in sections]:
+                    # stop at the next field or at a heading stored elsewhere
+                    if normalize_heading(paragraphs[j]) in stop:
                         break
 
                     content.append(paragraphs[j])
@@ -188,6 +226,18 @@ for doc_path in doc_paths:
     data_list.append({**sections_data, **core_props_data})
 
 df = pd.DataFrame(data_list)
+df = df[
+    sections
+    + [
+        "Description Reviewers",
+        "document",
+        "creator",
+        "lastModifiedBy",
+        "revision",
+        "created",
+        "modified",
+    ]
+]
 
 # Save output
 os.makedirs("tables_AK", exist_ok=True)
